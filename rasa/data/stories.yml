@@ -1,0 +1,2514 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_sad
+
+- story: ask about the pesticides impact on environment
+  steps:
+  - intent: pesticides_impact
+  - action: utter_pesticides_impact
+
+
+
+- story: ask about reducing pesticides usage
+  steps:
+  - intent: reduce_pesticides_usage
+  - action: utter_reduce_pesticides_usage
+
+
+
+- story: ask about people rule to reduce pesticides usage
+  steps:
+  - intent: people_role_pesticides
+  - action: utter_people_role_pesticides
+
+
+
+- story: ask about egypt situation from pesticides
+  steps:
+  - intent: Egypt_position_pesticides
+  - action: utter_Egypt_position_pesticides
+
+- story: ask about egyptian government role towards pesticides usage
+  steps:
+  - intent: Egyptian_government_pesticides
+  - action: utter_Egyptian_government_pesticides
+
+- story: ask about egyptian organizations role towards pesticides usage
+  steps:
+  - intent: Egyptian_organization_pesticides
+  - action: utter_Egyptian_organization_pesticides
+
+- story: ask about air pollution effects on human health
+  steps:
+  - intent: air_pollution_shorten_life
+  - action: utter_air_pollution_shorten_life
+
+- story: ask about the methods to reduce air pollution
+  steps:
+  - intent: reduce_air_pollution
+  - action: utter_reduce_air_pollution
+
+- story: ask about the benefits of reducing air pollution
+  steps:
+  - intent: benefits_reduce_air_pollution
+  - action: utter_benefits_reduce_air_pollution
+
+- story: asks about of original causes of air pollution
+  steps:
+  - intent: air_pollution_sources
+  - action: utter_air_pollution_sources
+  
+- story: ask about egypt situation from air pollution
+  steps:
+  - intent: air_pollution_Egypt
+  - action: utter_air_pollution_Egypt
+  
+- story: ask about the air pollution in egypt compared to other countries
+  steps:
+  - intent: Egypt_air_pollution_compared
+  - action: utter_Egypt_air_pollution_compared
+  
+- story: ask about government and organizations role about air pollution
+  steps:
+  - intent: gov_org_air_pollution
+  - action: utter_gov_org_air_pollution
+
+- story: ask about the impact that plastic waste makes
+  steps:
+  - intent: plastic_waste_impact
+  - action: utter_plastic_waste_impact
+  
+- story: ask about how to reduce plastic waste
+  steps:
+  - intent: reduce_plastic_waste
+  - action: utter_reduce_plastic_waste
+  
+- story: ask about the potential alternatives to plastics
+  steps:
+  - intent: plastic_alternatives
+  - action: utter_plastic_alternatives
+
+- story: ask about the impacts of deforestation
+  steps:
+  - intent: Deforestation_def_and_impact
+  - action: utter_Deforestation_def_and_impact
+
+
+- story: ask about how to address the deforestation issue
+  steps:
+  - intent: stop_Deforestation
+  - action: utter_stop_Deforestation
+
+- story: ask about the impacts of using plastic bags
+  steps:
+  - intent: plastic_bag_impact
+  - action: utter_plastic_bag_impact
+  
+- story: ask about people role to reduce plastic bags usage
+  steps:
+  - intent: plastic_bag_people_role
+  - action: utter_plastic_bag_people_role
+  
+- story: ask about the potential alternatives to plastic bags
+  steps:
+  - intent:  plastic_bag_alternative
+  - action: utter_plastic_bag_alternative
+
+- story: ask about boycotting stores that uses plastic bags
+  steps:
+  - intent: plastic_bag_stores_boycotting
+  - action: utter_plastic_bag_stores_boycotting
+
+
+
+- story: ask about animals that hunted for leather production
+  steps:
+  - intent: animals_names_leather_production
+  - action: utter_animals_names_leather_production
+
+- story: ask about the impacts of leather production
+  steps:
+  - intent: leather_production_impact
+  - action: utter_leather_production_impact
+  
+- story: ask about people role against leather production
+  steps:
+  - intent: people_role_leather_production
+  - action: utter_people_role_leather_production
+  
+- story: ask about organizations role to stop leather production
+  steps:
+  - intent: org_solve_leather_production
+  - action: utter_org_solve_leather_production
+
+- story: ask about the threats that face animals because of leather production
+  steps:
+  - intent: animal_threats_leather_production
+  - action: utter_animal_threats_leather_production
+
+- story: ask about your opinion of leather production
+  steps:
+  - intent: opinion_of_leather_production
+  - action: utter_opinion_of_leather_production
+
+- story: ask about compabies role to stop leather production
+  steps:
+  - intent: companies_role_leather_production
+  - action: utter_companies_role_leather_production
+  
+- story: ask about the importance of shifting to renewable energy
+  steps:
+  - intent: shift_to_renewable_importance
+  - action: utter_shift_to_renewable_importance
+  
+- story: ask about examples of renewable energy
+  steps:
+  - intent: renewable_energy_sources_examples
+  - action: utter_renewable_energy_sources_examples
+
+- story: ask about how we generate renewable energy
+  steps:
+  - intent: How_renewable_energy_generated
+  - action: utter_How_renewable_energy_generated
+
+- story: ask about the benefits of generating renewable energy
+  steps:
+  - intent: renewable_energy_benefits
+  - action: utter_renewable_energy_benefits
+
+- story: ask about our role to shift to renewable energy
+  steps:
+  - intent: people_role_shift_renewable
+  - action: utter_people_role_shift_renewable
+  
+- story: ask about abandon non renewable energy
+  steps:
+  - intent: abandon_bad_energy
+  - action: utter_abandon_bad_energy
+  
+- story: ask about egypt shifting to renewable energy
+  steps:
+  - intent: shift_renewable_energy_Egypt
+  - action: utter_shift_renewable_energy_Egypt
+
+- story: ask about types of renewable energy in egypt
+  steps:
+  - intent: type_renewable_energy_egypt
+  - action: utter_type_renewable_energy_egypt
+
+- story: ask about locations of renewable energy in egypt
+  steps:
+  - intent: generating_renewable_places_Egypt
+  - action: utter_generating_renewable_places_Egypt
+
+- story: ask about egyptian government role towards renewable energy
+  steps:
+  - intent: egyptian_government_role_renewable
+  - action: utter_egyptian_government_role_renewable
+  
+- story: ask about Egypt dependence of renewable energy
+  steps:
+  - intent: Egypt_renewable_fully_depend
+  - action: utter_Egypt_renewable_fully_depend
+  
+- story: ask about environmental concerns from golf courses
+  steps:
+  - intent: golf_environmental_concerns
+  - action: utter_golf_environmental_concerns
+
+- story: ask about our role to address golf courses issue
+  steps:
+  - intent: people_role_address_golf_courses
+  - action: utter_people_role_address_golf_courses
+
+- story: ask about the impact of golf on drought in Egypt
+  steps:
+  - intent: golf_impact_drought_Egypt
+  - action: utter_golf_impact_drought_Egypt
+
+- story: ask about the government role towards golf
+  steps:
+  - intent: Egyptian_government_role_golf
+  - action: utter_Egyptian_government_role_golf
+  
+- story: ask about the potential alternatives to golf courses
+  steps:
+  - intent: golf_alternatives
+  - action: utter_golf_alternatives
+  
+- story: ask about the water shortage in Egypt
+  steps:
+  - intent: Egypt_water_shortage
+  - action: utter_Egypt_water_shortage
+
+- story: ask about the wrong use of water sources
+  steps:
+  - intent: bad_use_water_resources
+  - action: utter_bad_use_water_resources
+
+- story: ask about the main sources of water in Egypt
+  steps:
+  - intent: Egypt_main_water_resources
+  - action: utter_Egypt_main_water_resources
+
+- story: ask about government efforts to reduce water waste
+  steps:
+  - intent: Egyptian_government_reduce_water_efforts
+  - action: utter_Egyptian_government_reduce_water_efforts
+  
+- story: ask about our role to reduce the water waste
+  steps:
+  - intent: our_role_water_waste
+  - action: utter_our_role_water_waste
+  
+- story: ask about how people address the climate crisis
+  steps:
+  - intent: people_address_climate_crisis
+  - action: utter_people_address_climate_crisis
+
+- story: ask about government efforts to address climate crisis
+  steps:
+  - intent: government_solve_climate_crisis
+  - action: utter_government_solve_climate_crisis
+
+- story: ask about your opinion of drilling in national parks
+  steps:
+  - intent: thoughts_drilling_national_parks
+  - action: utter_thoughts_drilling_national_parks
+
+- story: ask about your opinion of drilling that is useful for economy
+  steps:
+  - intent: drilling_useful_economic_opinion
+  - action: utter_drilling_useful_economic_opinion
+
+- story: ask about what to do instead of drilling
+  steps:
+  - intent: possible_alternatives_to_drilling
+  - action: utter_possible_alternatives_to_drilling
+
+- story: ask about what will happen if they continue allow drilling
+  steps:
+  - intent: consequences_of_allowing_drilling
+  - action: utter_consequences_of_allowing_drilling
+
+- story: ask about my opinion of meat effects on environment
+  steps:
+  - intent: meat_industry_effects_opinion
+  - action: utter_meat_industry_effects_opinion
+
+- story: ask about how meat industry can reduce carbon footprint
+  steps:
+  - intent: meat_industry_reduce_footprint
+  - action: utter_meat_industry_reduce_footprint
+
+- story: ask about the defention of greenhouse gas emissions
+  steps:
+  - intent: greenhouse_gas_emissions_defenition
+  - action: utter_greenhouse_gas_emissions_defenition
+
+
+- story: ask about intiatives and policies to solve climate change issue
+  steps:
+  - intent: initiatives_address_climate_change
+  - action: utter_initiatives_address_climate_change
+
+- story: ask about how successful is Norway in recycling
+  steps:
+  - intent: Norway_recycling_success
+  - action: utter_Norway_recycling_success
+
+
+- story: ask about the reason norway is considered successful in recycling
+  steps:
+  - intent: reason_Norway_recycling_successful
+  - action: utter_reason_Norway_recycling_successful
+
+- story: ask about if there are countries follow norway lead in recycling
+  steps:
+  - intent: countries_follow_Norway_lead
+  - action: utter_countries_follow_Norway_lead
+
+- story: ask about the laws put to strip fossil fuels funding
+  steps:
+  - intent: laws_stip_fuel_funding
+  - action: utter_laws_stip_fuel_funding
+
+
+- story: ask about Egypt usage of fosill fuels
+  steps:
+  - intent: Egypt_usage_fossil_fuels
+  - action: utter_Egypt_usage_fossil_fuels
+
+- story: ask about what the government in egypt doing to address fossil fuels issue
+  steps:
+  - intent: egyptian_government_address_fossil_fuel
+  - action: utter_egyptian_government_address_fossil_fuel
+
+
+- story: ask about specific actions done by government to address fossil fuel issue
+  steps:
+  - intent: specific_actions_government_fuel
+  - action: utter_specific_actions_government_fuel
+
+- story: ask about the economic benefits of fossil fuels
+  steps:
+  - intent: fossil_fuels_economic_benefits
+  - action: utter_fossil_fuels_economic_benefits
+
+- story: ask about how should citizens reduce fossil fuels usage
+  steps:
+  - intent: citizens_reduce_fossil_fuels
+  - action: utter_citizens_reduce_fossil_fuels
+
+
+- story: ask about the alternative energy sources that Egypt making
+  steps:
+  - intent: alternative_energy_sources_Egypt
+  - action: utter_alternative_energy_sources_Egypt
+
+- story: ask about pepsi and nestle destroying elephants habitats
+  steps:
+  - intent: pepsi_destruction_elephant_habitat
+  - action: utter_pepsi_destruction_elephant_habitat
+
+
+- story: ask about if we should boycot the companies that destroy elephant habitats
+  steps:
+  - intent: boycotting_pepsi_elephants_habitats
+  - action: utter_boycotting_pepsi_elephants_habitats
+
+- story: ask about organizations protect elephant habitats
+  steps:
+  - intent: organization_role_elephants_habitat
+  - action: utter_organization_role_elephants_habitat
+
+
+- story: ask about the biggest challenges that faces us when addressing climate change
+  steps:
+  - intent: biggest_challenges_climate_change
+  - action: utter_biggest_challenges_climate_change
+
+
+- story: ask about if there are good efforts to address climate change
+  steps:
+  - intent: are_there_efforts_climate_change
+  - action: utter_are_there_efforts_climate_change
+
+- story: ask about the bad effects of private jets on environment
+  steps:
+  - intent: harmful_effects_private_jets
+  - action: utter_harmful_effects_private_jets
+
+
+- story: ask about how can we reduce carbon footprint of private jets
+  steps:
+  - intent: prevent_private_jets_damages
+  - action: utter_prevent_private_jets_damages
+
+- story: ask about whether electric cars is better or fossil-fuel cars
+  steps:
+  - intent: using_fossil_fuels_vehicles
+  - action: utter_using_fossil_fuels_vehicles
+
+- story: ask about measures by egyptian government during pandemic
+  steps:
+  - intent: measures_protect_during_pandemic
+  - action: utter_measures_protect_during_pandemic
+
+- story: ask about the challenges that Egypt faces during switching to renewable energy
+  steps:
+  - intent: Egypt_challenges_switching_renewable
+  - action: utter_Egypt_challenges_switching_renewable
+
+- story: ask about using plastics for food packaging
+  steps:
+  - intent: using_plastic_food_packaging
+  - action: utter_using_plastic_food_packaging
+
+- story: ask about the resultof neglecting climate change
+  steps:
+  - intent: neglecting_climate_action
+  - action: utter_neglecting_climate_action
+
+- story: ask about the proper attention of cliamte change
+  steps:
+  - intent: get_attention_climate_change
+  - action: utter_get_attention_climate_change
+
+- story: ask about national parks in egypt situation during pandemic
+  steps:
+  - intent: Egypt_parks_during_pandemic
+  - action: utter_Egypt_parks_during_pandemic
+
+- story: ask about effects of national parks in egypt situation during pandemic
+  steps:
+  - intent: effects_of_closing_parks
+  - action: utter_effects_of_closing_parks
+
+- story: ask about pandemic positive effects on the environment
+  steps:
+  - intent: pandemic_positive_effects
+  - action: utter_pandemic_positive_effects
+
+- story: ask about pandemic negative effects on the environment
+  steps:
+  - intent: pandemic_negative_effects
+  - action: utter_pandemic_negative_effects
+
+- story: ask about pandemic effects on the environment air quality
+  steps:
+  - intent: pandemic_affects_air_quality
+  - action: utter_pandemic_affects_air_quality
+
+- story: ask about pandemic effects on the environment gardens park 
+  steps:
+  - intent: pandemic_affects_gardens_parks
+  - action: utter_pandemic_affects_gardens_parks
+
+- story: ask about how the pandemic affected environment in Egypt positive
+  steps:
+  - intent: pandemic_positive_effects_egypt
+  - action: utter_pandemic_positive_effects_egypt
+
+- story: ask about how the pandemic affected environment in Egypt negative 
+  steps:
+  - intent: pandemic_negative_effects_egypt
+  - action: utter_pandemic_negative_effects_egypt
+
+- story: ask about how the pandemic affected environment in Egypt issues
+  steps:
+  - intent: government_efforts_pandemic_issue
+  - action: utter_government_efforts_pandemic_issue
+
+- story: ask about how the pandemic affected environment in Egypt people role
+  steps:
+  - intent: people_role_pandemic_issue
+  - action: utter_people_role_pandemic_issue
+
+- story: who_is_Greta_Thumberg
+  steps:
+  - intent: who_is_Greta_Thumberg
+  - action: utter_who_is_Greta_Thumberg
+
+- story: Greta_nobel_peace_nomination
+  steps:
+  - intent: Greta_nobel_peace_nomination
+  - action: utter_Greta_nobel_peace_nomination
+
+- story: reason_greta_nobel_nomination
+  steps:
+  - intent: reason_greta_nobel_nomination
+  - action: utter_reason_greta_nobel_nomination
+
+- story: greta_famous_climate_works
+  steps:
+  - intent: greta_famous_climate_works
+  - action: utter_greta_famous_climate_works
+
+- story: IKEA_renewable_materials
+  steps:
+  - intent: IKEA_renewable_materials
+  - action: utter_IKEA_renewable_materials
+
+- story: IKEA_future_plans
+  steps:
+  - intent: IKEA_future_plans
+  - action: utter_IKEA_future_plans
+
+- story: people_support_IKEA_efforts
+  steps:
+  - intent: people_support_IKEA_efforts
+  - action: utter_people_support_IKEA_efforts
+
+- story: furniture_industry_environemnt_effects
+  steps:
+  - intent: furniture_industry_environemnt_effects
+  - action: utter_furniture_industry_environemnt_effects
+
+- story: furniture_companies_helping_environemnt
+  steps:
+  - intent: furniture_companies_helping_environemnt
+  - action: utter_furniture_companies_helping_environemnt
+
+- story: people_reduce_furniture_impact
+  steps:
+  - intent: people_reduce_furniture_impact
+  - action: utter_people_reduce_furniture_impact
+
+- story: furniture_possible_alternatives
+  steps:
+  - intent: furniture_possible_alternatives
+  - action: utter_furniture_possible_alternatives
+
+- story: companies_trash_human_health
+  steps:
+  - intent: companies_trash_human_health
+  - action: utter_companies_trash_human_health
+
+- story: company_effects_environment
+  steps:
+  - intent: company_effects_environment
+  - action: utter_company_effects_environment
+
+- story: government_role_polluting_companies
+  steps:
+  - intent: government_role_polluting_companies
+  - action: utter_government_role_polluting_companies
+
+- story: potential_alternatives_for_companies
+  steps:
+  - intent: potential_alternatives_for_companies
+  - action: utter_potential_alternatives_for_companies
+
+- story: Egyptian_organizations_companies_trash
+  steps:
+  - intent: Egyptian_organizations_companies_trash
+  - action: utter_Egyptian_organizations_companies_trash
+
+- story: Heinz_paper_bottles
+  steps:
+  - intent: Heinz_paper_bottles
+  - action: utter_Heinz_paper_bottles
+
+- story: Heinz_bottles_working_method
+  steps:
+  - intent: Heinz_bottles_working_method
+  - action: utter_Heinz_bottles_working_method
+
+- story: companies_follow_Heinz_lead
+  steps:
+  - intent: companies_follow_Heinz_lead
+  - action: utter_companies_follow_Heinz_lead
+
+- story: threats_face_oceans
+  steps:
+  - intent: threats_face_oceans
+  - action: utter_threats_face_oceans
+
+- story: our_role_protecting_ocean
+  steps:
+  - intent: our_role_protecting_ocean
+  - action: utter_our_role_protecting_ocean
+
+- story: name_organizations_ocean_conservation
+  steps:
+  - intent: name_organizations_ocean_conservation
+  - action: utter_name_organizations_ocean_conservation
+
+- story: organizations_actions_protect_oceans
+  steps:
+  - intent: organizations_actions_protect_oceans
+  - action: utter_organizations_actions_protect_oceans
+
+- story: ocean_pollution_continues
+  steps:
+  - intent: ocean_pollution_continues
+  - action: utter_ocean_pollution_continues
+
+- story: coal_ash_harmful_effects
+  steps:
+  - intent: coal_ash_harmful_effects
+  - action: utter_coal_ash_harmful_effects
+
+- story: prevent_coal_ash
+  steps:
+  - intent: prevent_coal_ash
+  - action: utter_prevent_coal_ash
+
+- story: aorganizations_protect_coal_ash
+  steps:
+  - intent: organizations_protect_coal_ash
+  - action: utter_organizations_protect_coal_ash
+
+- story: rainforest_faces_threats
+  steps:
+  - intent: rainforest_faces_threats
+  - action: utter_rainforest_faces_threats
+
+- story: consequences_pollution_rainforest
+  steps:
+  - intent: consequences_pollution_rainforest
+  - action: utter_consequences_pollution_rainforest
+
+- story: organizations_role_protect_rainforest
+  steps:
+  - intent: organizations_role_protect_rainforest
+  - action: utter_organizations_role_protect_rainforest
+
+- story: people_role_protect_rainforest
+  steps:
+  - intent: people_role_protect_rainforest
+  - action: utter_people_role_protect_rainforest
+
+- story: cutting_down_amazon_rainforest
+  steps:
+  - intent: cutting_down_amazon_rainforest
+  - action: utter_cutting_down_amazon_rainforest
+
+- story: gas_spill_effects
+  steps:
+  - intent: gas_spill_effects
+  - action: utter_gas_spill_effects
+
+- story: clean_up_gas_spill
+  steps:
+  - intent: clean_up_gas_spill
+  - action: utter_clean_up_gas_spill
+
+- story: prevent_future_gas_spill
+  steps:
+  - intent: prevent_future_gas_spill
+  - action: utter_prevent_future_gas_spill
+
+- story: climate_change_definition
+  steps:
+  - intent: climate_change_definition
+  - action: utter_climate_change_definition
+
+- story: main_reasons_climate_change
+  steps:
+  - intent: main_reasons_climate_change
+  - action: utter_main_reasons_climate_change
+
+- story: human_actions_climate_change
+  steps:
+  - intent: human_actions_climate_change
+  - action: utter_human_actions_climate_change
+
+- story: consequences_of_climate_change
+  steps:
+  - intent: consequences_of_climate_change
+  - action: utter_consequences_of_climate_change
+
+- story: economic_results_climate_change
+  steps:
+  - intent: economic_results_climate_change
+  - action: utter_economic_results_climate_change
+
+- story: example_economy_effects_climate_change
+  steps:
+  - intent: example_economy_effects_climate_change
+  - action: utter_example_economy_effects_climate_change
+
+- story: my_duty_climate_change
+  steps:
+  - intent: my_duty_climate_change
+  - action: utter_my_duty_climate_change
+
+- story: right_way_climate_change
+  steps:
+  - intent: right_way_climate_change
+  - action: utter_right_way_climate_change
+
+- story: not_effective_recycled_materials
+  steps:
+  - intent: not_effective_recycled_materials
+  - action: utter_not_effective_recycled_materials
+
+- story: plastics_recycling_not_effective
+  steps:
+  - intent: plastics_recycling_not_effective
+  - action: utter_plastics_recycling_not_effective
+
+- story: consequences_bad_plastics_recycling
+  steps:
+  - intent: consequences_bad_plastics_recycling
+  - action: utter_consequences_bad_plastics_recycling
+
+- story: stop_plastics_recycling
+  steps:
+  - intent: stop_plastics_recycling
+  - action: utter_stop_plastics_recycling
+
+- story: our_role_plastics_recycling
+  steps:
+  - intent: our_role_plastics_recycling
+  - action: utter_our_role_plastics_recycling
+
+- story: daily_care_of_environment
+  steps:
+  - intent: daily_care_of_environment
+  - action: utter_daily_care_of_environment
+
+- story: one_car_to_work
+  steps:
+  - intent: one_car_to_work
+  - action: utter_one_car_to_work
+
+- story: why_carpooling_useful
+  steps:
+  - intent: why_carpooling_useful
+  - action: utter_why_carpooling_useful
+
+- story: ask about heat_dome_defenition
+  steps:
+  - intent: heat_dome_defenition
+  - action: utter_heat_dome_defenition
+
+- story: ask about impacts_of_heat_dome
+  steps:
+  - intent: impacts_of_heat_dome
+  - action: utter_impacts_of_heat_dome
+
+- story: ask about heat_climate_change_relation
+  steps:
+  - intent: heat_climate_change_relation
+  - action: utter_heat_climate_change_relation
+
+- story: ask about stay_safe_heat_waves
+  steps:
+  - intent: stay_safe_heat_waves
+  - action: utter_stay_safe_heat_waves
+
+- story: ask about difference_heat_wave_dome
+  steps:
+  - intent: difference_heat_wave_dome
+  - action: utter_difference_heat_wave_dome
+
+- story: ask about heat_wave_form
+  steps:
+  - intent: heat_wave_form
+  - action: utter_heat_wave_form
+
+- story: ask about threats_heat_waves
+  steps:
+  - intent: threats_heat_waves
+  - action: utter_threats_heat_waves
+
+- story: ask about maximum_temperature_going_out
+  steps:
+  - intent: maximum_temperature_going_out
+  - action: utter_maximum_temperature_going_out
+
+- story: ask about stay_safe_heat_waves
+  steps:
+  - intent: stay_safe_heat_waves
+  - action: utter_stay_safe_heat_waves
+
+- story: ask about government_role_heat_waves
+  steps:
+  - intent: government_role_heat_waves
+  - action: utter_government_role_heat_waves
+
+- story: ask about SDGs_definition
+  steps:
+  - intent: SDGs_definition
+  - action: utter_SDGs_definition
+
+- story: ask about names_of_SDGs
+  steps:
+  - intent: names_of_SDGs
+  - action: utter_names_of_SDGs
+
+- story: ask about date_creator_of_SDG
+  steps:
+  - intent: date_creator_of_SDG
+  - action: utter_date_creator_of_SDG
+
+- story: ask about SDG_related_environment
+  steps:
+  - intent: SDG_related_environment
+  - action: utter_SDG_related_environment
+
+- story: ask about government_role_achieve_SDG
+  steps:
+  - intent: government_role_achieve_SDG
+  - action: utter_government_role_achieve_SDG
+
+- story: ask about our_role_achieving_SDG
+  steps:
+  - intent: our_role_achieving_SDG
+  - action: utter_our_role_achieving_SDG
+
+- story: ask about wrong_disposal_plastic_waste
+  steps:
+  - intent: wrong_disposal_plastic_waste
+  - action: utter_wrong_disposal_plastic_waste
+
+- story: ask about plastic_waste_mixing_materials
+  steps:
+  - intent: plastic_waste_mixing_materials
+  - action: utter_plastic_waste_mixing_materials
+
+- story: ask about solution_garabage_mixing
+  steps:
+  - intent: solution_garabage_mixing
+  - action: utter_solution_garabage_mixing
+
+- story: ask about ordinary_sorting_methods
+  steps:
+  - intent: ordinary_sorting_methods
+  - action: utter_ordinary_sorting_methods
+
+- story: ask about meaning_manual_sorting
+  steps:
+  - intent: meaning_manual_sorting
+  - action: utter_meaning_manual_sorting
+
+- story: ask about website_sorting_materials
+  steps:
+  - intent: website_sorting_materials
+  - action: utter_website_sorting_materials
+
+- story: ask about how_to_recycle_plastic
+  steps:
+  - intent: how_to_recycle_plastic
+  - action: utter_how_to_recycle_plastic
+
+- story: ask about wrong_disposal_paper_waste
+  steps:
+  - intent: wrong_disposal_paper_waste
+  - action: utter_wrong_disposal_paper_waste
+
+- story: ask about paper_waste_mixing_materials
+  steps:
+  - intent: paper_waste_mixing_materials
+  - action: utter_paper_waste_mixing_materials
+
+- story: ask about solution_garabage_mixing
+  steps:
+  - intent: solution_garabage_mixing
+  - action: utter_solution_garabage_mixing
+
+- story: ask about How_to_sort_paper
+  steps:
+  - intent: How_to_sort_paper
+  - action: utter_How_to_sort_paper
+
+- story: ask about meaning_manual_sorting
+  steps:
+  - intent: meaning_manual_sorting
+  - action: utter_meaning_manual_sorting
+
+- story: ask about website_sorting_materials
+  steps:
+  - intent: website_sorting_materials
+  - action: utter_website_sorting_materials
+
+- story: ask about How_to_recycle_paper_waste
+  steps:
+  - intent: How_to_recycle_paper_waste
+  - action: utter_How_to_recycle_paper_waste
+
+- story: ask about wrong_disposal_glass_waste
+  steps:
+  - intent: wrong_disposal_glass_waste
+  - action: utter_wrong_disposal_glass_waste
+
+- story: ask about glass_waste_mixing_materials
+  steps:
+  - intent: glass_waste_mixing_materials
+  - action: utter_glass_waste_mixing_materials
+
+- story: ask about solution_garabage_mixing
+  steps:
+  - intent: solution_garabage_mixing
+  - action: utter_solution_garabage_mixing
+
+- story: ask about How_to_sort_glass
+  steps:
+  - intent: How_to_sort_glass
+  - action: utter_How_to_sort_glass
+
+- story: ask about meaning_manual_sorting
+  steps:
+  - intent: meaning_manual_sorting
+  - action: utter_meaning_manual_sorting
+
+- story: ask about website_sorting_materials
+  steps:
+  - intent: website_sorting_materials
+  - action: utter_website_sorting_materials
+
+- story: ask about How_to_recycle_glass_waste
+  steps:
+  - intent: How_to_recycle_glass_waste
+  - action: utter_How_to_recycle_glass_waste
+
+- story: ask about recycling in neighborhood
+  steps:
+  - intent: recycling_in_a_neighborhood
+  - action: utter_recycling_in_a_neighborhood
+
+- story: ask about importance of recycling
+  steps:
+  - intent: importance_of_recycling
+  - action: utter_importance_of_recycling
+
+- story: ask about carbon footprint
+  steps:
+  - intent: carbon_footprint
+  - action: utter_carbon_footprint
+
+- story: ask about reduce water usage
+  steps:
+  - intent: reduce_water_usage
+  - action: utter_reduce_water_usage
+
+- story: ask about food waste
+  steps:
+  - intent: food_waste
+  - action: utter_food_waste
+
+- story: ask about single use plastic
+  steps:
+  - intent: single_use_plastic
+  - action: utter_single_use_plastic
+
+- story: ask about sustainable fashion
+  steps:
+  - intent: sustainable_fashion
+  - action: utter_sustainable_fashion
+
+- story: ask about air pollution
+  steps:
+  - intent: air_pollution
+  - action: utter_air_pollution
+
+- story: ask about sustainable agriculture
+  steps:
+  - intent: sustainable_agriculture
+  - action: utter_sustainable_agriculture
+
+- story: ask about start garden
+  steps:
+  - intent: start_garden
+  - action: utter_start_garden
+  
+- story: ask about paper product
+  steps:
+  - intent: paper_product
+  - action: utter_paper_product
+  
+- story: ask about sustainable tourism
+  steps:
+  - intent: sustainable_tourism
+  - action: utter_sustainable_tourism
+  
+- story: ask about renewable energy
+  steps:
+  - intent: renewable_energy
+  - action: utter_renewable_energy
+
+- story: ask about chemical usage
+  steps:
+  - intent: chemical_usage
+  - action: utter_chemical_usage
+  
+- story: ask about impact of plastic pollution
+  steps:
+  - intent: impact_of_plastic_pollution
+  - action: utter_impact_of_plastic_pollution
+  
+- story: ask about green technology
+  steps:
+  - intent: green_technology
+  - action: utter_green_technology
+
+- story: ask about meat consumption
+  steps:
+  - intent: meat_consumption
+  - action: utter_meat_consumption
+
+- story: ask about climate change
+  steps:
+  - intent: climate_change
+  - action: utter_climate_change
+
+- story: ask about ocean conservation
+  steps:
+  - intent: ocean_conservation
+  - action: utter_ocean_conservation
+
+- story: ask about wildlife conservation
+  steps:
+  - intent: wildlife_conservation
+  - action: utter_wildlife_conservation
+
+- story: ask about deforestation
+  steps:
+  - intent: deforestation
+  - action: utter_deforestation
+
+- story: ask about deforestation definition
+  steps:
+  - intent: deforestation_def
+  - action: utter_deforestation_def
+
+- story: ask about protecting water resources
+  steps:
+  - intent: protect_water_resources
+  - action: utter_protect_water_resources
+
+- story: ask about climate action definition
+  steps:
+  - intent: climate_action_def
+  - action: utter_climate_action_def
+
+- story: ask about climate action support
+  steps:
+  - intent: climate_action_support
+  - action: utter_climate_action_support
+
+- story: ask about the ocean hazards
+  steps:
+  - intent: ocean_hazards
+  - action: utter_ocean_hazards
+
+- story: ask about energy conservation
+  steps:
+  - intent: energy_conservation
+  - action: utter_energy_conservation
+
+- story: ask about pesticides and herbicides
+  steps:
+  - intent: pesticides_and_herbicides_def
+  - action: utter_pesticides_and_herbicides_def
+
+- story: ask about pesticides and herbicides impact
+  steps:
+  - intent: pesticides_and_herbicides_impact
+  - action: utter_pesticides_and_herbicides_impact
+
+- story: ask about forest conservation
+  steps:
+  - intent: forest_conservation
+  - action: utter_forest_conservation
+
+- story: ask about reducing impact on forests
+  steps:
+  - intent: reduce_impact_on_forest
+  - action: utter_reduce_impact_on_forest
+
+- story: ask about impact of the atmosphere
+  steps:
+  - intent: impact_on_the_atmosphere
+  - action: utter_impact_on_the_atmosphere
+
+- story: ask about global warming definition
+  steps:
+  - intent: global_warming_def
+  - action: utter_global_warming_def
+
+- story: ask about government role in global warming
+  steps:
+  - intent: global_warming_gov_role
+  - action: utter_global_warming_gov_role
+
+- story: ask about people role in global warming
+  steps:
+  - intent: global_warming_people_role
+  - action: utter_global_warming_people_role
+
+- story: ask about global warming consequences
+  steps:
+  - intent: global_warming_consequences
+  - action: utter_global_warming_consequences
+
+- story: ask about Paris agreement
+  steps:
+  - intent: paris_agreement
+  - action: utter_paris_agreement
+
+- story: ask about carbon offsetting
+  steps:
+  - intent: carbon_offsetting
+  - action: utter_carbon_offsetting
+
+- story: ask about environment helping
+  steps:
+  - intent: environment_help
+  - action: utter_environment_help
+
+- story: ask about biodegradable defintion
+  steps:
+  - intent: biodegradable_def
+  - action: utter_biodegradable_def
+
+- story: ask about compostable definition
+  steps:
+  - intent: compostable_def
+  - action: utter_compostable_def
+
+- story: ask about difference between compostable and biodegradable
+  steps:
+  - intent: difference_compostable_biodegradable
+  - action: utter_difference_compostable_biodegradable
+
+- story: ask about e waste definition
+  steps:
+  - intent: e_waste_def
+  - action: utter_e_waste_def
+
+- story: ask about consequences of e waste
+  steps:
+  - intent: consequences_e_waste
+  - action: utter_consequences_e_waste
+
+- story: ask about my impact of e waste
+  steps:
+  - intent: impact_e_waste
+  - action: utter_impact_e_waste
+
+- story: ask about recycling e waste
+  steps:
+  - intent: recycle_e_waste
+  - action: utter_recycle_e_waste
+
+- story: ask about endangered species
+  steps:
+  - intent: endangered_species
+  - action: utter_endangered_species
+
+- story: ask about endangered species protect
+  steps:
+  - intent: endangered_species_protect
+  - action: utter_endangered_species_protect
+
+- story: ask about climate anxiety
+  steps:
+  - intent: climate_anxiety
+  - action: utter_climate_anxiety
+
+- story: ask about climate anxiety reasons
+  steps:
+  - intent: climate_anxiety_reasons
+  - action: utter_climate_anxiety_reasons
+
+- story: ask about climate anxiety help
+  steps:
+  - intent: climate_anxiety_help
+  - action: utter_climate_anxiety_help
+
+- story: ask about paper waste impact
+  steps:
+  - intent: paper_waste_impact
+  - action: utter_paper_waste_impact
+
+- story: ask about paper waste solution
+  steps:
+  - intent: paper_waste_sol
+  - action: utter_paper_waste_sol
+
+- story: ask about earthquakes impact
+  steps:
+  - intent: earthquakes_impact
+  - action: utter_earthquakes_impact
+
+- story: ask about ozone hole definition
+  steps:
+  - intent: ozone_hole_def
+  - action: utter_ozone_hole_def
+
+- story: ask about ozone hole reasons
+  steps:
+  - intent: ozone_hole_reasons
+  - action: utter_ozone_hole_reasons
+
+- story: ask about ozone hole impact
+  steps:
+  - intent: ozone_hole_impact
+  - action: utter_ozone_hole_impact
+
+- story: ask about amazon rainforest
+  steps:
+  - intent: amazon_rainforest
+  - action: utter_amazon_rainforest
+
+- story: ask about acid rain definition
+  steps:
+  - intent: acid_rain_def
+  - action: utter_acid_rain_def
+
+- story: ask about acid rain impact
+  steps:
+  - intent: acid_rain_impact
+  - action: utter_acid_rain_impact
+
+- story: ask about acid rain impact reduce
+  steps:
+  - intent: acid_rain_reduce
+  - action: utter_acid_rain_reduce
+
+- story: effects using fuel
+  steps:
+  - intent: effects_using_fuel
+  - action: utter_effects_using_fuel 
+
+- story: countries reduce of fuel in vehicles
+  steps:
+  - intent: countries_reduce_of_fuel_in_vehicles
+  - action: utter_countries_reduce_of_fuel_in_vehicles 
+
+- story: countries against companies
+  steps:
+  - intent: countries_against_companies
+  - action: utter_countries_against_companies 
+
+- story: Egyptian government against companies
+  steps:
+  - intent: Egyptian_government_against_companies
+  - action: utter_Egyptian_government_against_companies 
+
+- story: important bumblebees
+  steps:
+  - intent: important_bumblebees
+  - action: utter_important_bumblebees
+
+- story: extinction bumblebee
+  steps:
+  - intent: extinction_bumblebee
+  - action: utter_extinction_bumblebee 
+
+
+- story: any risk of extinction bumblebee
+  steps:
+  - intent: any_risk_of_extinction_bumblebee
+  - action: utter_any_risk_of_extinction_bumblebee 
+
+
+- story: information about deforestation
+  steps:
+  - intent: information_about_deforestation
+  - action: utter_information_about_deforestation 
+
+
+
+- story: countries_prevent_deforestation
+  steps:
+  - intent: countries_prevent_deforestation
+  - action: utter_countries_prevent_deforestation 
+
+- story: city_dependent_on_renewable_energy
+  steps:
+  - intent: city_dependent_on_renewable_energy
+  - action: utter_city_dependent_on_renewable_energy 
+
+- story: Egypt_position_on_renewable_energy
+  steps:
+  - intent: Egypt_position_on_renewable_energy
+  - action: utter_Egypt_position_on_renewable_energy 
+
+- story: the_effects_of_deforestation
+  steps:
+  - intent: the_effects_of_deforestation
+  - action: utter_the_effects_of_deforestation 
+
+- story: impact_of_cruise_ships_on_pollution
+  steps:
+  - intent: impact_of_cruise_ships_on_pollution
+  - action: utter_impact_of_cruise_ships_on_pollution 
+
+- story: cities_environmentally_friendly
+  steps:
+  - intent: cities_environmentally_friendly
+  - action: utter_cities_environmentally_friendly 
+
+- story: cutting_trees_wildfire
+  steps:
+  - intent: cutting_trees_wildfire
+  - action: utter_cutting_trees_wildfire
+
+- story: significance_of_endangered_species
+  steps:
+  - intent: significance_of_endangered_species
+  - action: utter_significance_of_endangered_species 
+
+- story: deforestation_in_Egypt
+  steps:
+  - intent: deforestation_in_Egypt
+  - action: utter_deforestation_in_Egypt 
+
+
+- story: Egypt_use_of_fossil_fuels
+  steps: 
+  - intent: Egypt_use_of_fossil_fuels
+  - action: utter_Egypt_use_of_fossil_fuels 
+
+
+- story: animal_trafficking_and_hunting
+  steps: 
+  - intent: animal_trafficking_and_hunting
+  - action: utter_animal_trafficking_and_hunting 
+
+ 
+- story: discovered_way_grow_faster
+  steps:
+  - intent: discovered_way_grow_faster
+  - action: utter_discovered_way_grow_faster
+
+- story: Earth_lost_wilderness
+  steps: 
+  - intent: Earth_lost_wilderness
+  - action: utter_Earth_lost_wilderness 
+
+- story: microplastics
+  steps:
+  - intent: microplastics
+  - action: utter_microplastics 
+
+- story: air_quality_in_city
+  steps:
+  - intent: air_quality_in_city
+  - action: utter_air_quality_in_city 
+
+
+- story: Microplastics_enter_our_body
+  steps:
+  - intent: Microplastics_enter_our_body
+  - action: utter_Microplastics_enter_our_body 
+
+- story: first_Minister_Environment
+  steps:
+  - intent: first_Minister_Environment
+  - action: utter_first_Minister_Environment 
+
+
+- story: Ministry_Environment_first_established
+  steps:
+  - intent: Ministry_Environment_first_established
+  - action: utter_Ministry_Environment_first_established 
+
+
+- story: Colorado_River 
+  steps:
+  - intent: Colorado_River 
+  - action: utter_Colorado_River 
+
+- story: ocean_trash_dumping
+  steps:
+  - intent: ocean_trash_dumping
+  - action: utter_ocean_trash_dumping 
+
+- story: dangers_faced_by_whales
+  steps:
+  - intent: dangers_faced_by_whales
+  - action: utter_dangers_faced_by_whales 
+
+- story: EVs
+  steps:
+  - intent: EVs
+  - action: utter_EVs 
+
+- story: Access_Pipeline_breaking_law_Giza
+  steps:
+  - intent: Access_Pipeline_breaking_law_Giza
+  - action: utter_Access_Pipeline_breaking_law_Giza 
+
+- story: important_EVs
+  steps:
+  - intent: important_EVs
+  - action: utter_important_EVs 
+
+- story: climate_change_affects_rivers
+  steps:
+  - intent: climate_change_affects_rivers
+  - action: utter_climate_change_affects_rivers 
+
+- story: buy_electric_vehicles
+  steps:
+  - intent: buy_electric_vehicles
+  - action: utter_buy_electric_vehicles 
+
+- story: advantages_using_natural_gas
+  steps:
+  - intent: advantages_using_natural_gas
+  - action: utter_advantages_using_natural_gas 
+
+- story: Egypt_role_natural_gas_production
+  steps:
+  - intent: Egypt_role_natural_gas_production
+  - action: utter_Egypt_role_natural_gas_production
+
+- story: electric_vehicle_adoption_Egypt  
+  steps:
+  - intent: electric_vehicle_adoption_Egypt  
+  - action: utter_electric_vehicle_adoption_Egypt 
+
+- story: China_efforts_towards_planting_trees
+  steps:
+  - intent: China_efforts_towards_planting_trees
+  - action: utter_China_efforts_towards_planting_trees 
+
+- story: egypt_efforts_towards_planting_trees
+  steps:
+  - intent: egypt_efforts_towards_planting_trees
+  - action: utter_egypt_efforts_towards_planting_trees 
+
+
+- story: recent_news_regarding_lead_exposure
+  steps:
+  - intent: recent_news_regarding_lead_exposure
+  - action: utter_recent_news_regarding_lead_exposure 
+
+
+- story: lead_exposure
+  steps:
+  - intent: lead_exposure
+  - action: utter_lead_exposure 
+
+- story: years_control_climate_change
+  steps:
+  - intent: years_control_climate_change
+  - action: utter_years_control_climate_change 
+
+- story: lead_exposure_Egypt
+  steps:
+  - intent: lead_exposure_Egypt
+  - action: utter_lead_exposure_Egypt 
+
+
+
+- story: Scotland_plan
+  steps:
+  - intent: Scotland_plan
+  - action: utter_Scotland_plan 
+
+- story: Egypt_plans_protect_wild_salmon
+  steps:
+  - intent: Egypt_plans_protect_wild_salmon
+  - action: utter_Egypt_plans_protect_wild_salmon 
+
+- story: Norway_recent_decision
+  steps:
+  - intent: Norway_recent_decision
+  - action: utter_Norway_recent_decision
+
+- story: Egypt_uses_Palm_Oil
+  steps:
+  - intent: Egypt_uses_Palm_Oil
+  - action: utter_Egypt_uses_Palm_Oil 
+
+- story: food_plastic_plate
+  steps:
+  - intent: food_plastic_plate
+  - action: utter_food_plastic_plate 
+
+- story: news_plastic_pollution
+  steps:
+  - intent: news_plastic_pollution
+  - action: utter_news_plastic_pollution 
+
+
+- story: Egypt_regarding_killing_wild_animals
+  steps:
+  - intent: Egypt_regarding_killing_wild_animals
+  - action: utter_Egypt_regarding_killing_wild_animals 
+
+- story: Egypt_stance_littering
+  steps:
+  - intent: Egypt_stance_littering
+  - action: utter_Egypt_stance_littering 
+
+- story: litter_pollute_oceans
+  steps:
+  - intent: litter_pollute_oceans
+  - action: utter_litter_pollute_oceans 
+
+- story: bees_important_living 
+  steps:
+  - intent: bees_important_living 
+  - action: utter_bees_important_living 
+ 
+
+- story: Egypt_stands_from_acid_waste_issue
+  steps:
+  - intent: Egypt_stands_from_acid_waste_issue
+  - action: utter_Egypt_stands_from_acid_waste_issue 
+
+
+- story: issue_climate_change
+  steps:
+  - intent: issue_climate_change
+  - action: utter_issue_climate_change 
+
+
+- story: paying_enough_attention_issue_climate
+  steps:
+  - intent: paying_enough_attention_issue_climate
+  - action: utter_paying_enough_attention_issue_climate 
+
+- story: steps_Egypt_spread_awareness
+  steps:
+  - intent: steps_Egypt_spread_awareness
+  - action: utter_steps_Egypt_spread_awareness 
+
+- story: situation_with_the_manatees
+  steps:
+  - intent: situation_with_the_manatees
+  - action: utter_situation_with_the_manatees 
+
+- story: manatees_save_mass_starvation
+  steps:
+  - intent: manatees_save_mass_starvation
+  - action: utter_manatees_save_mass_starvation 
+
+- story: manatees_Egypt
+  steps:
+  - intent: manatees_Egypt
+  - action: utter_manatees_Egypt 
+
+- story: flamingos_Egypt
+  steps:
+  - intent: flamingos_Egypt
+  - action: utter_flamingos_Egypt
+
+- story: drilling_and_mining_fuel
+  steps:
+  - intent: drilling_and_mining_fuel
+  - action: utter_drilling_and_mining_fuel 
+
+
+- story: Egypt_mining_drilling_for_fuel
+  steps:
+  - intent: Egypt_mining_drilling_for_fuel
+  - action: utter_Egypt_mining_drilling_for_fuel 
+
+- story: Egypt_Strategy_2035
+  steps:
+  - intent: Egypt_Strategy_2035
+  - action: utter_Egypt_Strategy_2035 
+
+- story: Egypt_National_Solid_Waste_Management
+  steps:
+  - intent: Egypt_National_Solid_Waste_Management
+  - action: utter_Egypt_National_Solid_Waste_Management
+
+- story: Egypt_efforts_promote_renewable_energy
+  steps:
+  - intent: Egypt_efforts_promote_renewable_energy
+  - action: utter_Egypt_efforts_promote_renewable_energy 
+
+- story: Egypt_efforts_reduce_greenhouse_gas_emissions
+  steps:
+  - intent: Egypt_efforts_reduce_greenhouse_gas_emissions
+  - action: utter_Egypt_efforts_reduce_greenhouse_gas_emissions 
+
+- story: Egypt_initiatives_promote_sustainable_agriculture
+  steps:
+  - intent: Egypt_initiatives_promote_sustainable_agriculture
+  - action: utter_Egypt_initiatives_promote_sustainable_agriculture 
+
+- story: Egypt_efforts_conserve_natural_resources
+  steps:
+  - intent: Egypt_efforts_conserve_natural_resources
+  - action: utter_Egypt_efforts_conserve_natural_resources 
+
+- story: use_technology_agriculture_Egypt
+  steps:
+  - intent: use_technology_agriculture_Egypt
+  - action: utter_use_technology_agriculture_Egypt
+ 
+- story: sustainable_tourism_initiatives_Egypt
+  steps:
+  - intent: sustainable_tourism_initiatives_Egypt
+  - action: utter_sustainable_tourism_initiatives_Egypt 
+
+- story: Nubian_Ibex
+  steps:
+  - intent: Nubian_Ibex
+  - action: utter_Nubian_Ibex 
+
+- story: use_herbicides_and_potential_link_cancer
+  steps:
+  - intent: use_herbicides_and_potential_link_cancer
+  - action: utter_use_herbicides_and_potential_link_cancer 
+
+- story: Egypt_stand_terms_using_herbicides
+  steps:
+  - intent: Egypt_stand_terms_using_herbicides
+  - action: utter_Egypt_stand_terms_using_herbicides
+ 
+- story: pollution_have_harmful_effects
+  steps:
+  - intent: pollution_have_harmful_effects
+  - action: utter_pollution_have_harmful_effects 
+  
+- story: climate_change_negatively_affect_Egypt
+  steps:
+  - intent: climate_change_negatively_affect_Egypt
+  - action: utter_climate_change_negatively_affect_Egypt 
+
+
+- story: Egypt_situation_use_plastic
+  steps:
+  - intent: Egypt_situation_use_plastic
+  - action: utter_Egypt_situation_use_plastic 
+
+
+- story: carbon_emissions_affect_environment
+  steps:
+  - intent: carbon_emissions_affect_environment
+  - action: utter_carbon_emissions_affect_environment 
+
+- story: ask about what is COP 27
+  steps:
+  - intent: what_is_cop_twenty_seven
+  - action: utter_what_is_cop_twenty_seven
+
+- story: ask about the starting date of COP
+  steps:
+  - intent: cop_start_date
+  - action: utter_cop_start_date
+
+- story: ask about COP 27 place
+  steps:
+  - intent: cop_twenty_seven_place
+  - action: utter_cop_twenty_seven_place
+
+- story: ask about the place of COP 28
+  steps:
+  - intent: cop_twenty_eight_place
+  - action: utter_cop_twenty_eight_place
+
+- story: ask about the countries participating in COP 
+  steps:
+  - intent: countries_participate_COP
+  - action: utter_countries_participate_COP
+
+- story: ask about topics discussed in COP
+  steps:
+  - intent: COP_environmental_topics
+  - action: utter_COP_environmental_topics
+
+- story: ask about governments role in COP
+  steps:
+  - intent: governments_role_COP
+  - action: utter_governments_role_COP
+
+- story: ask about water pollution threats in egypt 
+  steps:
+  - intent: threats_face_egypt_water_pollution
+  - action: utter_threats_face_egypt_water_pollution
+
+- story: ask about water pollution affects human health in egypt
+  steps:
+  - intent: water_polution_egypt_human_health
+  - action: utter_water_polution_egypt_human_health
+
+- story: ask about the egyptian government actions to address water pollution
+  steps:
+  - intent: egyptian_government_efforts_water_pollution
+  - action: utter_egyptian_government_efforts_water_pollution
+
+- story: ask about defention of misr el-kheir
+  steps:
+  - intent: what_is_misr_alkheir
+  - action: utter_what_is_misr_alkheir
+
+- story: ask about how misr el-kheir delivering water
+  steps:
+  - intent: misr_alkheir_deliver_water
+  - action: utter_misr_alkheir_deliver_water
+
+- story: ask about misr al-kheir achievements in delivering clean water
+  steps:
+  - intent: misr_alkheir_achievements_clean_water
+  - action: utter_misr_alkheir_achievements_clean_water
+
+- story: ask about twhat is the high dam
+  steps:
+  - intent: The_High_Dam_degenition
+  - action: utter_The_High_Dam_degenition
+
+- story: ask about the reason we built the high dam
+  steps:
+  - intent: reason_high_dam_built
+  - action: utter_reason_high_dam_built
+
+- story: ask about benefits of high dam
+  steps:
+  - intent: benefits_building_High_Dam
+  - action: utter_benefits_building_High_Dam
+
+- story: ask about egyptian governmnet role towards High Dam
+  steps:
+  - intent: egyptian_government_role_High_Dam
+  - action: utter_egyptian_government_role_High_Dam
+
+- story: ask about if cairo is sustainable city
+  steps:
+  - intent: is_cairo_sustainable
+  - action: utter_is_cairo_sustainable
+
+- story: ask about environmental threats prevent cairo from being sustainable
+  steps:
+  - intent: threats_prevent_cairo_sustainable
+  - action: utter_threats_prevent_cairo_sustainable
+
+- story: ask about the governmnet role to make cairo sustainable
+  steps:
+  - intent: government_role_cairo_sustainable
+  - action: utter_government_role_cairo_sustainable
+
+- story: ask about best countries dealt with climate change
+  steps:
+  - intent: best_countries_climate_change
+  - action: utter_best_countries_climate_change
+
+- story: ask about Egypt situation from marine life
+  steps:
+  - intent: egypt_situatioon_marine_life
+  - action: utter_egypt_situatioon_marine_life
+
+- story: ask about famous marine creatures in Egypt
+  steps:
+  - intent: famous_species_marine_life_Egypt
+  - action: utter_famous_species_marine_life_Egypt
+
+- story: ask about the threats that might face marine creatures in Egypt
+  steps:
+  - intent: threats_marine_creatures_egypt
+  - action: utter_threats_marine_creatures_egypt
+
+- story: ask about egyptian government role in protecting marine life in Egypt
+  steps:
+  - intent: egyptian_government_protect_marine
+  - action: utter_egyptian_government_protect_marine
+
+- story: ask about threats prevent egypt from conserve lands
+  steps:
+  - intent: threats_prevent_Egypt_land_conservation
+  - action: utter_threats_prevent_Egypt_land_conservation
+
+- story: ask about challenges about egypt and clean water
+  steps:
+  - intent: challenges_clean_water_Egypt
+  - action: utter_challenges_clean_water_Egypt
+
+- story: ask about places that lack of clean water in Egypt
+  steps:
+  - intent: egypt_places_sanitation_problems
+  - action: utter_egypt_places_sanitation_problems
+
+- story: ask about government efforts to address sanitaion problems
+  steps:
+  - intent: government_efforts_address_sanitation
+  - action: utter_government_efforts_address_sanitation
+
+- story: ask about name of organizations deliver clean water
+  steps:
+  - intent: organizations_care_clean_water
+  - action: utter_organizations_care_clean_water
+
+- story: ask about generating solar power in Egypt
+  steps:
+  - intent: egypt_situation_solar_power
+  - action: utter_egypt_situation_solar_power
+
+- story: ask about the threats face renewable energy in Egypt
+  steps:
+  - intent: threats_renewable_energy_egypt
+  - action: utter_threats_renewable_energy_egypt
+
+- story: ask about organizations gives attention to renewable energy in Egypt
+  steps:
+  - intent: organizations_renewable_energy_egypt
+  - action: utter_organizations_renewable_energy_egypt
+
+- story: ask about how egypt handle electronic waste problem
+  steps:
+  - intent: egypt_handling_electronic_waste
+  - action: utter_egypt_handling_electronic_waste
+
+- story: ask about how the process of managing e-waste goes
+  steps:
+  - intent: steps_process_electronic_waste
+  - action: utter_steps_process_electronic_waste
+
+- story: ask about the right wasy to dispose e-waste
+  steps:
+  - intent: how_to_dispose_electronic_waste
+  - action: utter_how_to_dispose_electronic_waste
+
+- story: ask about the results of wrong disposal of e-waste
+  steps:
+  - intent: wrong_disposal_electronic_waste
+  - action: utter_wrong_disposal_electronic_waste
+
+- story: ask about our daily habits that harm the environmnet
+  steps:
+  - intent: harmful_daily_habits_for_environment
+  - action: utter_harmful_daily_habits_for_environment
+
+- story: ask about alternatives to our bad daily habits
+  steps:
+  - intent: alternatives_daily_harmful_habits
+  - action: utter_alternatives_daily_harmful_habits
+
+- story: ask about water bodies in egypt
+  steps:
+  - intent: name_water_bodies_egypt
+  - action: utter_name_water_bodies_egypt
+
+- story: ask about marine animals life in egypt water bodies
+  steps:
+  - intent: creatures_water_bodies_egypt
+  - action: utter_creatures_water_bodies_egypt
+
+- story: ask about the most polluted water body in egypt
+  steps:
+  - intent: most_polluted_water_body_egypt
+  - action: utter_most_polluted_water_body_egypt
+
+
+
+
+- story: ask about how forests useful to environmnet
+  steps:
+  - intent: benefits_of_forests_to_environment
+  - action: utter_benefits_of_forests_to_environment
+
+
+
+
+- story: ask about the threats that could face forests existance
+  steps:
+  - intent: threats_faced_by_forests
+  - action: utter_threats_faced_by_forests
+
+
+
+
+
+- story: ask about forests national day in egypt
+  steps:
+  - intent: forests_national_day_egypt
+  - action: utter_forests_national_day_egypt
+
+
+
+
+
+
+
+- story: ask about the reason behind traffic congestion in egypt
+  steps:
+  - intent: causes_traffic_congestion
+  - action: utter_causes_traffic_congestion
+
+
+
+
+- story: ask about impacts of traffic congestion on environment in egypt
+  steps:
+  - intent: traffic_congestion_impacts_egypt
+  - action: utter_traffic_congestion_impacts_egypt
+
+
+
+
+- story: ask about most cities with traffic congestion in Egypt
+  steps:
+  - intent: most_cities_traffic_congestion_egypt
+  - action: utter_most_cities_traffic_congestion_egypt
+
+
+
+
+
+- story: ask about How to solve traffic congestion problem
+  steps:
+  - intent: address_traffic_congestion_issue
+  - action: utter_address_traffic_congestion_issue
+
+
+
+
+
+- story: ask about human actions that can led to lung diseases
+  steps:
+  - intent: human_actions_cause_lung_diseases
+  - action: utter_human_actions_cause_lung_diseases
+
+
+
+
+- story: ask about our role to reduce lung diseases
+  steps:
+  - intent: our_role_fight_lung_diseases
+  - action: utter_our_role_fight_lung_diseases
+
+
+
+
+- story: ask about egypt main source for drinking
+  steps:
+  - intent: egypt_main_source_clean_water
+  - action: utter_egypt_main_source_clean_water
+
+
+
+
+
+- story: ask about if Egypt's share of Nile River water is enough for us
+  steps:
+  - intent: is_egypt_share_river_is_enough
+  - action: utter_is_egypt_share_river_is_enough
+
+
+
+- story: ask about what is zaafarana field
+  steps:
+  - intent: what_is_zaafarana_field
+  - action: utter_what_is_zaafarana_field
+
+
+
+
+- story: ask about what is el Dabaa field
+  steps:
+  - intent: what_is_dabaa_field
+  - action: utter_what_is_dabaa_field
+
+
+
+
+- story: ask about egypt ranking in renewable energy among countries
+  steps:
+  - intent: egypt_ranking_renewable_energy
+  - action: utter_egypt_ranking_renewable_energy
+
+
+
+
+
+- story: ask about the problems face egypt and renewable energy sector
+  steps:
+  - intent: problems_face_Egypt_renewable_energy
+  - action: utter_problems_face_Egypt_renewable_energy
+
+- story: ask about air pollution effects on human health in Egypt
+  steps:
+  - intent: air_pollution_effects_on_health_egypt
+  - action: utter_air_pollution_effects_on_health_egypt
+
+
+
+
+- story: ask about statistics related to air pollution in egypt
+  steps:
+  - intent: statistics_air_pollution_egypt
+  - action: utter_statistics_air_pollution_egypt
+
+
+
+
+
+- story: ask about  increasing of fossil fuel production affects environment
+  steps:
+  - intent: increasing_fuel_production_affects_environment
+  - action: utter_increasing_fuel_production_affects_environment
+
+
+
+- story: ask about statistics about fossil fuel production last years
+  steps:
+  - intent: statistics_fossil_fuel_production
+  - action: utter_statistics_fossil_fuel_production
+
+
+
+
+- story: ask about impacts of ships on water pollution in egypt
+  steps:
+  - intent: impact_ships_water_pollution_egypt
+  - action: utter_impact_ships_water_pollution_egypt
+
+
+
+
+- story: ask about the reffects of water pollution in egypt on human health
+  steps:
+  - intent: water_pollution_egypt_affect_human_health
+  - action: utter_water_pollution_egypt_affect_human_health
+
+
+
+
+
+- story: ask about our role to address water pollution in Egypt
+  steps:
+  - intent: people_role_water_pollution_egypt
+  - action: utter_people_role_water_pollution_egypt
+
+
+
+- story: ask about Egyptian government role to address water pollution in Egypt
+  steps:
+  - intent: egyptian_governemnt_role_water_pollution_egypt
+  - action: utter_egyptian_governemnt_role_water_pollution_egypt
+
+- story: ask about toshka project and its economic and environmental impacts
+  steps:
+  - intent: Toshka_economic_environmental_impacts
+  - action: utter_Toshka_economic_environmental_impacts
+
+
+
+
+
+- story: ask about the relation between tsunami and global warming
+  steps:
+  - intent: relation_tsunami_global_warming
+  - action: utter_relation_tsunami_global_warming
+
+
+
+- story: ask about the future threat on Egypt coastal cities
+  steps:
+  - intent: coastal_cities_tsunami_threats
+  - action: utter_coastal_cities_tsunami_threats
+
+
+
+
+- story: ask about statistics about covid effects on environment
+  steps:
+  - intent: statistics_covid_effects_environment
+  - action: utter_statistics_covid_effects_environment
+
+
+
+
+- story: ask about if lockdown helped addressing climate change
+  steps:
+  - intent: pandemic_helped_climate_change
+  - action: utter_pandemic_helped_climate_change
+
+
+
+
+
+- story: ask about desalination plants in Egypt
+  steps:
+  - intent: Egypt_desalination_plants_places
+  - action: utter_Egypt_desalination_plants_places
+
+
+
+- story: ask about the process of water desalination
+  steps:
+  - intent: how_desalination_work
+  - action: utter_how_desalination_work
+
+- story: ask about Egypt progress in clean water access by numbers
+  steps:
+  - intent: Egypt_progress_clean_water_percentage
+  - action: utter_Egypt_progress_clean_water_percentage
+
+- story: ask about sustainable transportation in Egypt
+  steps:
+  - intent: sustainable_transportation_egypt
+  - action: utter_sustainable_transportation_egypt
+
+- story: ask about how we charge sustainable transportation in Egypt
+  steps:
+  - intent: how_sustainable_transport_charged
+  - action: utter_how_sustainable_transport_charged
+
+- story: ask about most countries depend on fossil fuel
+  steps:
+  - intent: countries_most_depend_fossil_fuel
+  - action: utter_countries_most_depend_fossil_fuel
+
+- story: ask about types of coral reefs in Egypt
+  steps:
+  - intent: types_coral_reefs_egypt
+  - action: utter_types_coral_reefs_egypt
+
+
+- story: ask about threats that could face coral reefs in Egypt
+  steps:
+  - intent: threats_coal_reefs_face_egypt
+  - action: utter_threats_coal_reefs_face_egypt
+
+
+
+
+- story: ask about statistics about deforestation in last years
+  steps:
+  - intent: statistics_deforestation_rates
+  - action: utter_statistics_deforestation_rates
+
+
+
+
+- story: ask about the imapct of vehicle exhaust on environment in egypt
+  steps:
+  - intent: impact_vehicle_exhaust_environment
+  - action: utter_impact_vehicle_exhaust_environment
+
+
+
+
+
+- story: ask about alternatives to gasoline powered vehicles
+  steps:
+  - intent: alternatives_gasoline_powered_vehiclese
+  - action: utter_alternatives_gasoline_powered_vehicles
+
+
+- story: ask about cairo ranking in air pollution cities in the world
+  steps:
+  - intent: cairo_most_air_polluted_city_ranking
+  - action: utter_cairo_most_air_polluted_city_ranking
+
+
+
+
+- story: ask about the name of common diseases in Africa
+  steps:
+  - intent: diseases_names_in_africa
+  - action: utter_diseases_names_in_africa
+
+
+
+
+- story: ask about the cause of malraia in africa
+  steps:
+  - intent: reasons_of_malaria_in_africa
+  - action: utter_reasons_of_malaria_in_africa
+
+
+
+
+
+- story: ask about the efforts done by global organizations to help africa health
+  steps:
+  - intent: global_efforts_help_africa
+  - action: utter_global_efforts_help_africa
+
+
+- story: ask about statistics of deaths due to envieonmntal problems in africa
+  steps:
+  - intent: Statistics_death_cases_africa
+  - action: utter_Statistics_death_cases_africa
+
+
+
+
+- story: ask about most countries that has lack of water
+  steps:
+  - intent: most_countries_lack_of_water
+  - action: utter_most_countries_lack_of_water
+
+
+
+
+- story: ask about how the countries with lack of water facing this problem
+  steps:
+  - intent: how_country_face_lack_of_water
+  - action: utter_how_country_face_lack_of_water
+
+
+
+
+
+- story: ask about name of organizations help countries to access water
+  steps:
+  - intent: org_help_countries_lack_of_water
+  - action: utter_org_help_countries_lack_of_water
+
+
+- story: ask about if egypt is self sufficient towards water
+  steps:
+  - intent: Egypt_self_sufficient_of_water
+  - action: utter_Egypt_self_sufficient_of_water
+
+
+
+
+- story: ask about most self sufficient countries towards water
+  steps:
+  - intent: most_self_sufficient_countries_water_sources
+  - action: utter_most_self_sufficient_countries_water_sources
+
+
+
+
+- story: ask about what is chernobyl disaster
+  steps:
+  - intent: what_is_chernobyl_disatser
+  - action: utter_what_is_chernobyl_disatser
+
+
+
+
+
+- story: ask about the effects of chernobyl on the environmnet
+  steps:
+  - intent: chernobyl_affects_environment
+  - action: utter_chernobyl_affects_environment
+
+
+
+
+
+- story: ask about chernobyl helped not to repeat its mistake
+  steps:
+  - intent: chernobyl_help_not_repeat_mistake
+  - action: utter_chernobyl_help_not_repeat_mistake
+
+
+- story: ask about what is the industrial revolution
+  steps:
+  - intent: what_is_industrial_revolution
+  - action: utter_what_is_industrial_revolution
+
+
+
+
+- story: ask about industrial revolution effects on environment
+  steps:
+  - intent: industrial_revolution_effects_on_environment
+  - action: utter_industrial_revolution_effects_on_environment
+
+
+
+
+- story: ask about the causes of increasing of the earth temprature
+  steps:
+  - intent: cause_earth_temprature_increasing
+  - action: utter_cause_earth_temprature_increasing
+
+
+
+
+
+- story: ask about the effects of increasing temprature on coastal areas
+  steps:
+  - intent: temp_increase_affects_coastal_areas
+  - action: utter_temp_increase_affects_coastal_areas
+
+
+
+
+
+
+- story: ask about statistcs about earth temprature got increased
+  steps:
+  - intent: statistics_earth_temprature_increase
+  - action: utter_statistics_earth_temprature_increase
+
+
+- story: ask about the names of famous natural reserves in egypt
+  steps:
+  - intent: names_natural_reserves_egypt
+  - action: utter_names_natural_reserves_egypt
+
+
+
+
+- story: ask about names of rare creatures in egypt natural reserves
+  steps:
+  - intent: rare_creatures_natural_reserves
+  - action: utter_rare_creatures_natural_reserves
+
+
+
+
+- story: ask about the threats facing rare creatures in egyptian natural reserves
+  steps:
+  - intent: threats_face_rare_creatures_egypt
+  - action: utter_threats_face_rare_creatures_egypt
+
+
+
+
+
+- story: ask about the egyptian government and organizations efforts to save rare creatures
+  steps:
+  - intent: egyptian_gov_org_saving_creatures
+  - action: utter_egyptian_gov_org_saving_creatures
+
+
+
+
+
+
+- story: ask about how to solve the increasing of earth temprature
+  steps:
+  - intent: how_to_address_temprature_increasing
+  - action: utter_how_to_address_temprature_increasing
+
+
+- story: ask about precutions should take before going out in sun
+  steps:
+  - intent: precutions_before_going_in_sun
+  - action: utter_precutions_before_going_in_sun
+
+
+
+
+- story: ask about pollution happens to river nile
+  steps:
+  - intent: pollution_affect_river_nile
+  - action: utter_pollution_affect_river_nile
+
+
+
+
+- story: ask about the effects of factories on nile river pollution
+  steps:
+  - intent: factories_pollute_river_nile
+  - action: utter_factories_pollute_river_nile
+
+
+
+
+
+- story: ask about information about zafarana farm
+  steps:
+  - intent: what_is_zafarana_farm
+  - action: utter_what_is_zafarana_farm
+
+
+
+
+
+
+
+- story: ask about the economic and environmental benefits of zafaranaa farm
+  steps:
+  - intent: economic_environmental_benefits_zafaranaa
+  - action: utter_economic_environmental_benefits_zafaranaa
+
+
+- story: ask about if zafarana can replace fossil fuels
+  steps:
+  - intent: zafaranaa_replace_fossil_fuel
+  - action: utter_zafaranaa_replace_fossil_fuel
+
+
+
+
+- story: ask about if meat consumption is bad for environment
+  steps:
+  - intent: meat_consumption_harmful
+  - action: utter_meat_consumption_harmful
+
+
+
+
+- story: ask about if cutting eating meat is the solution
+  steps:
+  - intent: cut_eating_meat
+  - action: utter_cut_eating_meat
+
+
+
+
+
+- story: ask about why the size of ozone hole is increasing
+  steps:
+  - intent: why_ozone_hole_growing
+  - action: utter_why_ozone_hole_growing
+
+
+
+
+
+- story: ask about how to prevent ozone hole from growing
+  steps:
+  - intent: prevent_ozone_hole_growing
+  - action: utter_prevent_ozone_hole_growing
+
+
+- story: ask about place to visit and watch coral reefs
+  steps:
+  - intent: advice_coral_reefs_sharm
+  - action: utter_advice_coral_reefs_sharm
+
+
+
+
+- story: ask about why sharm exactly for coral reefs
+  steps:
+  - intent: why_sharm_exactly_coral_reefs
+  - action: utter_why_sharm_exactly_coral_reefs
+
+
+
+
+- story: ask about ras mohammed natural reserve
+  steps:
+  - intent: what_is_ras_mohammed
+  - action: utter_what_is_ras_mohammed
+
+
+
+
+
+- story: ask about creatures that are in ras nohammed
+  steps:
+  - intent: creatures_names_ras_mohammed
+  - action: utter_creatures_names_ras_mohammed
+
+
+
+
+
+- story: ask about creatures that may extinct in ras mohammed
+  steps:
+  - intent: creatures_may_extinct_ras_mohammed
+  - action: utter_creatures_may_extinct_ras_mohammed
+
+
+- story: ask about egyptian government to protect ras mohammed creatures
+  steps:
+  - intent: egy_gov_protect_ras_mohammed
+  - action: utter_egy_gov_protect_ras_mohammed
+
+- story: ask about the accident of the shark and tourist in Egypt
+  steps:
+  - intent: heard_shark_accident
+  - action: utter_heard_shark_accident
+
+- story: ask about the reason why sharks go near shores
+  steps:
+  - intent: why_shark_near_shores
+  - action: utter_why_shark_near_shores
+
+- story: ask about the consequences of hunting sharks
+  steps:
+  - intent: hunting_sharks_harmful
+  - action: utter_hunting_sharks_harmful
+
+
+- story: ask about the consequences of wrong disposal of metal waste
+  steps:
+  - intent: wrong_disposal_metal_waste
+  - action: utter_wrong_disposal_metal_waste
+
+- story: ask about the consequences of mixing metal waste with other materials
+  steps:
+  - intent: metal_waste_mixing_materials
+  - action: utter_metal_waste_mixing_materials
+
+- story: ask about how to sort metal from other materials
+  steps:
+  - intent: How_to_sort_metal
+  - action: utter_How_to_sort_metal
+
+- story: ask about how to recycle metal from start to end
+  steps:
+  - intent: How_to_recycle_metal_waste
+  - action: utter_How_to_recycle_metal_waste
+
+
+  

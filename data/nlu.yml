@@ -1,0 +1,3746 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+
+
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    
+- intent: alternatives_gasoline_powered_vehicles
+  examples: |
+    - Are there any alternatives to traditional gasoline-powered vehicles that could help to reduce air pollution from vehicle exhaust?
+    - Can you suggest any environmentally-friendly alternatives to traditional gasoline-powered vehicles that could help to mitigate air pollution from vehicle exhaust?
+    - what are the possible alternatives to vehicle exhaust?
+    - What are some alternative options to traditional gasoline-powered vehicles that could reduce air pollution from vehicle exhaust?
+    - Are there any eco-friendly alternatives to traditional vehicles that could help to reduce air pollution from vehicle exhaust?
+
+
+- intent: pesticides_impact
+  examples: |
+    - I am concerned about the use of pesticides in agriculture. Can you tell me more about the impact they have on the environment?
+    - I'm interested in learning more about the environmental consequences of pesticide use in agriculture. Could you shed some light on this?
+    - Can you provide information about the environmental effects of using pesticides in agriculture?
+
+- intent: reduce_pesticides_usage
+  examples: |
+    - That's really concerning. What can we do to reduce our reliance on pesticides?
+    - What steps can we take to decrease our dependence on pesticides?
+    - It's worrying that we depend so much on pesticides. What can be done to lessen this reliance?
+    - How can we reduce our pesticides usage?
+
+
+- intent: people_role_pesticides
+  examples: |
+    - That is good to hear. What can individuals do to help reduce pesticide use?
+    - What are some steps that individuals can take to help decrease the use of pesticides?
+    - It's great to know that individuals can make a difference in reducing pesticide use. What actions can we take as individuals to help with this?
+    - I'm glad to hear that individuals can play a role in reducing pesticide use. What steps can we take as individuals to make a difference?
+    - What should people do to reduce the usage of pesticides?
+
+- intent: Egypt_position_pesticides
+  examples: |
+    - What is Egypt stance on using pesticides?
+    - Can you tell me about Egypt's position on the use of pesticides?
+    - I'm curious about Egypt's stance on the use of pesticides. Can you provide some information on this?
+    - What is the official stance of Egypt regarding pesticide use?
+    - What is Egypt's situation from using pesticides?
+    
+
+- intent: Egyptian_government_pesticides
+  examples: |
+    - what is the government doing to reduce their use of pesticides?
+    - Can you provide information on the measures being taken by the Egyptian government to decrease pesticide use?
+    - I'm interested in knowing what actions the government is taking to reduce their reliance on pesticides. Can you shed some light on this?
+    - What steps is the Egyptian government taking to decrease the use of pesticides?
+
+- intent: Egyptian_organization_pesticides
+  examples: |
+    - Are there any organizations in Egypt that are working to reduce pesticide use?
+    - Can you provide information on organizations in Egypt that are advocating for reduced pesticide use?
+    - I'm interested in knowing if there are any organizations in Egypt that are actively working towards decreasing pesticide use. Can you tell me more?
+    - Are there any groups in Egypt that are focused on reducing pesticide use?
+    
+
+- intent: air_pollution_shorten_life
+  examples: |
+    - I recently read an article stating that nearly all of the world population is breathing polluted air, and that it can shorten life expectancy. Is that true?
+    - I heard that almost everyone in the world is breathing polluted air, and that it can have adverse health effects. Is this accurate?
+    - I recently came across an article claiming that polluted air is affecting almost everyone on the planet and can have serious health implications. Is this statement accurate?
+    - I read an article that suggested that virtually the entire world population is breathing polluted air, and that it can have negative consequences. Is this true?
+    - Does air pollution affect human health badly?
+   
+
+- intent: reduce_air_pollution
+  examples: |
+    - That is really concerning. Is there anything we can do to reduce air pollution?
+    - What can individuals do to help reduce air pollution?
+    - he high levels of air pollution are alarming. What actions can we take to reduce air pollution?
+    - Air pollution is a major issue that needs to be addressed. What can be done to reduce air pollution?
+    - How can we address the issue of air pollution?
+    - What could be done to face the air pollution problem?
+    - What can we do to reduce air pollution?
+    
+
+- intent: benefits_reduce_air_pollution
+  examples: |
+    - What are the benefits of reduce air pollution?
+    - What are the advantages of decreasing air pollution?
+    - What positive outcomes can be expected from reducing air pollution?
+    - What are the benefits of lowering air pollution levels?
+    - What will happen if the air pollution rates decreased?
+
+- intent: air_pollution_sources
+  examples: |
+    - I am interested to know more about air pollution sources and effects on the environment and human health.
+    - Can you provide information on the sources of air pollution and their impact on the environment and human health?
+    - I'm interested in learning more about the sources of air pollution and their effects on the environment and human health. Can you tell me more?
+    - What are the sources of air pollution and how do they affect human health and the environment?
+
+- intent: air_pollution_Egypt
+  examples: |
+    - Can you tell me about air pollution in Egypt?
+    - What is the current status of air pollution in Egypt?
+    - Can you provide information about the level of air pollution in Egypt?
+    - I'm interested in knowing about the air quality situation in Egypt. Can you tell me more?
+  
+
+- intent: Egypt_air_pollution_compared
+  examples: |
+    - Do you know how Egypt air pollution compares to other countries?
+    - How does Egypt's air pollution compare to that of other countries?
+    - Can you provide information on how Egypt's air pollution levels compare to those of other countries?
+    - I'm curious to know how Egypt's air pollution levels compare to those of other countries. Do you have any information on this?
+   
+
+- intent: gov_org_air_pollution
+  examples: |
+    - What can government and organizations do to reduce air pollution in Egypt?
+    - What steps can the government and organizations take to decrease air pollution in Egypt?
+    - I'm interested in what actions the government and organizations can take to reduce air pollution in Egypt. Can you provide some information?
+    - What can be done by the government and organizations to mitigate air pollution in Egypt?
+    
+
+- intent: plastic_waste_impact
+  examples: |
+    - I'm really concerned about the impact of plastic waste on the environment. What can you tell me about it?
+    - What is the impact of plastic waste on the environment?
+    - What are the negative effects of plastic waste on the environment?
+    - I'm concerned about the environmental consequences of plastic waste. Can you provide some information on this issue?
+    - How could be the plastic waste harmful to the environment?
+    - Can you tell me about the impact of the plastic waste?
+
+- intent: reduce_plastic_waste
+  examples: |
+    - There are many things we can do to reduce our plastic waste, such as using reusable bags, bottles, and containers instead of single-use plastic products. We can also recycle and properly dispose of our plastic waste. Additionally, we can support policies and businesses that prioritize reducing plastic waste and moving towards more sustainable alternatives.
+    - What actions can individuals take to reduce their plastic waste?
+    - What steps can we take to reduce the amount of plastic waste we produce?
+    - I'm worried about the impact of plastic waste. What can we do to decrease our plastic consumption?
+    - How can we reduce our plastic waste and consumption?
+    - How can we reduce the plastic waste in our environment?
+    - What are some other ways individuals can reduce their plastic waste?
+
+- intent: plastic_alternatives
+  examples: |
+    - What are some sustainable alternatives to plastic?
+    - What are some eco-friendly alternatives to plastic?
+    - What are some environmentally friendly substitutes for plastic?
+    - What can I use instead of plastic to protect the environment?
+
+- intent: Deforestation_def_and_impact
+  examples: |
+    - I'm concerned about the issue of deforestation. Can you tell me more about it?
+    - What is the impact of deforestation on the environment?
+    - I'm interested in learning more about deforestation. Can you provide some information on this issue?
+    - What are the negative consequences of deforestation?
+
+- intent: stop_Deforestation
+  examples: |
+    - Is there anything that can be done to stop deforestation?
+    - What can be done to prevent deforestation?
+    - I'm concerned about deforestation. What steps can we take to stop it?
+    - Is there a way to halt deforestation? What can be done about it?
+
+- intent: plastic_bag_impact
+  examples: |
+    - Can you tell me about the effects of plastic bag usage on the environment?
+    - What is the impact of using plastic bags on the environment?
+    - I'm interested in learning about the environmental effects of using plastic bags. Can you provide some information?
+    - What are the negative consequences of plastic bag usage on the environment?
+    - How is using plastic bags for shopping is harmful for the environment?
+    - I go Shopping a lot and most of the stores are using plastic bags but I have a feeling that they are harmful for the environment, Is that true?
+    - Why is using plastic bags is harmful for the environmnet?
+    - I'm concerned about the use of plastic bags in stores and their effects on the environment. Can you tell me more about this issue?
+
+
+- intent: plastic_bag_people_role
+  examples: |
+    - What actions can individuals take to address the issue of plastic bag usage?
+    - I'm concerned about plastic bag usage. What can we do as individuals to help combat this issue?
+    - What steps can we take as individuals to help address the issue of plastic bag usage?
+    - What can we do to solve the issue of plastic bags and its effects on the environment?   
+    - So what can we do to solve the plastic bags problem?
+    - That is really concerning. What can we do as individuals to help address this issue?
+
+- intent: plastic_bag_alternative
+  examples: |
+    - What should stores do to reduce their use of plastic bags?
+    - What actions can stores take to decrease their use of plastic bags?
+    - I'm interested in learning about how stores can decrease their use of plastic bags. Can you provide some information?
+    - What steps can stores take to reduce their plastic bag usage?
+    - What should stores do to reduce consumption of plastic bags?
+    - What can I bring as alternatives to plastic bags that in the store?
+
+- intent: plastic_bag_stores_boycotting
+  examples: |
+    - What if the stores did not do their part and reduce plastic bags , what sould we do?
+    - What actions can we take if stores do not reduce their use of plastic bags?
+    - What can we do if stores do not reduce their plastic bag usage? I'm concerned about this issue.
+    - What steps can we take if stores continue to use plastic bags and do not reduce their usage?
+
+- intent: leather_production_impact
+  examples: |
+    - can we talk about the impact of leather production on the environment and animals?
+    - What is the environmental and animal impact of leather production?
+    - I'm interested to know more about the impact of leather production on the environment and animals. Can you provide some information?
+    - What are the environmental and animal consequences of leather production?
+    
+
+
+- intent: animals_names_leather_production
+  examples: |
+    - What types of animals are used in leather production?
+    - I'm concerned about the use of animals in leather production. Can you provide more information about this?
+    - Can you tell me more about the animals involved in leather production? I'm interested in learning about this issue.
+    - What are the animals that is hunted for its leather?
+    - Who are the most famous animals that is hunted for leather production?
+
+- intent: people_role_leather_production
+  examples: |
+    - That is terrible. What can we do to address the leather production issue?
+    - What actions can we take to address the issue of leather production?
+    - I'm concerned about the impact of leather production. What steps can we take to address this issue?
+    - What can we do to address the negative impact of leather production? I'm interested in learning about possible solutions.
+    - What should we do to solve the problem of animals hunting for leather production?
+    - What is people role towards the problem of leather production?
+
+- intent: org_solve_leather_production
+  examples: |
+    - Are there any specific organizations or initiatives that are working to address the leather production issue?
+    - What organizations or initiatives are working to address the issue of leather production?
+    - I'm interested in supporting organizations or initiatives that are working to address the issue of leather production. Can you provide some information on this?
+    - Are there any groups or initiatives that are actively working to address the negative impact of leather production?
+    - Do you know any organizations that is specialized in sloving the leather production problem?
+    - Do you know any organizations that works to address animal hunting issue?
+
+- intent: animal_threats_leather_production
+  examples: |
+    - What are the threats that faces the animal due to the leather production?
+    - What are the threats to animals caused by leather production?
+    - "I'm concerned about the impact of leather production on animals. Can you provide some information on this?
+    - What harm does leather production cause to animals? I'm interested in learning about this issue.
+    - How the leather production puts the lives of animals in danger?
+
+- intent: opinion_of_leather_production
+  examples: |
+    - What do you think of leather production for fashion?
+    - What is your opinion on using leather for fashion production?
+    - What are the concerns around using leather for fashion production? I'm interested in learning more about this issue.
+    - What are the arguments for and against using leather for fashion production?
+    - Why are some people against buting leather bags and coats?
+
+- intent: companies_role_leather_production
+  examples: |
+    - What can the companies do to reduce the harmful effects to the leather production issue?
+    - What actions can companies take to reduce the harmful effects of leather production?
+    - I'm interested in learning about what companies can do to reduce the harmful effects of leather production. Can you provide some information on this?
+    - What steps can companies take to address the negative impact of leather production? I'm concerned about this issue.
+    - What should the companies do to address the leather production issue?
+
+- intent: shift_to_renewable_importance
+  examples: |
+    - Well, I have been hearing a lot about the importance of shifting to renewable energy sources. Can you tell me more about why that is so important?
+    - What is the importance of shifting to renewable energy sources?
+    - Why is it crucial to switch to renewable energy sources? I'm interested in understanding the importance of this topic.
+    - I've heard a lot about the importance of transitioning to renewable energy sources. Can you provide more information on this topic?
+    - Why do you think we should switch to renewable energy sources?
+
+- intent: renewable_energy_sources_examples
+  examples: |
+    - What are some examples of renewable energy sources?
+    - What are some examples of renewable energy sources that are currently available?
+    - I'm interested in learning about the different types of renewable energy sources. Can you provide some examples?
+    - Can you give me some examples of renewable energy sources? I'm curious about this topic.
+    - What are renewable enrgy sources in Egypt?
+
+- intent: How_renewable_energy_generated
+  examples: |
+    - How are these different types of renewable energy generated?
+    - What are the methods used to generate different types of renewable energy?
+    - I'm curious about how different types of renewable energy are generated. Can you provide some information on this?
+    - Can you explain how each type of renewable energy is generated? I'm interested in understanding this topic.
+    - How each one of renewable energy sources got generated?
+    - How is the generation process of each renewable energy sources?
+
+- intent: renewable_energy_benefits
+  examples: |
+    - What are some of the benefits of using renewable energy sources?
+    - What are the advantages of using renewable energy sources?
+    - I'm interested in learning about the benefits of using renewable energy sources. Can you provide some information on this?
+    - What positive outcomes can be achieved by using renewable energy sources? I'm curious about this topic.
+    - How is the renewable energy sources is useful for the environment?
+
+- intent: shift_renewable_energy_Egypt
+  examples: |
+    - I am interested in learning more about renewable energy in Egypt. Can you tell me about the importance of shifting to renewable energy in Egypt?
+    - What is the importance of shifting to renewable energy in Egypt?
+    - I'm curious about the importance of shifting to renewable energy in Egypt. Can you provide some information on this?
+    - Can you explain why it is crucial for Egypt to shift to renewable energy sources? I'm interested in this topic.
+    - Why should Egypt shift to renewable energy?
+
+- intent: people_role_shift_renewable
+  examples: |
+    - So what can individuals do to help shift to renewable energy?
+    - What actions can individuals take to support the shift to renewable energy?
+    - I'm interested in learning about how individuals can contribute to the shift to renewable energy. Can you provide some information on this?
+    - How can individuals help support the shift to renewable energy? I'm curious about this topic.
+    - What can we do to help shifting to renewable energy?
+
+
+- intent: abandon_bad_energy
+  examples: |
+    - Why is the direction in the whole world now is to abandon using non-renewable energy?
+    - What is the reason for the global trend towards phasing out non-renewable energy sources?
+    - I'm interested in understanding why the world is moving away from non-renewable energy sources. Can you provide some information on this?
+    - What is driving the global shift towards abandoning non-renewable energy sources? I'm curious about this topic.
+    - Why is people leaving non-renewable energy and going for renewable energy?
+
+
+- intent: type_renewable_energy_egypt
+  examples: |
+    - What kind of renewable energy are available in Egypt?
+    - What types of renewable energy sources are available in Egypt?
+    - I'm interested in learning about the different types of renewable energy sources available in Egypt. Can you provide some information on this?
+    - What are the renewable energy options in Egypt?
+    - Can you tell me more about types of renewable energy sources generated in Egypt?
+
+- intent: generating_renewable_places_Egypt
+  examples: |
+    - What are some of the most famous places for generating renewable energy in Egypt?
+    - Where are some of the most well-known locations for generating renewable energy in Egypt?
+    - I'm interested in learning about the well-known places for generating renewable energy in Egypt. Can you provide some information on this?
+    - What are some of the famous locations for generating renewable energy in Egypt? I'm curious about this topic.
+    - What are the known fields for generating renewable energy in Egypt?
+
+
+- intent: egyptian_government_role_renewable
+  examples: |
+    - What is the government doing to shift from non-renewable energy sources to renewable energy in Egypt?
+    - What measures is the Egyptian government taking to transition from non-renewable energy sources to renewable energy?
+    - I'm curious about what actions the Egyptian government is taking to shift to renewable energy sources. Can you provide some information on this?
+    - What is being done by the Egyptian government to transition to renewable energy sources?
+    - What is the Egyptian government doing to promote using renewable energy in Egypt?
+    - What is the Egyptian governmnet efforts to increase the renewable energy use in Egypt?
+
+
+
+- intent: Egypt_renewable_fully_depend
+  examples: |
+    - Does Egypt fully depending on using renewable energy?
+    - Can Egypt rely entirely on renewable energy sources?
+    - Is Egypt completely dependent on renewable energy?
+    - To what level does Egypt use renewable energy?
+    - Does Egypt only dependent on renewable energy?
+    - Does Egypt depend on renewable energy in order to power up companies and facilites?
+    - Is Egypt using renewable energy to power up companies and facilities?
+
+
+
+- intent: golf_environmental_concerns
+  examples: |
+    - What are the environmental concerns related to the golf courses issue?
+    - What are the environmental issues associated with golf courses?
+    - How do golf courses affect the environment?
+    - What environmental concerns are linked to golf courses?
+    - How could golf harmful to the environment?
+
+
+
+- intent: people_role_address_golf_courses
+  examples: |
+    - What can be done to address the golf courses issue?
+    - What are the solutions to the environmental problems caused by golf courses?
+    - How can we tackle the environmental concerns related to golf courses?
+    - What measures can be taken to mitigate the environmental impact of golf courses?
+    - How should we act towards the problem of golf courses?
+
+
+- intent: golf_impact_drought_Egypt
+  examples: |
+    - I am interested in learning more about golf courses in Egypt and how they impact the drought problems caused by the Nile River. Can you tell me more about that?
+    - How do golf courses in Egypt affect the Nile River drought issue?
+    - Can you provide information about the impact of golf courses in Egypt on the drought situation in the Nile River?
+    - What is the relationship between golf courses in Egypt and the drought problem in the Nile River?
+    - Why is golf could be harmful for the environment in Egypt?
+
+
+- intent: Egyptian_government_role_golf
+  examples: |
+    - What is the government doing to address the golf courses issue in egypt?
+    - What actions has the government taken to tackle the golf courses issue in Egypt?
+    - How is the Egyptian government addressing the issue of golf courses?
+    - What measures has the Egyptian government taken to resolve the issue of golf courses in the country?
+    - What are the Egyptian government efforts to solve the golf course environmental problem?
+
+
+- intent: golf_alternatives
+  examples: |
+    - Are there any alternatives to golf courses that use less water?
+    - What are some water-efficient alternatives to golf courses?
+    - Can you suggest any water-saving alternatives to golf courses?
+    - What other options are there besides golf courses that require less water?
+    - Do you have any recommendations to golf courses that consume less water?
+
+- intent: Egypt_water_shortage
+  examples: |
+    - I am concerned about the water shortage problem in Egypt. Can you tell me more about it
+    - What is the extent of the water scarcity issue in Egypt?
+    - Can you provide more information about the water shortage problem in Egypt?
+    - What are the causes and effects of the water shortage problem in Egypt?
+    - What is Egypt situation from water availability?
+    - Why is Egypt has a water shortage problem?
+    - What is the reason behind water shortage in Egypt?
+
+
+- intent: bad_use_water_resources
+  examples: |
+    - Can you tell me more about the inefficient use of water resources?
+    - What are some examples of inefficient water use in various sectors?
+    - How does inefficient water use contribute to the water scarcity problem?
+    - Can you provide more examples of how water is wasted or misused?
+    - What are human actions that causes water waste?
+    - give me example of actions we do in daily basis that causes water waste
+
+- intent: Egypt_main_water_resources
+  examples: |
+    - What are the water resources that Egypt depends on?
+    - What are the primary sources of water for Egypt?
+    - Can you tell me more about the water resources that Egypt relies on?
+    - What are the water sources that support Egypt's water supply?
+    - What is the main resource for water in Egypt?
+
+
+- intent: Egyptian_government_reduce_water_efforts
+  examples: |
+    - Tell me about the Egyptian governments efforts to reduce water waste.
+    - How is the Egyptian government addressing water waste reduction?
+    - What actions has the Egyptian government taken to minimize water waste?
+    - Can you provide information about the measures taken by the Egyptian government to curb water waste?
+    - What is the Egyptian government doing to address water waste issue?
+
+- intent: our_role_water_waste
+  examples: |
+    - What can we do to address the water shortage problem?
+    - What are some solutions to address the water shortage problem?
+    - How can we tackle the water scarcity issue?
+    - Can you suggest ways to alleviate the water shortage problem?
+    - What should we do towards water waste isuue?
+    - What is individuals role towards conserving water?
+
+
+- intent: people_address_climate_crisis
+  examples: |
+    - What can we as individuals do to address the climate crisis?
+    - How can individuals contribute to addressing the climate crisis?
+    - What steps can we take as individuals to address the climate crisis?
+    - Can you suggest ways in which individuals can contribute to addressing the climate crisis?
+    - What can people do to solve climate crisis?
+    - What can we do to help address climate change?
+    - Tell me list of the things we can do to address the climate change crisis.
+    - What actions can we take to slow down or reverse the effects of climate change?
+
+- intent: government_solve_climate_crisis
+  examples: |
+    - What are the procedures taking by governments to address the climate crisis?
+    - How are governments responding to the climate crisis?
+    - Can you tell me about the steps governments are taking to address the climate crisis?
+    - What measures are governments taking to tackle the climate crisis?
+    - How is the government dealing with climate crisis?
+
+
+- intent: thoughts_drilling_national_parks
+  examples: |
+    - What are your thoughts on drilling in national parks?
+    - What is your opinion on oil and gas drilling in national parks?
+    - What are the potential consequences of drilling for oil and gas in national parks?
+    - Can you provide information on the debate over drilling in national parks?
+    - Do you think it's ok for drilling?
+
+- intent: drilling_useful_economic_opinion
+  examples: |
+    - But what about the economic benefits that come from drilling?
+    - Are there any potential economic benefits of drilling in national parks?
+    - What are the economic and environmental impacts of drilling in national parks?
+    - Can you discuss the trade-off between economic benefits and environmental protection in national parks?
+    - Why people aganist drilling despite it has economic benefits?
+    - Drilling is useful for the economic, why people wants to stop it?
+    - How the economic costs of drilling in national parks can outweigh the benefits?
+    - what is more useful continue drilling for economic benefits or stop it for the environment?
+
+
+- intent: possible_alternatives_to_drilling
+  examples: |
+    - What are some of the alternatives to drilling?
+    - What are some alternatives to drilling for oil and gas?
+    - Can you suggest some alternatives to drilling for fossil fuels?
+    - What are the options for meeting our energy needs without drilling for oil and gas?
+    - What can we do instead of drilling to find energy?
+    
+
+- intent: consequences_of_allowing_drilling
+  examples: |
+    - What would happen if they allow drilling in nattional parks despite the warnings?
+    - What are the potential consequences of allowing drilling in national parks despite warnings?
+    - What could happen if drilling is permitted in national parks despite the warnings?
+    - Can you describe the potential risks of allowing drilling in national parks against warnings?
+    - What are the expected results if people continue to allow drilling?
+
+
+- intent: meat_industry_effects_opinion
+  examples: |
+    - What do you think of the meat industry and its effects on environment?
+    - What is your opinion on the environmental impact of the meat industry?
+    - Can you tell me about the relationship between the meat industry and the environment?
+    - How does the meat industry affect the environment?
+    - What do you think of people who consume lots of meat?
+    - How is meat consumption is harmful for the environmnet?
+
+- intent: meat_industry_reduce_footprint
+  examples: |
+    - How can the meat industry reduce its carbon footprint?
+    - What are some ways the meat industry can reduce its carbon footprint?
+    - Can you suggest some strategies for the meat industry to reduce its environmental impact?
+    - What steps can the meat industry take to minimize its contribution to climate change?
+    - How can be meat industry be less harmful to the environment?
+    - what can we do to address the issue of meat consumption?
+
+
+- intent: greenhouse_gas_emissions_defenition
+  examples: |
+    - what is greenhouse gas emissions?
+    - Can you explain what is meant by greenhouse gas emissions?
+    - What are greenhouse gas emissions and how do they affect the environment?
+    - Can you describe the sources and effects of greenhouse gas emissions?
+    - can you tell me more about gas emissions?
+    - how does greenhouse gas emmisions affect the environment?
+
+- intent: initiatives_address_climate_change
+  examples: |
+    - What kind of policies and initiatives do you think would be effective to address climate change?
+    - What policies and initiatives do you suggest for addressing climate change?
+    - Can you recommend some strategies to address climate change through policy and initiative?
+    - How can governments take action to address climate change through policy and initiative?
+    - Which kind of policies and law that will be fit to solve the climate crisis?
+
+- intent: Norway_recycling_success
+  examples: |
+    - have you heard about Norway success in recycling plastic bottles?
+    - Are you aware of Norway's success in recycling plastic bottles?
+    - Can you tell me more about Norway's plastic bottle recycling achievements?
+    - What can we learn from Norway's success in recycling plastic bottles?
+    - What is Norway situation from recycling?
+    - What is the most successful country in the world at recycling plastic bottles?
+
+- intent: reason_Norway_recycling_successful
+  examples: |
+    - What makes Norway recycling system so successful?
+    - What are the factors contributing to the success of Norway's recycling system?
+    - Can you explain why Norway's recycling system is considered successful?
+    - How has Norway achieved success in its recycling system?
+    - Explain to me the Norway's recycling system?
+    - What made Norway system successful in recycling plastic bottles?
+
+- intent: countries_follow_Norway_lead
+  examples: |
+    - Do you think Norway recycling system can be replicated in other countries?
+    - Is it possible to replicate Norway's recycling system in other countries?
+    - Can other countries adopt Norway's recycling system?
+    - What are the challenges in replicating Norway's recycling system in other countries?
+    - Will other countries follow Norway lead in recycling system?
+    - Can the system laws that applied in Norway apply in Egypt?
+    - Is that system Applicable in Egypt?
+
+- intent: laws_stip_fuel_funding
+  examples: |
+    - Is that true that there are new laws put to strip fossil fuel funding?
+    - Have there been any recent laws aimed at ending fossil fuel funding?
+    - Can you confirm if there are new laws being introduced to stop funding for fossil fuels?
+    - What steps are being taken to reduce funding for fossil fuels?
+    - What are the government efforts to reduce reliance on fossil fuels?
+
+- intent: Egypt_usage_fossil_fuels
+  examples: |
+    - can you tell me about Egypt use of fossil fuels?
+    - What is the situation with Egypt's use of fossil fuels?
+    - Can you provide some information on the use of fossil fuels in Egypt?
+    - How does Egypt use fossil fuels and what are the consequences?
+    - Does Egypt depend heavily on fossil fuels?
+
+- intent: egyptian_government_address_fossil_fuel
+  examples: |
+    - what the egyptian government is doing to address egypt's use of fossil fuels?
+    - What actions is the Egyptian government taking to address the country's use of fossil fuels?
+    - Can you provide information on the Egyptian government's efforts to address fossil fuel use?
+    - How is the Egyptian government addressing the issue of fossil fuel use in the country?
+    - What procedures can be done in Egypt to reduce using fossil fuels?
+
+- intent: specific_actions_government_fuel
+  examples: |
+    - What specific steps have egyptian government taken to solve fossil fuels problem?
+    - What specific actions has the Egyptian government taken to address the problem of fossil fuels?
+    - Can you provide details on the specific measures taken by the Egyptian government to solve the fossil fuels problem?
+    - How has the Egyptian government specifically addressed the issue of fossil fuels in the country?
+    
+
+- intent: fossil_fuels_economic_benefits
+  examples: |
+    - But what about the economic benefits of the fossil fuel industry?
+    - Despite the efforts, doesn't Egypt rely on fossil fuels for its economy? What are the economic benefits of the fossil fuel industry?
+    - What role does the fossil fuel industry play in the Egyptian economy, and are there any economic benefits to it?
+    - Can you explain how the fossil fuel industry impacts the Egyptian economy, and are there any economic benefits to it?
+    
+
+- intent: citizens_reduce_fossil_fuels
+  examples: |
+    - What can we as citizens do to help promote clean energy and reduce our reliance on fossil fuels?
+    - How can individuals promote clean energy and reduce reliance on fossil fuels?
+    - What steps can citizens take to promote clean energy and reduce their use of fossil fuels?
+    - How can we as individuals contribute to promoting clean energy and reducing our dependence on fossil fuels?
+    - What should we do if we wanted to reduce using fossil fuels?
+    - How can I promote to clean energy usage?
+
+- intent: alternative_energy_sources_Egypt
+  examples: |
+    - Are there any alternative energy sources that Egypt is exploring?
+    - Is Egypt exploring any alternative energy sources?
+    - Can you provide information on Egypt's exploration of alternative energy sources?
+    - What steps is Egypt taking towards exploring alternative energy sources?
+    - What is Egypt planning as energy source in the future to replace fossil fuels?
+
+- intent: pepsi_destruction_elephant_habitat
+  examples: |
+    - Have you heard about Pepsi, McDonalds, Nestle, and other major brands being implicated in the illegal destruction of critical elephant habitat?
+    - Are major brands like Pepsi, McDonald's, and Nestle involved in the illegal destruction of critical elephant habitat?
+    - Can you provide information on the involvement of major brands in the destruction of elephant habitat?
+    - What is the connection between major brands like Pepsi, McDonald's, and Nestle, and the destruction of critical elephant habitat?
+    - what environmnetal violation pepsi have done?
+    - Why people consider companies like pepsi and McDonald's guilty in polluting the environment?
+    - Can you give me some of the names of these companies thah harm the environment?
+
+- intent: boycotting_pepsi_elephants_habitats
+  examples: |
+    - What can we do about it? Should we boycott these companies?
+    - How can we address the involvement of major brands in the destruction of elephant habitat? Is boycotting these companies a solution?
+    - What steps can we take to address the issue of major brands' involvement in the destruction of elephant habitat? Is boycotting these companies effective?
+    - How can we as individuals tackle the problem of major brands' involvement in the destruction of elephant habitat? Can boycotting these companies make a difference?
+    - should I stop buying from pepsi because they destroy elephant habitats?
+    - What can I do with McDonald's as a response on them polluting the environment?
+    - What can we do with these companies that violates our environment?
+
+- intent: organization_role_elephants_habitat
+  examples: |
+    - Do you know any organizations that are working on this issue?
+    - Can you provide information on organizations working to address the issue of major brands' involvement in the destruction of elephant habitat?
+    - What organizations are working towards addressing the involvement of major brands in the destruction of elephant habitat?
+    - Are there any organizations that are actively working on the issue of major brands' involvement in the destruction of elephant habitat?
+    
+
+- intent: biggest_challenges_climate_change
+  examples: |
+    - What do you think are some of the biggest challenges we face in addressing climate change?
+    - What are the major obstacles in addressing climate change?
+    - Can you identify the significant challenges we encounter in addressing climate change?
+    - What are the critical hurdles in tackling climate change?
+    - What can prevent us from addressing climate change issue?
+    - what are the main obstacles that can face us when we solve climate change problem?
+    - Are these steps to fight the climate change faced with any problems?
+
+- intent: are_there_efforts_climate_change
+  examples: |
+    - Do you see that there are good efforts done to address the climate chang lately?
+    - Are there any positive developments in the efforts to address climate change?
+    - Have there been any recent notable efforts to address climate change?
+    - Can you provide information on the progress made in addressing climate change?
+    - What do you think of the efoorts made to address climate change?
+
+- intent: using_fossil_fuels_vehicles
+  examples: |
+    - What do you think of people using fossil-fuel vehicles instead of electric ones?
+    - What is your opinion on the use of fossil-fuel vehicles instead of electric vehicles?
+    - What is your view on people choosing fossil-fuel vehicles over electric vehicles?
+    - What are your thoughts on the use of fossil-fuel vehicles compared to electric vehicles?
+    - I'm confused between buying fossil fuel car and electric car. what do suggest me to buy?
+    - I am going to buy a new car what is your take on that?
+
+- intent: harmful_effects_private_jets
+  examples: |
+    - What are the harmful effects of private jets on the environmnet?
+    - How do private jets negatively impact the environment?
+    - Can you provide information on the environmental harm caused by private jets?
+    - What are some of the environmental consequences of using private jets?
+    - What do you thik of private jets usage?
+
+- intent: prevent_private_jets_damages
+  examples: |
+    - Is there anything that can be done to reduce the carbon emissions from private jets?
+    - Are there any ways to decrease the carbon emissions from private jets?
+    - What measures can be taken to reduce the carbon footprint of private jets?
+    - Can private jets' carbon emissions be reduced? If so, how?
+    - How to reduce carbon emissions caused by private jets?
+
+
+
+- intent: Egypt_parks_during_pandemic
+  examples: |
+    - Can you tell me what Egypt did with its national parks during the pandemic?
+    - Did Egypt take any actions regarding its national parks during the pandemic?
+    - What measures did Egypt take in relation to its national parks during the pandemic?
+    - Can you provide information on how Egypt's national parks were managed during the pandemic?
+    - What should we do if stores continue to use plastic bags?
+    - Tell me some of the actions Egypt did during lockdown to prevent virus from spreading?
+    - How did Egypt dealt with public places during lockdown?
+
+- intent: effects_of_closing_parks
+  examples: |
+    - That sounds like a good measure. Did it have any positive effects on the environment?
+    - Did the measures taken by Egypt regarding its national parks during the pandemic have any positive environmental effects?
+    - What were the environmental impacts of Egypt's measures on its national parks during the pandemic?
+    - Can you provide information on the environmental benefits of Egypt's actions on its national parks during the pandemic?
+    - Was the closing of parks in egypt during the pandemic useful?
+    - Did the shutdown came with benefits to the environment?
+
+
+- intent: measures_protect_during_pandemic
+  examples: |
+    - That is good to know. Are there any other measures being taken to protect the environment during the pandemic?
+    - What other measures are being taken to protect the environment during the pandemic?
+    - What steps are being taken to protect the environment amidst the pandemic?
+    - Can you provide information on additional measures for environmental protection during the pandemic?
+    - What have the Egyptian government done during pandemic to protect the environment?
+
+
+
+- intent: Egypt_challenges_switching_renewable
+  examples: |
+    - What are the challenges that Egypt faces in switching to renewable energy?
+    - What are the obstacles that Egypt must overcome to transition to renewable energy?
+    - What challenges does Egypt face in shifting to renewable energy sources?
+    - Can you describe the challenges that Egypt encounters in transitioning to renewable energy?
+    - What can prevent Egypt from fully depending on renewable energy?
+
+
+
+- intent: using_plastic_food_packaging
+  examples: |
+    - Is using plastic bottles for Food packaging is harmful for the environment?
+    - What is the environmental impact of using plastic bottles for food packaging?
+    - How does using plastic bottles for food packaging affect the environment?
+    - Can you describe the negative effects of using plastic bottles for food packaging on the environment?
+    - Why people consider using plastics in food industry is wrong?
+
+
+
+
+- intent: neglecting_climate_action
+  examples: |
+    - what will be the result to Neglecting the climate change issue?
+    - What are the consequences of ignoring the issue of climate change?
+    - What happens if we neglect the problem of climate change?
+    - What are the outcomes of disregarding climate change? 
+    - What will happen if we continue to ignore the climate change issue?
+    - What will happen if we don't give much attention to climate change?
+
+
+
+- intent: get_attention_climate_change
+  examples: |
+    - I'm annoyed that no one cares about climate change. How to get people give more attention to climate change?
+    - What can be done to increase public awareness and concern about climate change? 
+    - How to make people care more about climate change?
+    - What steps can be taken to encourage people to take climate change seriously? 
+    - How can we get people attention to regard and the environment?
+    - What is the solution to the less of education and regarding to climate change issue?
+
+
+
+- intent: Egypt_parks_during_pandemic
+  examples: |
+    - Can you tell me what Egypt did with its national parks during the pandemic?
+    - Did Egypt take any actions regarding its national parks during the pandemic?
+    - What measures did Egypt take in relation to its national parks during the pandemic?
+    - Can you provide information on how Egypt's national parks were managed during the pandemic?
+    - Tell me some of the actions Egypt did during lockdown to prevent virus from spreading?
+    - How did Egypt dealt with public places during lockdown?
+
+- intent: effects_of_closing_parks
+  examples: |
+    - That sounds like a good measure. Did it have any positive effects on the environment?
+    - Did the measures taken by Egypt regarding its national parks during the pandemic have any positive environmental effects?
+    - What were the environmental impacts of Egypt's measures on its national parks during the pandemic?
+    - Can you provide information on the environmental benefits of Egypt's actions on its national parks during the pandemic?
+    - Was the closing of parks in egypt during the pandemic useful?
+    - Did the shutdown came with benefits to the environment?
+
+- intent: pandemic_positive_effects
+  examples: |
+    - Can you give me some examples of how the pandemic has positively affected the environment?
+    - How has the pandemic positively impacted the environment? Can you provide some examples?
+    - Can you provide examples of how the environment has benefited from the pandemic?
+    - What are some ways in which the pandemic has had a positive impact on the environment?
+    - How was the lockdown a chance for the nature to heal?
+    - What was the benefits of pandemic to the environment?
+
+- intent: pandemic_negative_effects
+  examples: |
+    - Are there any negative effects on the environment from the pandemic?
+    - Have there been any negative environmental impacts from the pandemic?
+    - What are some negative environmental impacts of the pandemic?
+    - What are the harmful effects of the lockdown on the environment?
+    - Was the people staying home during lockdown harmful to the environment?
+
+- intent: pandemic_affects_air_quality
+  examples: |
+    - How has the pandemic affected the air quality in urban areas?
+    - How has the pandemic impacted air quality in urban areas?
+    - Can you provide information on the effects of the pandemic on air quality in cities?
+    - What is the impact of the pandemic on air quality in urban areas?
+    - What happened to the air quailty in big cities during quarntine?
+    - was the quarntine helpful to the air quality in big cities?
+
+- intent: pandemic_affects_gardens_parks
+  examples: |
+    - How about gardens and parks? Have they been affected by the pandemic?
+    - Have gardens and parks been impacted by the pandemic?
+    - Can you provide information on how the pandemic has affected gardens and parks?
+    - What is the impact of the pandemic on gardens and parks?
+    - What happened to gardens and parks during lockdown?
+
+- intent: pandemic_positive_effects_egypt
+  examples: |
+    - Can you tell me how the pandemic has affected the environment in Egypt?
+    - How has the pandemic impacted the environment in Egypt?
+    - Can you provide information on the effects of the pandemic on Egypt's environment?
+    - How was the pandemic useful to Egypt somehow environmentally?
+    - What was the benefits of lockdown on the environment in Egypt?
+    - How the environment in Egypt was affected by the pandemic?
+   
+- intent: pandemic_negative_effects_egypt
+  examples: |
+    - What are some of the negative effects of the pandemic on the environment in Egypt?
+    - What are the adverse effects of the pandemic on Egypt's environment?
+    - Can you provide information on the negative environmental impacts of the pandemic in Egypt?
+    - How has the pandemic negatively affected Egypt's environment?
+    - What was the harmful effects of coronavirus lockdown on the environment in Egypt?
+
+- intent: government_efforts_pandemic_issue
+  examples: |
+    - What has the government done to address these issues?
+    - How has the government addressed the environmental issues caused by the pandemic?
+    - Can you provide information on the government's actions to tackle pandemic-related environmental issues?
+    - What steps has the government taken to address the environmental issues caused by the pandemic?
+    - How the Egyptian government dealt with environmental problems related to the lockdown?
+    - What have the government done to protect the environment during lockdown?
+
+- intent: people_role_pandemic_issue
+  examples: |
+    - What can I do to help protecting the environment?
+    - What actions can individuals take to contribute to environmental protection during the pandemic?
+    - Can you provide information on how individuals can help protect the environment during the pandemic?
+    - How can individuals contribute to environmental protection during the pandemic?
+    - What should I do if i want to help the environment during pandemic?
+    
+
+- intent: who_is_Greta_Thumberg
+  examples: |
+    - Who is Greta Thumberg?
+    - Can you tell me more about Greta Thunberg?
+    - Can you tell me who is Greta Thunberg and what have she done?
+    - Who is Greta Thunberg and what is she known for?
+    - What is Greta Thunberg's story and why is she famous?
+    - I want to know everything about Who is Greta Thumberg
+    - Who is the girl in the viral video that was crying because of the climate change?
+
+- intent: Greta_nobel_peace_nomination
+  examples: |
+    - What was Greta Thumberg latest achivements?
+    - What was Greta Thumberg latest news in the climate field?
+    - Have Greta Thumberg got the recogontion she deserves?
+    - Is it true that Greta Thunberg has been nominated for the Nobel Peace Prize?
+    
+- intent: reason_greta_nobel_nomination
+  examples: |
+    - Why was greta thumberg nomintaed for nobel peace prize?
+    - What do you think makes her worthy of the Nobel Peace Prize nomination?
+    - What are the reasons behind Greta Thunberg's nomination for the Nobel Peace Prize?
+    - What make Greta Thumberg one of the nobel peace prize nominations?
+    - Why was Greta Thunberg nominated for the Nobel Peace Prize and what makes her deserving of it?
+
+- intent: greta_famous_climate_works
+  examples: |
+    - What are some of the actions that Thunberg has taken to raise awareness about climate change?
+    - What measures has Greta Thunberg taken to increase awareness about climate change?
+    - Can you provide information on the actions taken by Greta Thunberg to raise awareness about climate change?
+    - How has Greta Thunberg raised awareness about climate change?
+    - Can you give me examples of actions Greta Thumberg done to protect the environment?
+    - Do you think Greta speech will have an impact on world leaders?
+
+- intent: IKEA_renewable_materials
+  examples: |
+    - What have IKEA done to protect the environment?
+    - What has IKEA done to promote environmental protection?
+    - Can you provide information on IKEA's efforts to protect the environment?
+    - How has IKEA contributed to environmental protection?
+    - Have you heard about IKEA intiative for renewable materials?
+    - Is IKEA is helping towards sustainable future for the materials or not?
+    - Name a company that have strict laws with protecting the environment.
+
+- intent: IKEA_future_plans
+  examples: |
+    - Yes, that is really impressive. Do they have any plans for the future?
+    - What are IKEA's future plans for environmental protection?
+    - Can you provide information on IKEA's plans for environmental protection in the future?
+    - What steps is IKEA planning to take in the future to protect the environment?
+    - What else IKEA planning to do to be environmentally-friendly?
+
+- intent: people_support_IKEA_efforts
+  examples: |
+    - That is great news! How can I support their efforts?
+    - What can I do to support IKEA's environmental protection efforts?
+    - How can I contribute to IKEA's efforts to protect the environment?
+    - What actions can I take to support IKEA's environmental protection efforts?
+    - What can I do to follow IKEA's lead in saving the environment?
+    - How should I protect the environment in my life?
+
+- intent: furniture_industry_environemnt_effects
+  examples: |
+    - Does the furniture industry harmful for the environment?
+    - What is the impact of the furniture industry on the environment?
+    - How does the furniture industry affect the environment?
+    - What are the environmental effects of the furniture industry?
+    - What is the relation between furniture and deforestation?
+    - I am concerned about the impact of furniture production and consumption on the environment. Can you provide me with some information about this?
+    - Can you tell me more about how furniture production affects the environment?
+
+- intent: furniture_companies_helping_environemnt
+  examples: |
+    - are there any furniture companies that tries to reduce this waste of materials?
+    - Which furniture companies are taking steps to reduce material waste?
+    - Are there any furniture companies working to minimize material waste?
+    - Can you provide information on furniture companies that are trying to reduce material waste?
+    - Do you know furniture companies that is environmentally-friendly?
+    - Which furntiture company would you recommend that reduce material waste?
+
+- intent: people_reduce_furniture_impact
+  examples: |
+    - What can we do to reduce the environmental impact of furniture production and consumption?
+    - How can we minimize the environmental impact of furniture production and consumption?
+    - What measures can be taken to reduce the environmental impact of furniture production and consumption?
+    - Can you suggest ways to reduce the environmental impact of furniture production and consumption?
+    - What should we do to reduce the harmful effects of furniture to the environment?
+    - How can we reduce the harmful effects of the furniture production?
+    
+- intent: furniture_possible_alternatives
+  examples: |
+    - Are there any other alternatives to traditional furniture that we should consider?
+    - What are some alternative options to traditional furniture that we should consider?
+    - Can you suggest any other alternatives to traditional furniture that we should explore?
+    - What are some non-traditional furniture options that we can consider?
+    - What kind of sustainable furniture that can I buy to keep the environment clean?
+    - What should I buy instead of the traditional furniture?
+    - Can you tell me about good alternatives to ordinary furniture?
+
+- intent: companies_trash_human_health
+  examples: |
+    - How can the companies trash causing danger to human health?
+    - In what ways can company waste pose a threat to human health?
+    - Can company waste be harmful to human health, and if so, how?
+    - What are the potential dangers to human health caused by company waste? 
+    - What are the effects of companies waste on human health?
+
+- intent: company_effects_environment
+  examples: |
+    - And how have these companies pollute the environment?
+    - What are the ways in which companies pollute the environment?
+    - How do companies contribute to environmental pollution?
+    - Can you provide examples of how companies pollute the environment?
+    - What have the companies done to pollute the environment?
+    - Why people consider companies have very harmful effects on the environment?
+
+- intent: government_role_polluting_companies
+  examples: |
+    - What should the government do with companies and factpries that are polluting the environment?
+    - What actions do you think the government should take against companies and factories that are polluting the environment?
+    - What measures do you believe the government should take to address environmental pollution by companies and factories?
+    - Can you suggest what actions the government should take against companies and factories that are polluting the environment?
+    - The factories polluting to the environment need to stop. What is the government role in this?
+
+- intent: potential_alternatives_for_companies
+  examples: |
+    - What are the alternatives for these companies that pollute the environment?
+    - What are the options available to companies that pollute the environment?
+    - Can you suggest alternatives for companies that are causing environmental pollution?
+    - What are the potential alternatives for companies that are polluting the environment?
+    
+
+- intent: Egyptian_organizations_companies_trash
+  examples: |
+    - Are there any organizations in Egypt that are working to address this issue?
+    - What organizations in Egypt are working to address environmental pollution?
+    - Can you provide information on organizations in Egypt that are addressing environmental pollution?
+    - Which organizations in Egypt are focused on addressing environmental pollution?
+    - What are Egyptian organizations that interested in pollution caused by factories?
+
+- intent: Heinz_paper_bottles
+  examples: |
+    - Have you heard about Heinz tomato ketchup being packaged in paper bottles?
+    - Is it true that Heinz tomato ketchup will be available in paper bottles?
+    - Did you hear the news about Heinz tomato ketchup coming in paper bottles?
+    - Can you provide information on Heinz's use of paper bottles for their tomato ketchup?
+    - What have Heinz done to protect the environment?
+    - Can you give me an example of compny that made any initative to protect the environment?
+    - Is that true that Heinz tomato ketchup is going to be in paper bottles?
+
+- intent: Heinz_bottles_working_method
+  examples: |
+    - How will the paper bottles of Heinz work?
+    - Can you provide more information on how Heinz's paper bottles will function?
+    - How will Heinz's paper bottles work as a packaging option?
+    - What can you tell me about the functionality of Heinz's paper bottles?
+    - What is the method of heinz paper bottles to work?
+
+
+- intent: companies_follow_Heinz_lead
+  examples: |
+    - Do you know of any other companies that are making similar efforts to reduce waste?
+    - Are there other companies that are taking steps to reduce waste like Heinz?
+    - Can you provide information on other companies that are taking steps to reduce waste?
+    - Which other companies are making efforts to reduce waste like Heinz?
+    - Can you tell me of examples of companies reduce waste?
+    - Are there companies follow Heinz's lead in reducing waste?
+
+
+- intent: threats_face_oceans
+  examples: |
+    - Can you tell me some of the threats that the oceans face nowdays?
+    - What are some of the current threats facing the world's oceans?
+    - Can you provide information on the threats that the oceans are facing today?
+    - What are the current challenges and threats that the oceans are facing?
+    - What are the threats that faces marine life?
+
+- intent: our_role_protecting_ocean
+  examples: |
+    - And what can we do to save the creatures live in the ocean?
+    - What actions can we take to protect marine life in the ocean?
+    - How can we help to preserve the lives of ocean creatures?
+    - Can you suggest ways to save the lives of the creatures that inhabit the ocean?
+    - What can I do if i want to help saving marine creatures?
+
+- intent: name_organizations_ocean_conservation
+  examples: |
+    - Can you give me the names of organizations that specialized in ocean conservation?
+    - What are some organizations that focus on ocean conservation?
+    - Can you provide information on organizations that specialize in preserving the ocean?
+    - Which organizations are dedicated to ocean conservation?
+    - I'm interested in marine life. can you suugest me global organizations works for protecting marine life?
+
+
+- intent: organizations_actions_protect_oceans
+  examples: |
+    - What could these organizations do to protect the oceans?
+    - What are some actions that ocean conservation organizations can take to protect the oceans?
+    - Can you suggest ways in which organizations focused on ocean conservation could protect the oceans?
+    - What actions can ocean conservation organizations take to protect the oceans?
+    - What is organizations role towards oceans?
+    - What are those organizations duties to protect the oceans?
+
+- intent: ocean_pollution_continues
+  examples: |
+    - What could happen to marine creatures if the ocean pollution continues? 
+    - What are the potential consequences for marine creatures if ocean pollution persists?
+    - How could ongoing ocean pollution affect marine creatures?
+    - Can you describe the potential impacts of ocean pollution on marine creatures?
+    - What can happen if ocean pollution kept going without laws to stop it?
+
+- intent: coal_ash_harmful_effects
+  examples: |
+    - What exactly is coal ash and why is it harmful?
+    - Can you explain what coal ash is and why it is harmful?
+    - What is coal ash and why is it considered harmful?
+    - How does coal ash harm the environment and human health?
+    - Why people consider coal ash against environment?
+
+- intent: prevent_coal_ash
+  examples: |
+    - What can be done to prevent this kind of pollution?
+    - What measures can be taken to prevent this type of pollution?
+    - How can we stop this type of pollution from occurring?
+    - Can you suggest ways to prevent this type of pollution?
+    
+
+- intent: organizations_protect_coal_ash
+  examples: |
+    - Are there any organizations or groups working to address this issue?
+    - Are there any groups or organizations working to tackle this issue?
+    - Can you provide information on groups or organizations dedicated to addressing this issue?
+    - Which groups or organizations are working to address this issue?
+    
+- intent: rainforest_faces_threats
+  examples: |
+    - What are the threats that faces rainforests?
+    - How do rainforests face threats?
+    - What dangers do rainforests encounter?
+    - What perils do rainforests confront? 
+    
+
+- intent: consequences_pollution_rainforest
+  examples: |
+    - What are the consequences of rainforests pollution?
+    - How does pollution affect rainforests? 
+    - What are the outcomes of rainforest pollution?
+    - What effects does pollution have on rainforests? 
+    - What will hapen to Amazon rainforest if the environmental violations continues there?
+
+- intent: organizations_role_protect_rainforest
+  examples: |
+    - What are some organizations that are working to protect the rainforest?
+    - Which groups are dedicated to preserving the rainforest? 
+    - What are some groups that aim to save the rainforest? 
+    - What organizations focus on rainforest conservation? 
+    - Can you tell me some of the organizations that care to protect rainforest?
+
+- intent: people_role_protect_rainforest
+  examples: |
+    - What can we do to stop cutting the Amazon rainforests?
+    - How can we prevent deforestation in the Amazon rainforest?
+    - What steps can we take to halt Amazon rainforest destruction?
+    - What measures can we adopt to protect the Amazon rainforest from cutting?
+    - What could be done to help to protect rainforests?
+
+- intent: cutting_down_amazon_rainforest
+  examples: |
+    - Why cutting down the Amazon rainforest is a big threat to the environment?
+    - What makes deforestation in the Amazon rainforest a significant environmental threat?
+    - How does cutting down the Amazon rainforest pose a danger to the environment?
+    - Why is Amazon rainforest cutting a major environmental concern? 
+    - What is the harmful effects of cutting down trees in amazon rainforests?
+
+- intent: gas_spill_effects
+  examples: |
+    - What kind of impact has the gas spill on the environment?
+    - How does a gas spill affect the environment?
+    - What are the consequences of a gas spill on the environment? 
+    - How does a gas spill impact the natural environment?
+    - What swill happen to the environment if there was a gas leakage?
+
+- intent: clean_up_gas_spill
+  examples: |
+    - What actions are being taken to address the spill and clean up the affected area? 
+    - How is the spill being addressed and the affected area cleaned up? 
+    - What measures are being taken to address the spill and remediate the affected area?
+    - What are the steps taken to clean any areas polluted with gas spill?
+    
+- intent: prevent_future_gas_spill
+  examples: |
+    - What steps can be taken to prevent a similar incident from occurring in the future?
+    - How can we avoid a recurrence of an incident like this in the future?
+    - What can be done to ensure that something like this does not happen again in the future?
+    - How to stop any spill gas incedents in the future from happening?
+    
+- intent: climate_change_definition
+  examples: |
+    - Can you explain to me what climate change ?
+    - What is the definition of climate change?
+    - How would you describe climate change?
+    - What does the term climate change mean?
+    - can you tell me more about what is climate change?
+
+
+- intent: main_reasons_climate_change
+  examples: |
+    - what is the reason behind climate change?
+    - What has caused climate change?
+    - What factors are responsible for climate change?
+    - What are the reasons for climate change?
+    - Why the climate change happened in the first place?
+    - who is responsible for climate change?
+    - I am curious about how the climate change happened. can you tell me how?
+
+- intent: consequences_of_climate_change
+  examples: |
+    - what are the consequences of climate change?
+    - What are the impacts of climate change?
+    - What are the effects of climate change?
+    - How does climate change affect the environment and society?
+    - What are the expected results of climate change issue?
+    - How harmful the climate change effects will be in the future?
+    - How could the earth get hurt from climate change?
+    - What can happen in the future if the climate crisis continues?
+
+- intent: economic_results_climate_change
+  examples: |
+    - Does the climate change have economic and social consequences also?
+    - What are the economic and social impacts of climate change?
+    - How does climate change affect the economy and society?
+    - What is the relationship between climate change and economic and social consequences?
+    - How has the climate change affected the economic?
+    - What are the economic effects of climate change
+
+- intent: example_economy_effects_climate_change
+  examples: |
+    - I don't totally get it. can you explain with example of how the climate change can affect the economy?
+    - Give me an example of economic damages because of climate change
+    - tell me in detail why do tou think economy can be hurt because of climate change.
+    - can you give me examples of economic effects of climate change?
+    - What are some examples of economic effects of climate change?
+    
+
+- intent: my_duty_climate_change
+  examples: |
+    - I am concern about climate change what can I do in my daily life to help ?
+    - What actions can people take in their daily lives to address climate change?
+    - How can individuals contribute to addressing climate change in their daily lives? 
+    - What can I do in my daily life to help address climate change?
+    - How can I help protecting the earth from climate change?
+    - What is our duty towards climate change issue?
+    - Is there a solution that can end the climate crisis once and for good?
+
+
+- intent: right_way_climate_change
+  examples: |
+    - Are we on the right way in our fight against climate change?
+    - How effective are current efforts in addressing climate change?
+    - Are we making progress in the fight against climate change? 
+    - How successful have we been in combating climate change? 
+    - Do you think that the steps taken to address climate change is enough?
+    - How do you evaluate the efforts done to solve climate change issue?
+    - Is it too late to make a difference in the climate change issue?
+
+
+- intent: human_actions_climate_change
+  examples: |
+    - Did the human actions lead to increase the climate change problem?
+    - Have human actions contributed to the problem of climate change? 
+    - What is the relationship between human actions and the problem of climate change?
+    - How have human actions affected the problem of climate change?
+    - Why humans considered as the first responsible of the climate crisis?
+
+
+
+- intent: not_effective_recycled_materials
+  examples: |
+    - what are the least material in recycling that is not effective?
+    - Which materials are least effective in recycling?
+    - What types of recyclable materials are not as effective as others? 
+    - Are there any materials that are not efficient to recycle?
+    - Can you tell me about items that is not very good at recycling?
+    - Can you give me examples of some non-recyclable materials?
+    - Between all the materials that get recycled, what is the hardest one to get recycled?
+
+- intent: plastics_recycling_not_effective
+  examples: |
+    - Why is plastics recycling not effective?
+    - What makes plastic recycling difficult?
+    - What are the challenges with recycling plastic materials? 
+    - Why is plastic recycling less effective than other types of recycling? 
+    - What makes plastic recycling harder than othet types of recycling?
+    - What are the obstacles that prevent us from recycle plastics?
+    - What is the reason behind the law rates of plastics recycling?
+
+
+- intent: consequences_bad_plastics_recycling
+  examples: |
+    - That is interesting. What are the consequences of low plastics recycling rates?
+    - What are the impacts of low plastic recycling rates? 
+    - How does low plastic recycling rates affect the environment and society?
+    - What are the effects of low plastic recycling rates on the environment?
+    
+
+- intent: our_role_plastics_recycling
+  examples: |
+    - What can we do to address this problem?
+    - How can we take action to address the problem of low plastic recycling rates?
+    - What steps can be taken to solve the problem of low plastic recycling rates?
+    - What can be done to improve plastic recycling rates and reduce waste?
+    - What to deal with low rates of plastics recycling?
+
+- intent: stop_plastics_recycling
+  examples: |
+    - What will happen if we stop recycling plastics?
+    - What are the potential consequences of halting plastic recycling?
+    - How would the environment be affected if we stopped recycling plastics?
+    - What are the effects of discontinuing plastic recycling? 
+    - What would be the results if we stopped the plastics recycling?
+
+- intent: daily_care_of_environment
+  examples: |
+    - I want to start to take care of my environment and make less violations towards environment. What do you advise me to do?
+    - What actions can I take to be more environmentally conscious and reduce my environmental impact?
+    - How can I make a positive impact on the environment and reduce violations? 
+    - What steps can I take to be more environmentally responsible and reduce my environmental footprint?
+    - I want to give more care to the environment. What do you suggest me to do as a start?
+    - What are the actions that I can do on daily basis that helps the environment?
+
+- intent: one_car_to_work
+  examples: |
+    - That is good way to start. And what can I do in my work to keep the planet cleaner?
+    - How can I promote sustainability and reduce my environmental impact in the workplace?
+    - What steps can I take at work to contribute to a cleaner planet? 
+    - How can I make my workplace more environmentally friendly and reduce its environmental impact? 
+    - Give me example of how can we reduce our energy consumption in our daily routine?
+    - How can we reduce pollution in our day?
+
+
+- intent: why_carpooling_useful
+  examples: |
+    - How taking only one car with my collegues to work will be useful for the environment?
+    - In what ways can carpooling with colleagues to work benefit the environment?
+    - How does carpooling with colleagues to work help the environment? 
+    - What are the environmental advantages of carpooling with colleagues to work?
+    - What are the benefits of using one car to work on the environment?
+
+- intent: heat_dome_defenition
+  examples: |
+    - What is a heat dome?
+    - Can you explain what a heat dome is? 
+    - What exactly is a heat dome?
+    - What is meant by the term 'heat dome'?
+    - what do you know about what is heat dome?
+
+- intent: impacts_of_heat_dome
+  examples: |
+    - What are the potential consequences of the heat dome?
+    - What are the possible impacts of a heat dome?
+    - How can a heat dome affect people and the environment?
+    - What are the harmful effects that a heat dome can make?
+    - Why people consider heat dome is very harmful?
+
+- intent: heat_climate_change_relation
+  examples: |
+    - Is this heat dome related to climate change?
+    - Is there a connection between the heat dome and climate change? 
+    - How does the heat dome relate to climate change?
+    - Can the heat dome be attributed to climate change? 
+    - Is climate change one of the main reasons of heat dome?
+
+- intent: stay_safe_heat_waves
+  examples: |
+    - What can we do to protect ourselves during a heat wave?
+    - How can we stay safe during a heat wave?
+    - What measures can be taken to prevent heat-related illnesses during a heat wave?
+    - What can individuals do to protect themselves from the effects of a heat wave? 
+    - What could be done to avoid getting hurt by heat waves?
+    - What should be the role of individuals towards a heat wave?
+
+
+- intent: difference_heat_wave_dome
+  examples: |
+    - what is the difference between heat wave and heat dome?
+    - How does a heat wave differ from a heat dome?
+    - What distinguishes a heat wave from a heat dome? 
+    - What is the contrast between a heat wave and a heat dome? ?
+    - explain to me the difference between heat wave and heat dome.
+    - can you tell me the differences between heat dome and heat wave?
+
+- intent: heat_wave_form
+  examples: |
+    - How does a heat wave form
+    - What is the process by which a heat wave is formed?
+    - What is the origin of heat waves?
+    - How do heat waves come about?
+    - What is the mechanism behind the formation of a heat wave? 
+    - Why does heat waves happen?
+    - How a heat wave forms from the beginning?
+
+- intent: threats_heat_waves
+  examples: |
+    - What are the threats of heat waves on environment and human health?
+    - How do heat waves pose a threat to human health and the environment? 
+    - What are the risks associated with heat waves for human health and the environment?
+    - What are the potential dangers of heat waves on human health and the environment?
+    - What scould be the consequences of heat waves?
+    - How far the damage of heat waves on our health?
+
+- intent: maximum_temperature_going_out
+  examples: |
+    - What are the maximum temperatures that you should not go out home with during a heat wave?
+    - What are the recommended maximum temperatures for going outside during a heat wave?
+    - At what temperature is it unsafe to be outside during a heat wave? 
+    - How hot is too hot to go outside during a heat wave? 
+    - When can we say it's not possible to go out because of high temperature?
+    - What is the temperature that you are not allowed to leave home after?
+    - What is the safe temperature that you can not go outdoors if its above this degree?
+    - there is a heat wave and I want to go out but I don't know if it's safe. How can I know if it's safe to go outdoors?
+
+- intent: government_role_heat_waves
+  examples: |
+    - What should be the role of government towards a heat wave?
+    - What is the responsibility of the government in addressing the impacts of a heat wave? 
+    - How can the government take action to mitigate the effects of a heat wave?
+    - What measures can the government implement to protect vulnerable populations during a heat wave? (
+    - What is the government duty towards heat waves problem?
+    - How should the government deal with severe weathe conditions like heat waves?
+
+
+- intent: SDGs_definition
+  examples: |
+    - can you tell me about the Sustainable Development Goals (SDGs)
+    - What are the Sustainable Development Goals (SDGs) and what do they entail?
+    - Can you provide information on the purpose and scope of the Sustainable Development Goals (SDGs)? 
+    - What is the significance of the Sustainable Development Goals (SDGs) in the context of global development? 
+    - What do you know about SDGs?
+    - I heard about something called SDGs what does that mean?
+    - What does SDGs stands for?
+
+- intent: names_of_SDGs
+  examples: |
+    - Can you tell me the names of all the SDGs?
+    - What are the 17 Sustainable Development Goals (SDGs) and their names? 
+    - Can you provide a list of the names of all the Sustainable Development Goals (SDGs)?
+    - What are the titles of the 17 Sustainable Development Goals (SDGs)?
+    - What are the main sustainable development goals?
+    - I don't know any of sustainable development goals. Can you tell me their names?
+
+- intent: date_creator_of_SDG
+  examples: |
+    - Who issued these goals and when?
+    - When were the Sustainable Development Goals (SDGs) adopted and by whom? 
+    - Who is responsible for the creation of the Sustainable Development Goals (SDGs) and when were they developed? 
+    - What organization or group is behind the creation and adoption of the Sustainable Development Goals (SDGs), and when did this occur? 
+    - When was SDGs first came out?
+    - can you tell about the beginning of SDGs?
+    - When was those goals first released?
+    - When was SGDs first published?
+
+- intent: SDG_related_environment
+  examples: |
+    - Which SDGs are related to the environment?
+    - What are the Sustainable Development Goals (SDGs) that focus on environmental sustainability?
+    - Which SDGs prioritize the preservation and protection of the environment?
+    - Can you identify the Sustainable Development Goals (SDGs) that have a focus on environmental issues?
+    - Can you tell me specific SDGs that talks about environment?
+    - What are the sustainable goals that gives attention to environmental problems?
+    - What are the goals of SGDs that associate with the environmental goals?
+
+- intent: government_role_achieve_SDG
+  examples: |
+    - What should be the role of government in achieving the SDGs?
+    - How can governments contribute to the achievement of the Sustainable Development Goals (SDGs)?
+    - What is the responsibility of governments in achieving the Sustainable Development Goals (SDGs)?
+    - How can governments collaborate with other stakeholders to achieve the Sustainable Development Goals (SDGs)?
+    - What is the government duty towards applying SDG?
+    - What should be done by the government to achieve SDGs?
+
+
+- intent: our_role_achieving_SDG
+  examples: |
+    - What should be our role in achieving the SDGs?
+    - How can individuals contribute to the achievement of the Sustainable Development Goals (SDGs)?
+    - What steps can we take as individuals to support the achievement of the Sustainable Development Goals (SDGs)?
+    - How can individuals and communities work together to achieve the Sustainable Development Goals (SDGs)?
+    - What can we do to acheive SDGs?
+    - How can people help in achieving sustainable development goals?
+    - What are the responsibilities of the individuals in order to acheive SDGs?
+    - What does it require to acheive those SDGs?
+
+- intent: plastic_waste_mixing_materials
+  examples: |
+    - Can you tell me what will happen if we mixed plastic waste with another materials?
+    - Why mixing plastics with trash is harmful?
+    - Why should we separate plastics from another materials?
+    - What are the effects of putting plastic waste with materials in the same landfills?
+    - What are the harmful effects of mixing materials without seperation?
+    - What are the consequences of mixing plastics and many materials with each other?
+    - What do you think of mixing plastcics with other types of trash?
+    - I'm thinking of putting plastic waste with another materials together in trash bin. What's your opinion?
+
+- intent: wrong_disposal_plastic_waste
+  examples: |
+    - what are the effects of wrong disposal of plastic waste?
+    - What are the impacts of improper disposal of plastic waste?
+    - can you tell me the consequences of throwing plastic waste in the wrong way?
+    - How does incorrect disposal of plastic waste affect the environment?
+    - I'm throwing my platsic waste in a wrong way. what are the expected results of this action?
+    - my neighboor get rid of his plastic waste in wrong way. what will happen next?
+
+- intent: ordinary_sorting_methods
+  examples: |
+    - How can we separate plastic waste from other materials?
+    - What methods can be used to separate plastic waste from other materials?
+    - How can we sort plastic waste from other materials?
+    - What techniques exist for separating plastic waste from other materials?
+    - how can we separate different types of waste from each other?
+
+- intent: solution_garabage_mixing
+  examples: |
+    - How can we deal with the problems of mixing different types of garbage with each other?
+    - What is the best thing to do with different types of waste to get use of them?
+    - What is the best way to handle our household trash?
+    - How can we get use of our waste instead of getting damaged by them?
+    - What should we do with our garbage?
+    - What can we do with mixed types of garbage in the same trash bin?
+
+- intent: meaning_manual_sorting
+  examples: |
+    - what do you mean by manual sorting?
+    - Excuse me, I don't understand the meaning of manual sorting?
+    - Can you explain to me what is manual sorting?
+    - How they sort garbage in manual sorting?
+    - What is manual sorting?
+    
+- intent: website_sorting_materials
+  examples: |
+    - how your website is going to help in sorting garbage?
+    - What are the newest techniques of separating garbage?
+    - Tell me about one of your features to help the environment.
+    - How have AI dealt with the sorting garbage issue?
+    - What do you offer to help recycling materials?
+    - How can your website help me in separating plastic waste from other materials?
+    - How can your website help me in separating glass waste from other materials?
+    - How can your website help me in separating paper waste from other materials?
+
+- intent: how_to_recycle_plastic
+  examples: |
+    - Can you tell me the steps of recycling plastic?
+    - What is the process of recycling plastic?
+    - How do you recycle plastic?
+    - Can you explain the steps involved in plastic recycling?
+    - tell me how the process of recycling plastics going?
+    - Can you tell me in detail how to recycle plastic?
+    - I want to start recycling my plastic waste. Can you show me how?
+
+- intent: paper_waste_mixing_materials
+  examples: |
+    - What will happen if we mixed paper waste with another materials in garbage?
+    - Why is mixing paper waste with other materials is harmdul to the environment?
+    - I'm thinking of putting paper waste with another materials together in trash bin. What's your opinion?
+    - Why should we always seperate paper from other materials in trash?
+    - Give some reasons of sorting garbage based on their type.
+
+- intent: wrong_disposal_paper_waste
+  examples: |
+    - what are the effects of wrong disposal of paper waste?
+    - What are the impacts of improper disposal of paper waste?
+    - How does incorrect disposal of paper waste affect the environment?
+    - my neighboor get rid of his paper waste in wrong way. what will happen next?
+    - Why it's wrong to get rid of paper waste by throwing them immediately?
+
+- intent: How_to_sort_paper
+  examples: |
+    - How can we separate paper waste from other materials?
+    - What methods can be used to separate paper waste from other materials?
+    - How can we sort paper waste from other materials?
+    - What techniques exist for separating paper waste from other materials?
+    - Can you tell me about some of the techniques of waste sorting?
+    - How can I differ between different materials in the bin?
+    - What are the names of sorting ways to separate paper waste?
+
+- intent: How_to_recycle_paper_waste
+  examples: |
+    - can you tell me the steps of recycling paper?
+    - What is the process of recycling paper?
+    - How do you recycle paper?
+    - Can you explain the steps involved in paper recycling?
+    - tell me how the process of recycling paper going?
+    - Can you tell me in detail how to recycle paper?
+    - I want to start recycling my paper waste. Can you show me how?
+    - Can you show me the process of paper recycling step by step?
+
+- intent: wrong_disposal_glass_waste
+  examples: |
+    - How does improper disposal of glass waste negatively impact the environment?
+    - can you tell me the consequences of throwing paper waste in the wrong way?
+    - I'm throwing my paper waste in a wrong way. what are the expected results of this action?
+    - When I use paper to write on then finishes it I throw it then in the bin? Is that the right thing to do?
+    - What will happen if we threw paper waste without recycling them?
+    - What are the consequences of incorrectly disposing of glass waste?
+    - In what ways can improper disposal of glass waste be harmful?
+
+- intent: glass_waste_mixing_materials
+  examples: |
+    - What will happen if we mixed glass waste with another materials in garbage?
+    - How does mixing glass waste with other materials without sorting impact the environment?
+    - Why is mixing glass waste with other materials is harmdul to the environment?
+    - I'm thinking of putting glass waste with another materials together in trash bin. What's your opinion?
+    - Why should we always seperate glass from other materials in trash?
+    - Give some reasons of sorting glass waste based on their type.
+    - What are the consequences of not sorting glass waste from other materials before disposal?
+    - In what ways can mixing glass waste with other materials without sorting be harmful?
+
+- intent: How_to_sort_glass
+  examples: |
+    - How can we separate glass waste from other materials?
+    - What methods can be used to separate glass waste from other materials?
+    - How can we sort glass waste from other materials?
+    - What techniques exist for separating glass waste from other materials?
+    - Can you tell me about some of the techniques of glass waste sorting?
+    - What do you advise me how to sort glass from other materials?
+  
+- intent: How_to_recycle_glass_waste
+  examples: |
+    - can you tell me the steps of recycling glass?
+    - What is the process of recycling glass?
+    - How do you recycle glass?
+    - Can you explain the steps involved in glass recycling?
+    - tell me how the process of recycling glass going?
+    - Can you tell me in detail how to recycle glass?
+    - I want to start recycling my glass waste. Can you show me how?
+    - Can you show me the process of glass recycling step by step?
+
+
+- intent: recycling_in_a_neighborhood
+  examples: |
+    - What are some tactics that a neighbourhood can utilize to increase the amount of recycling done by residents?
+    - How can a neighbourhood incentivize residents to participate in recycling programs?
+    - What steps can a neighbourhood take to create a culture of recycling among its residents?
+
+- intent: importance_of_recycling
+  examples: |
+    - Why is recycling important for the environment and society?
+    - What are the reasons behind the significance of recycling for the environment and society?
+    - How does recycling contribute to the well-being of both the environment and society?
+    - In what ways does recycling benefit the environment and society as a whole?
+- intent: carbon_footprint
+  examples: |
+    - What is carbon footprint and how does it impact the environment?
+    - How can carbon footprint be defined and what are the implications of carbon footprint on the environment?
+    - What does the term carbon footprint mean and what environmental consequences does it have?
+    - What is the definition of carbon footprint and what are its effects on the environment?
+
+- intent: reduce_water_usage
+  examples: |
+    - How can individuals reduce their water usage at home?
+    - What are some ways that individuals can decrease their water consumption in their households?
+    - In what ways can people conserve water in their homes and reduce their overall water usage?
+    - What measures can homeowners take to decrease their water usage and promote water conservation?
+    - I want to reduce my water usage?
+
+- intent: food_waste
+  examples: |
+    - How can individuals and households reduce food waste?
+    - What steps can individuals and households take to minimize the amount of food waste they produce?
+    - In what ways can people decrease their food waste and promote sustainable food consumption practices?
+    - What measures can be taken at the individual and household level to address the issue of food waste?
+
+- intent: single_use_plastic
+  examples: |
+    - How can individuals reduce their consumption of single-use plastics?
+    - What are some ways individuals can minimize their use of single-use plastics in their daily lives?
+    - How can people decrease their reliance on single-use plastics and adopt more sustainable consumption habits?
+    - What actions can individuals take to reduce their use of single-use plastics and promote a more sustainable way of life?
+
+- intent: sustainable_fashion
+  examples: |
+    - How can people learn more about sustainable fashion?
+    - What resources are available for people to educate themselves on sustainable fashion practices?
+    - How can individuals increase their knowledge of sustainable fashion and make informed choices when purchasing clothing?
+    - What steps can people take to educate themselves on sustainable fashion and promote more sustainable practices in the fashion industry?
+
+- intent: air_pollution
+  examples: |
+    - What are the main causes of air pollution and how can it be reduced?
+    - What are the sources of air pollution and what measures can be taken to reduce it?
+    - How does air pollution affect human health and what can be done to improve air quality?
+    - What role can individuals and governments play in reducing air pollution and promoting sustainable practices?
+
+- intent: sustainable_agriculture
+  examples: |
+    - How can people learn about sustainable agriculture practices?
+    - What resources are available for people to educate themselves on sustainable agriculture practices?
+    - How can individuals increase their knowledge of sustainable agriculture and promote sustainable farming practices in their communities?
+    - What steps can people take to educate themselves on sustainable agriculture and advocate for sustainable farming practices?
+
+- intent: start_garden
+  examples: |
+    - What are some tips for starting a garden?
+    - How can beginners start a garden and what are some important considerations to keep in mind?
+    - What are some essential steps to take when starting a garden and how can they help ensure success?
+    - How can people with limited space or resources start a garden and what are some creative solutions to consider?
+
+- intent: paper_product
+  examples: |
+    - What are some ways to reduce paper product usage?
+    - What steps can individuals take to reduce their paper product usage and what are some alternatives to consider?
+    - How can organizations and businesses reduce their paper product usage and what are the benefits of doing so?
+    - What are some creative ways to reduce paper product usage and how can they be incorporated into everyday life?
+
+- intent: sustainable_tourism
+  examples: |
+    - What are some ways to learn about sustainable tourism practices?
+    - How can i educate myself on sustainable tourism and what are some resources available to do?
+    - What are some sustainable tourism practices and how can i incorporate them into mytravels?
+    - What role do governments and organizations play in promoting sustainable tourism and how can individuals support their efforts?
+
+- intent: renewable_energy
+  examples: |
+    - How can I learn about renewable energy?
+    - What are some resources for me to educate myself on renewable energy?
+    - What are some methods to gain a deeper understanding of renewable energy?
+    - In what ways can I acquire knowledge about renewable energy?
+
+- intent: chemical_usage
+  examples: |
+    - What resources are available to educate myself on reducing chemical usage in my home?
+    - How can I learn about reducing the use of chemicals in my house?
+    - What are some methods to gain a deeper understanding of reducing chemical usage in my home?
+    - In what ways can I acquire knowledge about reducing chemical usage in my household?
+
+- intent: impact_of_plastic_pollution
+  examples: |
+    - What is the impact of plastic pollution?
+    - How does plastic pollution affect the environment?
+    - In what ways does plastic pollution harm wildlife and marine life?
+    - What are the consequences of plastic pollution on human health?
+
+- intent: green_technology
+  examples: |
+    - How can I learn about green technology?
+    - What are some ways to educate myself about green technology?
+    - In what ways can I acquire knowledge on green technology?
+    - What resources are available for me to learn about green technology?
+
+- intent: meat_consumption
+  examples: |
+    - What is the impact of meat consumption on the environment?
+    - How does meat consumption affect the environment?
+    - In what ways does meat consumption harm the environment?
+
+- intent: climate_change
+  examples: |
+    - How is climate change affecting our planet?
+    - What are the impacts of climate change on the planet?
+    - How is the planet being impacted by climate change?
+    - In what ways is climate change changing our planet?
+
+- intent: ocean_conservation
+  examples: |
+    - Why is ocean conservation important?
+    - What is the significance of ocean conservation?
+    - How does ocean conservation benefit the planet?
+    - What are the reasons for prioritizing ocean conservation?
+
+- intent: wildlife_conservation
+  examples: |
+    - What are the benefits of wildlife conservation?
+    - How does wildlife conservation benefit ecosystems?
+    - What are the environmental consequences of eating meat?
+    - In what ways does wildlife conservation benefit society?
+
+- intent: deforestation
+  examples: |
+    - What are the consequences of deforestation?
+    - What are the environmental impacts of deforestation?
+    - What are the effects of deforestation on the planet?
+
+- intent: deforestation_def
+  examples: |
+    - What is deforestation?
+    - What does deforestation mean?
+    - How do you define deforestation?
+    - What is the meaning of deforestation in environmental terms?
+
+- intent: protect_water_resources
+  examples: |
+    - How can we protect our water resources?
+    - What are some strategies for preserving water resources?
+    - How can we conserve our water resources?
+    - In what ways can we safeguard our water resources?
+
+- intent: climate_action_def
+  examples: |
+    - What is climate action?
+    - How do you define climate action?
+    - What does climate action mean?
+    - In environmental terms, what is climate action?
+
+- intent: climate_action_support
+  examples: |
+    - How can we support climate action?
+    - What are some ways to promote climate action?
+    - In what ways can individuals contribute to climate action?
+    - How can businesses and organizations support climate action?
+
+- intent: ocean_hazards
+  examples: |
+    - How does pollution impact the ocean's ecosystem?
+    - What are some environmental factors that pose a threat to the ocean?
+    - In what ways do human activities contribute to oceanic damage?
+    - What can harm the ocean?
+
+- intent: energy_conservation
+  examples: |
+    - What are some effective strategies for conserving energy?
+    - In what ways can individuals reduce their energy usage?
+    - How can businesses and organizations reduce their energy consumption?
+    - How can i reduce my energy use?
+
+- intent: pesticides_and_herbicides_def
+  examples: |
+    - What are pesticides and herbicides, and how are they used in agriculture?
+    - What is the definition of pesticides and herbicides?
+    - What is the pesticides and herbicides?
+    - What is the meaning of pesticides and herbicides?
+
+- intent: pesticides_and_herbicides_impact
+  examples: |
+    - In what ways can the use of pesticides and herbicides lead to long-term environmental harm?
+    - What is the impact of pesticides and herbicides on environment?
+    - How can the pesticides and herbicides harm the environment?
+
+- intent: forest_conservation
+  examples: |
+    - What actions can harm forests?
+    - In what ways can my behavior harm forests?
+    - How can I inadvertently harm forests?
+
+- intent: reduce_impact_on_forest
+  examples: |
+    - What can I do to reduce my impact on forests?
+    - How can I minimize my impact on forests?
+    - What actions can I take to be more environmentally conscious and reduce my impact on forests?
+
+- intent: impact_on_the_atmosphere
+  examples: |
+    - What can I do to reduce my impact on the atmosphere?
+    - How can I minimize my impact on the environment and reduce my carbon footprint?
+    - What actions can I take to reduce my greenhouse gas emissions and help mitigate climate change?
+
+- intent: global_warming_def
+  examples: |
+    - What is the definition of global warming?
+    - How can we define global warming?
+    - What does global warming mean?
+    - What is global warming?
+
+- intent: global_warming_gov_role
+  examples: |
+    - What is the role of governments in reducing the impact of global warming?
+    - How can governments contribute to mitigating the effects of global warming?
+    - What actions can governments take to address global warming?
+    - What will the government do to reduce the impact of global warming?
+
+- intent: global_warming_people_role
+  examples: |
+    - What are some ways I can reduce my impact on global warming?
+    - How can individuals reduce their contribution to global warming?
+    - What actions can I take to help mitigate global warming?
+    - How can i reduce my impact on global warming?
+
+- intent: global_warming_consequences 
+  examples: |
+    - What are the consequences of global warming?
+    - What effects does global warming have on the environment?
+    - How is global warming affecting the world?
+
+- intent: paris_agreement
+  examples: |
+    - What is the Paris Agreement?
+    - What does the Paris Agreement mean?
+    - What is the definition of the Paris Agreement?
+
+- intent: carbon_offsetting
+  examples: |
+    - What is the definition of carbon offsetting?
+    - How would you define carbon offsetting?
+    - What does the term carbon offsetting mean?
+    - What is carbon offsetting?
+
+- intent: environment_help
+  examples: |
+    - What are some things I can do to help the environment?
+    - How can I contribute to protecting the environment?
+    - What actions can I take to make a positive impact on the environment?
+    - What can i do to help the environment?
+
+- intent: biodegradable_def
+  examples: |
+    - What is the definition of biodegradable?
+    - Can you explain what biodegradable means?
+    - How would you define the term "biodegradable"?
+    - What is the biodegradable?
+
+- intent: compostable_def
+  examples: |
+    - What does it mean for something to be compostable?
+    - How do you define compostable?
+    - Can you explain the term compostable?
+    - What does compostable means?
+
+- intent: difference_compostable_biodegradable
+  examples: |
+    - What is the difference between compostable and biodegradable?
+    - How are compostable and biodegradable materials different?
+    - What distinguishes compostable materials from biodegradable materials?
+
+- intent: e_waste_def
+  examples: |
+    - What is the definition of e waste?
+    - How can we define e waste?
+    - What does e waste mean?
+    - What is e waste?
+
+- intent: consequences_e_waste
+  examples: |
+    - What are the environmental consequences of e waste?
+    - How does e waste affect the environment?
+    - What are the negative impacts of e waste?
+    - What are the consequences of e waste?
+
+- intent: impact_e_waste
+  examples: |
+    - What are some ways to reduce my impact of e waste?
+    - How can I decrease the amount of e waste I produce?
+    - What steps can I take to minimize my e waste footprint?
+    - How can i reduce my impact of e waste?
+
+- intent: recycle_e_waste
+  examples: |
+    - How can I reuse or recycle my old electronics to reduce e waste?
+    - What can I do with my old electronics instead of throwing them away?
+    - What are some sustainable ways to dispose of old electronics?
+
+- intent: endangered_species
+  examples: |
+    - What is an endangered species?
+    - How do we define an endangered species?
+    - What does it mean for a species to be endangered?
+
+- intent: endangered_species_protect
+  examples: |
+    - What are some conservation efforts to protect endangered species?
+    - How can we protect endangered species from extinction?
+    - What can individuals do to help conserve endangered species?
+    - How can we protect endangered species?
+
+- intent: climate_anxiety
+  examples: |
+    - What is climate anxiety?
+    - How do you define climate anxiety?
+    - What is the meaning of climate anxiety?
+    - Can you explain climate anxiety?
+
+- intent: climate_anxiety_reasons
+  examples: |
+    - What are the factors that contribute to climate anxiety?
+    - How does climate change impact mental health?
+    - Why are more people experiencing climate anxiety?
+
+- intent: climate_anxiety_help
+  examples: |
+    - How can individuals cope with climate anxiety?
+    - What are some strategies for managing climate anxiety?
+    - Is there help available for those experiencing climate anxiety?
+
+- intent: paper_waste_impact
+  examples: |
+    - What is the impact of paper waste on the environment?
+    - How does paper waste affect the natural world?
+    - What are the consequences of paper waste for ecosystems?
+
+- intent: paper_waste_sol
+  examples: |
+    - What are some effective ways to minimize paper waste?
+    - How can individuals contribute to reducing paper waste?
+    - How can we do to reduce our paper waste? 
+
+- intent: earthquakes_impact
+  examples: |
+    - What are the environmental effects of earthquakes?
+    - How do earthquakes impact the natural environment?
+    - What is the impact of earthquakes on the environment??
+
+- intent: ozone_hole_def
+  examples: |
+    - What is meant by the term ozone hole?
+    - What is the definition of the ozone hole phenomenon?
+    - How would you describe the concept of an ozone hole?
+    - What is the ozone hole?
+
+- intent: ozone_hole_reasons
+  examples: |
+    - What are the main reasons for the formation of the ozone hole?
+    - What are the causes of the ozone hole phenomenon?
+    - Why does the ozone hole occur?
+
+- intent: ozone_hole_impact
+  examples: |
+    - What can individuals do to reduce the impact of the ozone hole?
+    - How can we reduce the impact of the ozone hole on the environment?
+    - What actions can we take to minimize the impact of the ozone hole?
+
+- intent: amazon_rainforest
+  examples: |
+    - What is the issue with fires in the Amazon rainforest?
+    - How are fires impacting the Amazon rainforest and its ecosystems?
+    - What are the environmental consequences of fires in the Amazon rainforest?
+
+- intent: acid_rain_def
+  examples: |
+    - What is the definition of acid rain?
+    - How would you define the term acid rain?
+    - How would you define the term acid rain?
+    - What is acid rain?
+
+- intent: acid_rain_impact
+  examples: |
+    - What are the environmental effects of acid rain?
+    - How does acid rain affect the environment?
+    - What are the consequences of acid rain on the environment?
+
+- intent: acid_rain_reduce
+  examples: |
+    - What steps can be taken to reduce acid rain?
+    - How can we minimize the impact of acid rain?
+    - What measures can be implemented to prevent acid rain?
+    - How can we reduce the impact of acid rain on the environment?
+
+- intent: effects_using_fuel
+  examples: | 
+    - I am worried about using fuel and its effects to the climate and air pollution. Does it affect the environment badly?
+    - What impact does the use of fuel have on the environment, particularly in terms of climate change and air pollution?
+    - Is the environment negatively affected by the use of fuel, specifically in relation to climate change and air pollution?
+    - How does the use of fuel contribute to environmental issues such as climate change and air pollution?
+
+- intent: countries_reduce_of_fuel_in_vehicles
+  examples: | 
+    - What are the procedures that are taken by countries to try reduce of fuel in vehicles?
+    - How do countries aim to decrease fuel consumption in vehicles?
+    - What measures do countries take to reduce the use of fuel in vehicles?
+    - What measures do countries take to reduce the use of fuel in vehicles?
+
+- intent: countries_against_companies
+  examples: | 
+    - Do countries take action against companies that violate environmental regulations? 
+    - I am upset about companies making violations towards the environment does countries take a stand against these violations?
+    - How do governments hold companies accountable for environmental violations? 
+    - What measures do countries take to address environmental violations committed by companies?
+
+- intent: Egyptian_government_against_companies
+  examples: | 
+    - What actions has the Egyptian government taken to address environmental issues caused by companies in the country?
+    - How is the Egyptian government addressing the environmental impact of companies operating in the country?
+    - What measures has the Egyptian government implemented to mitigate the environmental impact of industrial activities and companies in the country?
+    - I am really concerned about the impact that companies in Egypt are having on the environment. What steps is the government taking to address this issue?
+
+- intent: important_bumblebees
+  examples: | 
+    - What is the significance of bumblebees in the environment and ecosystem?
+    - Why are bumblebees important for the functioning of ecosystems?
+    - Why are bumblebees important for the functioning of ecosystems?
+    - can you tell me more about the importance of bumblebees?
+
+- intent: extinction_bumblebee
+  examples: | 
+    - I heard that there are bumblebee species in risk of extinction. Is that true?
+    - Are bumblebee populations at risk of extinction?
+    - Is it true that certain bumblebee species are facing the threat of extinction?
+    - How serious is the risk of extinction for bumblebee species?
+
+- intent: any_risk_of_extinction_bumblebee
+  examples: | 
+    - I heard that there are bumblebee species in risk of extinction. Why they are at risk?
+    - What are the reasons behind the risk of extinction for certain bumblebee species?
+    - Why are bumblebees facing the threat of extinction?
+    - What are the factors contributing to the decline of bumblebee populations and their risk of extinction?
+
+- intent: information_about_deforestation
+  examples: | 
+    - can you tell me more about deforestation?
+    - What is deforestation and what are its causes and impacts?
+    - How does deforestation affect the environment and climate change?
+    - Can you explain the social, economic, and environmental consequences of deforestation?
+
+- intent: countries_prevent_deforestation
+  examples: | 
+    - Which countries have implemented a ban on deforestation?
+    - What countries are taking action to prevent deforestation?
+    - Which countries have made efforts to achieve zero deforestation?
+    - Are there any countries in the world banning deforestation?
+
+- intent: city_dependent_on_renewable_energy
+  examples: | 
+    - Is there a country or city that relies solely on renewable energy?
+    - Are there any cities or countries that rely entirely on renewable energy?
+    - Can you name a city or country that has achieved 100% renewable energy?
+    - Can you tell me name of a country or city that depends 100% on renewable energy?
+
+- intent: Egypt_position_on_renewable_energy
+  examples: | 
+    - What is Egypt position from using renewable energy? tell me more about it.
+    - What is Egypt's stance on renewable energy usage?
+    - How does Egypt view the use of renewable energy?
+    - What steps has Egypt taken towards increasing its use of renewable energy?
+
+- intent: the_effects_of_deforestation
+  examples: | 
+    - What are the effects of deforestation on the environment?
+    - How does deforestation impact the environment?
+    - What are the environmental consequences of deforestation?
+    - What are the harmful effects of deforestation on the environment?
+
+- intent: impact_of_cruise_ships_on_pollution
+  examples: | 
+    - does cruise ships considered a source of pollution?
+    - Are cruise ships a significant source of pollution?
+    - Do cruise ships contribute to pollution?
+    - What is the environmental impact of cruise ships?
+
+- intent: cities_environmentally_friendly
+  examples: | 
+    - I want to travel between two cities which transportation do you advice me to use that is more environmentally friendly?
+    - What is the most environmentally friendly transportation option for traveling between two cities?
+    - Which transportation mode is the most eco-friendly for traveling between two cities?
+    - What is the greenest way to travel between two cities?
+
+- intent: cutting_trees_wildfire
+  examples: | 
+    - some people say that the solution to end wildfire in forests is by cutting trees. Is that true?
+    - Can cutting trees stop wildfires in forests?
+    - What is the best approach to preventing wildfires in forests?
+    - Is cutting trees a solution to prevent wildfires in forests?
+
+- intent: significance_of_endangered_species
+  examples: | 
+    - I recently heard about endangered species and I'm curious about why they are so important.
+    - What is the importance of endangered species?
+    - Why are endangered species so significant?
+    - What is the value of preserving endangered species?
+
+- intent: deforestation_in_Egypt
+  examples: | 
+    - Is deforestation a significant issue in Egypt?
+    - What is the extent of deforestation in Egypt?
+    - How does deforestation impact Egypt?
+    - I heard a lot about deforestation and I want to know is that a real problem in egypt or not?
+
+- intent: Egypt_use_of_fossil_fuels
+  examples: | 
+    - What about Egypt does we use fossil fuel here?
+    - What is Egypt's dependence on fossil fuels?
+    - What are the sources of energy in Egypt?
+    - Does Egypt use fossil fuels?
+
+- intent: animal_trafficking_and_hunting
+  examples: | 
+    - I heard that animal trafficking and hunting for commercial purposes is having a negative impact on the environment. Can you tell me more about this?
+    - How does animal trafficking and commercial hunting negatively impact the environment?
+    - What are the environmental consequences of animal trafficking and commercial hunting?
+    - Why is animal trafficking and commercial hunting harmful to the environment?
+
+- intent: discovered_way_grow_faster
+  examples: | 
+    - can you tell me about the man who discovered a way to make coral grow 40 times faster than normal?
+    - Can you tell me more about Dr. David Vaughan, the man who discovered a way to make coral grow 40 times faster than normal?
+    - Who is the person that discovered a way to make coral grow 40 times faster than normal?
+    - What is the significance of the discovery made by Dr. David Vaughan, which enables coral to grow 40 times faster than normal?
+    - can you tell me about the way of growing coral reefs faster?
+
+- intent: Earth_lost_wilderness
+  examples: | 
+    - I read an article that says the Earth has lost 10% of its wilderness since 1992. Is that true?
+    - Has the Earth lost 10% of its wilderness since 1992, as reported in an article I read?
+    - Is it true that the Earth has lost 10% of its wilderness since 1992, as stated in an article?
+    - Can you confirm whether the Earth has lost 10% of its wilderness since 1992, as reported in an article?
+
+- intent: microplastics
+  examples: | 
+    - Can you explain to me what are microplastics?
+    - What are microplastics?
+    - Can you define what microplastics are?
+    - What do we mean by the term microplastics?
+
+- intent: air_quality_in_city
+  examples: | 
+    - I'm concerned about the air quality in my city. It is getting worse everyday.
+    - What can I do about the worsening air quality in my city?
+    - How can I address the issue of declining air quality in my city?
+    - What steps can I take to improve the air quality in my city?
+    - What can I do to improve air quality in my city?
+
+- intent: Microplastics_enter_our_body
+  examples: | 
+    - What is the process by which microplastics enter our bodies?
+    - How microplastics end up in our bodies?
+    - What are the ways in which microplastics can end up in our bodies?
+
+- intent: first_Minister_Environment
+  examples: | 
+    - Who was the first egyptian Minister of Environment?
+    - WCan you tell me the name of the first Minister of Environment in Egypt?
+    - Who was our first Minister of the Environment?
+
+- intent: Ministry_Environment_first_established
+  examples: | 
+    - When was the Ministry of Environment first established as an independent ministry?
+    - What year did the Ministry of Environment become an independent ministry?
+    - At what point in time did the Ministry of Environment become an independent ministry?
+    - When was the first time this ministry established as an independent ministry?
+
+- intent: Colorado_River 
+  examples: | 
+    - How is the Colorado river being impacted by climate change and other factors?
+    - What is the current situation with the Colorado river?
+    - Is it true that the Colorado river is drying up?
+    - Have you heard about the Colorado river drying up?
+
+- intent: ocean_trash_dumping
+  examples: | 
+    - Can you tell me example of the fines that been made for dumping trash in the ocean?
+    - What is an example of a fine that has been imposed for dumping trash in the ocean?
+    - How have fines been used to deter ocean trash dumping, and can you give an example?
+    - Can you provide a case where a fine was levied for ocean trash dumping?
+
+- intent: dangers_faced_by_whales
+  examples: | 
+    - What are some of the dangers faced by whales?
+    - What are some of the threats that whales are facing?
+    - What are the risks that whales are exposed to?
+    - What are some of the challenges that whales are confronting?
+
+- intent: EVs
+  examples: | 
+    - What is the meaning of the term "EVs"?
+    - What does EVs stands for?
+    - What is the definition of "EVs"?
+    - What does the acronym "EVs" stand for?
+
+- intent: Access_Pipeline_breaking_law_Giza
+  examples: | 
+    - I just read a report about the Access Pipeline breaking the law in Giza. Can you tell me more about that?
+    - What happened with the Access Pipeline in Giza and how did they break the law?
+    - Can you provide more information on the Access Pipeline breaking the law in Giza?
+    - What is the latest news on Access Pipeline breaking the law in Giza?
+
+- intent: important_EVs
+  examples: | 
+    - What is the significance of electric vehicles for the environment?
+    - Why are electric vehicles considered important for the environment?
+    - What are the environmental benefits of electric vehicles?
+    - Why are EVs important for the environment?
+
+- intent: climate_change_affects_rivers
+  examples: | 
+    - How does climate change impact rivers around the world?
+    - Does climate change affects the rivers in the world badly?
+    - Are rivers around the world affected negatively by climate change?
+    - What are the effects of climate change on rivers globally?
+
+- intent: buy_electric_vehicles
+  examples: | 
+    - Have you heard the survey about people who want to buy electric vehicles?
+    - Is there a survey about people's interest in buying electric vehicles?
+    - Have there been any recent surveys on consumer demand for electric vehicles?
+    - What do recent surveys suggest about people's willingness to buy electric vehicles?
+
+- intent: advantages_using_natural_gas
+  examples: | 
+    - What are the benefits of using natural gas as an energy source?
+    - Can you tell me the advantages of using natural gas?
+    - What are some of the advantages of using natural gas over other fossil fuels?
+    - Why is natural gas considered a beneficial energy source?
+
+- intent: Egypt_role_natural_gas_production
+  examples: | 
+    - What is the current state of natural gas production in Egypt?
+    - How significant is Egypt's contribution to natural gas production?
+    - What is Egypt's role in natural gas production?
+    - Can you tell me about egypt role in producing natural gas?
+
+- intent: electric_vehicle_adoption_Egypt  
+  examples: | 
+    - What are the challenges facing the adoption of electric vehicles in Egypt?
+    - Is Egypt using electric vehicles yet or are they still reliant on gas-powered cars?
+    - What is the current status of electric vehicle adoption in Egypt?
+    - I'm curious about where Egypt stands in terms of electric vehicles. Has the country started using them yet or are they still mostly using traditional gas-powered cars?
+
+- intent:  China_efforts_towards_planting_trees
+  examples: | 
+    - Have you heard about China's plan to plant trees?
+    - Can you tell me more about China's efforts towards planting trees?
+    - What is China's plan for planting trees?
+
+- intent: egypt_efforts_towards_planting_trees
+  examples: |
+    - I'm curious to know about Egypt's efforts towards planting trees. Can you tell me more about it?
+    - What are Egypt's plans for planting trees?
+    - Can you explain the efforts of Egypt towards planting trees?
+
+- intent: recent_news_regarding_lead_exposure
+  examples: | 
+    - Have you heard about the recent news regarding lead exposure and IQ levels?
+    - What are the health risks associated with lead exposure?
+    - Can you explain the recent news regarding lead exposure and IQ levels?
+    - what are the harmful effects of lead exposure?
+
+- intent: lead_exposure
+  examples: | 
+     - I'm concerned about lead exposure. Can you tell me more about it?
+     - What are the sources and health effects of lead exposure?
+     - How can we prevent lead exposure and protect public health?
+
+- intent: years_control_climate_change
+  examples: | 
+    - How many years do we have to control climate change before it goes out of control?
+    - What are the consequences of unchecked climate change?
+    - Can you explain the urgency of taking action to address climate change?
+
+- intent: lead_exposure_Egypt
+  examples: | 
+    - I'm curious about the situation with lead exposure in Egypt. Can you tell me more about it?
+    - What is the current situation with lead exposure in Egypt?
+    - Can you provide more information about the impact of lead exposure in Egypt?
+    - What actions are being taken to address lead exposure in Egypt?  
+
+- intent: Scotland_plan
+  examples: | 
+    - Have you heard about Scotland's plan to save wild salmon?
+    - What is Scotland's plan to save wild salmon?
+    - Can you provide more information on the measures being taken to protect wild salmon in Scotland?
+    - How effective is Scotland's plan in protecting wild salmon? 
+
+- intent: Egypt_plans_protect_wild_salmon
+  examples: | 
+    - Can you tell me Egypt plans to protect wild salmon?
+    - What measures is Egypt taking to protect wild salmon?
+    - Can you provide more information on the current state of wild salmon in Egypt and the efforts being made to protect them?
+    - How successful have the efforts been so far in protecting wild salmon in Egypt?
+    - Do we have wild salmon in Egypt?
+    - Why don't we have wild salmon in Egypt?
+
+- intent: Norway_recent_decision
+  examples: | 
+    - Have you heard about Norway's recent decision to ban palm oil-based biofuels?
+    - Can you provide information on Norway's recent decision to ban palm oil-based biofuels?
+    - What are the reasons behind Norway's decision to ban palm oil-based biofuels?
+    - How significant is Norway's decision in terms of the impact on the use of palm oil-based biofuels globally?    
+
+- intent: Egypt_uses_Palm_Oil
+  examples: | 
+    - I was wondering if Egypt uses Palm Oil Based Biofuel?
+    - Does Egypt use Palm Oil Based Biofuel?
+    - Can you provide information on the extent of Egypt's use of Palm Oil Based Biofuel?
+    - How does Egypt's use of Palm Oil Based Biofuel compare to other countries?
+
+- intent: food_plastic_plate
+  examples: | 
+    - I'm currently eating food in a plastic plate and I'm wondering if it's okay for the environment?
+    - What is the impact of using plastic plates on the environment?
+    - Are there any alternatives to using plastic plates that are more environmentally friendly?
+    - What actions can we take to reduce our use of plastic plates and their impact on the environment?  
+
+- intent: news_plastic_pollution
+  examples: | 
+    - Have you heard about the recent news that plastic pollution could make much of humanity infertile?
+    - Can you provide information on the recent news that plastic pollution could make much of humanity infertile?
+    - What are the reasons behind this claim that plastic pollution make humanity infertile, and how much evidence supports it?
+    - What actions can we take to address the issue of plastic pollution and its potential impact on human fertility? 
+    - Is it true that plastic pollution could lead to infertility in humans?
+    - What is the connection between plastic pollution and human fertility? 
+    - How can plastic pollution impact human reproductive health?
+
+- intent: Egypt_regarding_killing_wild_animals
+  examples: | 
+    - I was wondering if you could tell me about the situation in Egypt regarding the killing of wild animals?
+    - What is the situation in Egypt regarding the killing of wild animals?
+    - Can you provide information on the causes behind the killing of wild animals in Egypt?
+    - What actions are being taken to address the issue of the killing of wild animals in Egypt and protect their populations?     
+
+- intent: Egypt_stance_littering
+  examples: | 
+    - What is Egypt's stance on littering and pollution of its marine life?
+    - What efforts is Egypt making to tackle littering and pollution of its marine life?
+    - Can you provide some information on Egypt's progress in reducing littering and pollution in its coastal areas?
+    - What measures has Egypt put in place to prevent littering and pollution in its marine environment?
+
+- intent: litter_pollute_oceans
+  examples: | 
+    - What are your thoughts on people who litter and pollute oceans, beaches, and rivers?
+    - What do you think of littering waste in oceans,rivers and lakes?
+    - How can we raise awareness about the importance of protecting our oceans, beaches, and rivers?
+    - What are the consequences of littering and polluting our marine environment?
+    - What actions can we take to prevent littering and pollution of our oceans, beaches, and rivers? 
+
+- intent: bees_important_living 
+  examples: | 
+    - Do you agree that bees are the most important living beings on the planet?
+    - What is the role of bees in our ecosystem?
+    - Can you provide some information on the impact of declining bee populations?
+    - How can we protect and promote bee populations?
+
+- intent: Egypt_stands_from_acid_waste_issue
+  examples: | 
+   - Can you tell me where Egypt stands from the acid waste issue?
+   - What is Egypt's position on acid waste?
+   - What steps has Egypt taken to address the issue of acid waste?
+   - How is Egypt working to mitigate the impact of acid waste?
+
+- intent: issue_climate_change
+  examples: | 
+    - I think that the issue of climate change isn't taking much of attention. Am I right?
+    - Is climate change receiving enough attention from the public?
+    - What can be done to raise awareness about climate change?
+    - How can we make people more aware of the importance of tackling climate change?    
+    - How much attention is being paid to the issue of climate change?
+
+- intent: paying_enough_attention_issue_climate
+  examples: | 
+    - It seems like many people aren't paying enough attention to the issue of climate change. What can we do to change this?
+    - How can we increase public awareness about climate change?
+    - What role can education play in raising awareness about climate change?
+    - How can governments and businesses help to raise awareness about climate change?  
+    - What strategies can be used to raise public awareness about the issue of climate change?
+    - How can we improve public understanding of the issue of climate change?  
+
+- intent: steps_Egypt_spread_awareness
+  examples: | 
+    - Have you heard about the steps that Egypt is taking to spread awareness about climate change?
+    - What initiatives has Egypt launched to raise awareness about climate change?
+    - How effective have these initiatives been?
+    - What more could Egypt do to promote climate change awareness? 
+
+- intent: situation_with_the_manatees
+  examples: | 
+    - Have you heard about the situation with the manatees? They're being fed lettuce to prevent mass starvation.
+    - What is the current situation with manatees and why are they being fed lettuce?
+    - How can we prevent the mass starvation of manatees?
+    - What other measures are being taken to protect manatees? 
+    - What are the threats that face manatees?   
+
+- intent: manatees_save_mass_starvation
+  examples: | 
+    - What are they doing with manatees to save them from mass starvation?
+    - What measures are being taken to prevent the mass starvation of manatees?
+    - How effective have these measures been?
+    - What more can be done to protect manatees?    
+
+- intent: manatees_Egypt
+  examples: | 
+    - Why aren't there any manatees in Egypt? I'm curious to know why they're not found in that part of the world.
+    - What is the reason for the absence of manatees in Egypt?
+    - Are there any other countries where manatees are not found?
+    - What is the global distribution of manatees?
+    - What are the geographical and environmental factors that prevent manatees from living in Egypt?
+
+- intent: flamingos_Egypt
+  examples: | 
+    - I'm curious to know if there are any flamingos in Egypt particularly in Port Fouad?
+    - Are there any flamingos in Egypt, and if so, where are they found?
+    - What is the habitat of flamingos?
+    - How are flamingos being protected in Egypt?    
+
+- intent: drilling_and_mining_fuel
+  examples: | 
+    - What do you think of drilling and mining for fuel?
+    - What are the pros and cons of drilling and mining for fuel?
+    - How does drilling and mining for fuel impact the environment?
+    - What alternatives to drilling and mining for fuel are available? 
+
+- intent: Egypt_mining_drilling_for_fuel
+  examples: | 
+    - Does Egypt do mining and drilling for fuel and other resources?
+    - What natural resources are found in Egypt?
+    - Is mining and drilling for fuel and other resources a significant industry in Egypt? 
+    - Is Egypt currently drilling or mining for any of these resources?
+    - How does Egypt's mining and drilling for fuel and other resources impact the environment? 
+
+- intent: Egypt_Strategy_2035
+  examples: | 
+    - Can you tell me more about Egypt's Sustainable Energy Strategy 2035?
+    - Could you provide more information on Egypt's Sustainable Energy Strategy 2035?
+    - What are the key components of Egypt's Sustainable Energy Strategy 2035?
+    - How does Egypt's Sustainable Energy Strategy 2035 aim to achieve its goals?    
+
+- intent: Egypt_National_Solid_Waste_Management
+  examples: | 
+    - Can you tell me more about Egypt's National Solid Waste Management Programme?
+    - What is the purpose of Egypt's National Solid Waste Management Programme?
+    - How does Egypt's National Solid Waste Management Programme work?
+    - What are the main objectives of Egypt's National Solid Waste Management Programme? 
+
+- intent:  Egypt_efforts_promote_renewable_energy
+  examples: | 
+    - Hello, can you tell me about Egypt's efforts to promote renewable energy?
+    - Could you provide information on Egypt's initiatives to promote renewable energy, please?
+    - I would like to know more about Egypt's efforts to promote renewable energy, can you provide details on this?    
+
+- intent:  Egypt_efforts_reduce_greenhouse_gas_emissions
+  examples: | 
+    - Hi, can you tell me about Egypt's efforts to reduce greenhouse gas emissions?
+    - Could you provide information on Egypt's initiatives to reduce greenhouse gas emissions, please?
+    - I'm interested in learning about Egypt's efforts to reduce greenhouse gas emissions, can you tell me more about it?
+- intent: Egypt_initiatives_promote_sustainable_agriculture
+  examples: | 
+    - Hello, can you tell me about Egypt's initiatives to promote sustainable agriculture?
+    - Could you provide information on Egypt's efforts to promote sustainable agriculture, please?
+    - I would like to know more about Egypt's initiatives to promote sustainable agriculture, can you provide details on this?
+
+- intent: Egypt_efforts_conserve_natural_resources
+  examples: | 
+    - Hello, can you tell me about Egypt's efforts to conserve its natural resources?
+    - Could you provide information on Egypt's initiatives to conserve its natural resources, please?
+    - I would like to know more about Egypt's efforts to conserve its natural resources, can you provide details on this?
+    - How is Egypt working to conserve its natural resources?
+    - What steps has Egypt taken to protect and conserve its natural resources?
+
+- intent: use_technology_agriculture_Egypt
+  examples: | 
+    - Hello, I'm interested in learning about the use of technology in agriculture in Egypt. Can you tell me more about it?
+    - Could you provide information on the use of technology in agriculture in Egypt, please?
+    - I would like to know more about how technology is being used in agriculture in Egypt, can you provide details on this?    
+
+- intent: sustainable_tourism_initiatives_Egypt
+  examples: | 
+    - Hi, can you tell me about any sustainable tourism initiatives in Egypt?
+    - Could you provide information on sustainable tourism initiatives in Egypt, please?
+    - I'm interested in knowing about any sustainable tourism initiatives in Egypt, can you tell me more about this?
+    - What sustainable tourism initiatives are currently being implemented in Egypt?
+    - Could you tell me about Egypt's efforts to promote sustainable tourism?
+
+- intent: Nubian_Ibex
+  examples: | 
+    - Hi there, can you tell me more about Nubian Ibex?
+    - Could you provide more information about Nubian Ibex, please?
+    - I'm interested in learning more about Nubian Ibex, can you share additional details about it?
+    - What is the Nubian Ibex?
+    - Do you what are the species in the Nubian Ibex? 
+
+- intent: use_herbicides_and_potential_link_cancer
+  examples: | 
+    - I'm worried about the use of herbicides and their potential link to cancer. Can you tell me more about this?
+    - Could you provide further information about the potential association between herbicides and cancer? I'm concerned about this issue.
+    - I would like to know more about the potential link between the use of herbicides and cancer. Can you provide additional details? 
+
+- intent:  Egypt_stand_terms_using_herbicides
+  examples: | 
+    - That's concerning. What about Egypt? Where does it stand in terms of using herbicides? 
+    - I'm concerned about the use of herbicides and their potential impact. Can you provide information on Egypt's stance regarding herbicide usage?
+    - Could you tell me about Egypt's position on the use of herbicides and its implications, considering the concerning nature of this issue?    
+
+- intent: pollution_have_harmful_effects
+  examples: | 
+    - Does air pollution have harmful effects on pollinators?
+    - Can you explain the detrimental effects of air pollution on pollinators?
+    - I would like to understand the negative impacts of air pollution on pollinators. Can you provide more details on this topic?
+    - What are the negative effects of air pollution on pollinators?
+    - What happens to pollinators due to air pollution?  
+
+- intent: climate_change_negatively_affect_Egypt
+  examples: | 
+    - Does climate change negatively affect Egypt?
+    - What are the impacts of climate change on Egypt? Does it have a detrimental effect?
+    - How does climate change specifically impact Egypt? Are there significant negative consequences?
+    - In what ways is Egypt affected by climate change?
+    - How have climate change affected Egypt?
+    - What are the consequences of climate change on Egypt?        
+
+- intent: Egypt_situation_use_plastic
+  examples: | 
+    - What is Egypt's situation concerning the use of plastic?
+    - Can you provide information on the current state of plastic usage in Egypt? How does the country deal with this issue?
+    - I'm interested in understanding Egypt's position and practices related to plastic consumption. Can you shed light on the situation? 
+    - How does Egypt handle the issue of plastic usage and disposal?
+
+- intent: carbon_emissions_affect_environment
+  examples: | 
+    - I am interested in learning more about carbon emissions. Can you explain what they are and how they affect the environment?
+    - Can you provide an explanation of carbon emissions, their definition, and their environmental impact? I would like to have a better understanding.
+    - I would like to gain a deeper understanding of carbon emissions, including their definition and the environmental consequences they pose. Can you provide detailed information? 
+
+
+- intent: what_is_cop_twenty_seven
+  examples: |
+    - can you tell me about COP 27?
+    - can you tell me what is COP 27?
+    - I heard about something called COP related to enviroonment. can you provide information about it?
+    - What does COP refers to?
+    - What is the meaning of COP?
+    - what does COP stand for?
+
+- intent: cop_start_date
+  examples: |
+    - When did COP start?
+    - Where did COP start?
+    - When and where was the first edition of COP?
+    - can you tell me the begining date of COP confernences about climate change?
+    - What is the history of COP?
+
+
+- intent: cop_twenty_seven_place
+  examples: |
+    - When was the 27th edition of COP held?
+    - Where is the place that host COP 27?
+    - What country is responsible of COP 27?
+    - What is the date of COP 27 ?
+    - Can you tell me where they had COP 27?
+
+- intent: cop_twenty_eight_place
+  examples: |
+    - Where will be the next edition of COP?
+    - Where will be the 28th edition of COP?
+    - Who is the host country for the next COP?
+    - When and where we will see the next conference of cllimate?
+   
+
+- intent: countries_participate_COP
+  examples: |
+    - Which countries participate in COP 27?
+    - Which countries are expected to participate in the upcoming COP?
+    - How many countries attend the COP?
+    - Tell me more about the countries that attend this COP?
+    - Can you provide me information about participating countries in COP?
+
+
+- intent: COP_environmental_topics
+  examples: |
+    - What are the environmental topics they discuss in COP?
+    - What does COP talks about?
+    - What are the main cases that is disscussed in COP?
+    - Do you know what are the main topics handled in COP 27?
+    - can you tell me about environmental problems they talk about in climate conference?
+
+- intent: governments_role_COP
+  examples: |
+    - What are the role of governments towards COP 27?
+    - How do governments contribute to the success of COP 27?
+    - What is the responsibility of governments in relation to COP?
+    - What do you think the governments should to to make the COP meetings successful?
+    - How governments should act to acheive COP goals?
+
+- intent: threats_face_egypt_water_pollution
+  examples: |
+    - What are the threats that Egypt faces in terms of water pollution?
+    - What is the situation of water sources in Egypt with pollution?
+    - How the water sources in Egypt got affected by human actions?
+    - What are the threats that might face water sources in Egypt?
+    - What are the reason behind water pollution in egypt?
+
+
+- intent: water_polution_egypt_human_health
+  examples: |
+    - Can you tell me about how water pollution in Egypt affects human health?
+    - can you tell me What are the impacts of water pollution on human health in Egypt?
+    - How does water pollution in Egypt pose a threat to human health?
+    - give a brief about potenial diseases caused by water pollution?
+    - What can happen to the egyptian's health if the water contamination continued?
+
+- intent: egyptian_government_efforts_water_pollution
+  examples: |
+    - How is the Egyptian government dealing with the threats of water pollution?
+    - What have the Egyptin governmnet done to protect the water sources from pollution
+    - What actions has the Egyptian government taken to address water pollution threats?
+    - What measures has the Egyptian government implemented to mitigate the impacts of water pollution on public health?
+    - How have the Egyptian government act towards the water pollution issue?
+
+- intent: what_is_misr_alkheir
+  examples: |
+    - Do you know what is Misr Al-Kheir?
+    - Can you tell me more about Misr Al-Kheir?
+    - Can you provide information about Misr Al-Kheir?
+    - What is the mission of Misr Al-Kheir?
+    - Who is misr al_kheir?
+    - can you tell me about civil organizations that cares about environmnet in Egypt?
+
+
+- intent: misr_alkheir_deliver_water
+  examples: |
+    - Do they have a relation with delivering clean water to people in need?
+    - Does Misr Al-Kheir play a role in providing clean water to underserved communities?
+    - How does Misr Al-Kheir support access to clean water in Egypt?
+    - What impact has Misr Al-Kheir had on the provision of clean water in Egypt?
+    - What have Misr Al-Kheir done in the case of clean water issue in Egypt?
+    - What is Misr Al-Kheir role in the water sources issue in Egypt?
+    - What impact has Misr Al-Kheir had on clean water provision in Egypt?
+    
+
+- intent: misr_alkheir_achievements_clean_water
+  examples: |
+    - What have Misr Al-Kheir done so far in the clean water case?
+    - What is Misr Al-Kheir's track record in addressing clean water issues?
+    - Can you show me some of Misr Al-Kheir achievements in delivering clean water to those in need? 
+    - How has Misr Al-Kheir contributed to improving access to clean water in Egypt?
+    - Tell me about Misr Al-Kheir history in dealing with clean water problem that faces people.
+
+- intent: The_High_Dam_degenition
+  examples: |
+    - Can you tell me about the High Dam?
+    - What is the High Dam and what is its significance?
+    - What do you know about the high dam?
+    - What is the High Dam?
+    - can you provide information about the High Dam?
+    - Where is The High Dam?
+    - When was the High Dam built?
+
+
+- intent: reason_high_dam_built
+  examples: |
+    - Why the High dam was built?
+    - What is the reason behind building the High dam?
+    - Why why built the High Dam in the first place?
+    - Why did we need the high dam?
+    - What was the purpose behind the construction of the High Dam?
+    - What motivated the construction of the High Dam?
+
+- intent: benefits_building_High_Dam
+  examples: |
+    - What are the benefits of building the High Dam?
+    - How is The high Dam useful for Egypt?
+    - How can we get use of the High Dam properly?
+    - In what ways has the High Dam impacted Egypt's economy and infrastructure?
+    - What role has the High Dam played in supporting Egypt's sustainable development?
+    - How is the High Dam considered achieving SDG 7?
+    - What is the relation between High Dam and SDG 7?
+    
+
+- intent: egyptian_government_role_High_Dam
+  examples: |
+    - What should be the role of the Egyptian government towards the High Dam?
+    - What is the responsibility of the Egyptian government in relation to the High Dam?
+    - How can the Egyptian government support the sustainability of the High Dam?
+    - What measures can the Egyptian government take to address the environmental and social impacts of the High Dam?
+    - What should the government do to protect the High Dam?
+ 
+
+- intent: is_cairo_sustainable
+  examples: |
+    - Can cairo be a sustainable city?
+    - What is Cairo situation from being sustainable city?does it apply on it?
+    - does the characterstics of sustainable city in SDG 11 apply on Cairo?
+    - Does Cairo considered as a fully sustainable city?
+    - What is the status of Cairo as a sustainable city?
+    - How sustainable is the city of Cairo?
+
+
+- intent: threats_prevent_cairo_sustainable
+  examples: |
+    - What are the environmental threats that could prevent Cairo from being a sustainable city?
+    - What are the challenges that faces Cairo as it tries to be sustainable?
+    - What are the obstacles in Cairo's way to be sustainable city?
+    - What might stop Cairo from being sustainable city?
+    - Can you tell me about the envrionmental problems that faces Cairo and prevent it from being sustainable?
+    - Why is cairo is not fully sustainable by now?
+
+- intent: government_role_cairo_sustainable
+  examples: |
+    - What should be the role of the government in making Cairo a sustainable city?
+    - What actions can the government take to promote sustainability in Cairo?
+    - How can the government and citizens collaborate to make Cairo a more sustainable city?
+    - How must the Egyptian government do towards the sustainability issue in Cairo?
+    - How can the Egyptian governmnet help making Cairo sustainable
+
+- intent: best_countries_climate_change
+  examples: |
+    - Which countries are considered pioneers in taking good action on climate change?
+    - What are some examples of countries that have taken significant actions to address climate change?
+    - Can you give me examples of countries that making progress against climate change?
+    - What are the best countries in fighting the climate change issue?
+    - Can you tell me the most countries in the world that gives attention to climate change issue?
+    - Can you tell me names of cities that is making progress against climate change?
+    - Who is the most countries known for taking an action against climate change?
+
+
+- intent: egypt_situatioon_marine_life
+  examples: |
+    - What is the current situation in Egypt with regards to SDG 14?
+    - How is Egypt progressing towards achieving Sustainable Development Goal 14?
+    - What actions has Egypt taken to achieve Sustainable Development Goal 14?
+    - What more can Egypt do to promote sustainable ocean management and achieve SDG 14?
+    - What is Egypt situation from its marine life?
+    - Can you tell me about the marine life in Egypt and how is Egypt dealing with it?
+    - Can you talk to me about marine life in Egypt?
+    - How does Egypt act towards its marine life?
+
+- intent: famous_species_marine_life_Egypt
+  examples: |
+    - What are some of the famous species found in Egypt seas and rivers?
+    - What are some examples of notable aquatic species that inhabit the rivers and seas of Egypt?
+    - What types of aquatic life can be found in the rivers and seas of Egypt?
+    - Can you give me examples of marine creatures that is in Egypt?
+    - What are the most known fishes and segrass lives in egypt?
+    - what are the kind of fish that lives in the Nile River?
+
+- intent: threats_marine_creatures_egypt
+  examples: |
+    - What are the threats that these marine creatures face?
+    - What are some of the threats that Egypt's aquatic species are currently facing?
+    - How are human activities contributing to the threats faced by Egypt's aquatic species?
+    - Why it's not very safe for aquatic species in egypt?
+    - What are the challenges that faces the marine life in Egypt?
+
+
+- intent: egyptian_government_protect_marine
+  examples: |
+    - What is the role of the government in protecting Egypt marine life ?
+    - How can the government of Egypt contribute to the protection of marine life in its waters?
+    - What actions can the government take to ensure the protection of Egypt's marine life?
+    - How can the Egyptian government protect the Nile River?
+    - How can the Egyptian government protect the Red Sea?
+    - How can the Egyptian government protect the Mediterranean sea?
+    - How can the government work with local communities and stakeholders to protect Egypt's marine life?
+
+- intent: threats_prevent_Egypt_land_conservation
+  examples: |
+    - What are the environmental threats that could prevent Egypt from achieving SDG 15?
+    - What could be the obstacles that can stop egypt from conserve its lands?
+    - What kind of environmental problems tand in Egypt's way in land conservation?
+    - How are human activities contributing to the environmental threats that could prevent Egypt from conserve lands?
+    - How could people actions lead to increase deforestation in Egypt?
+    - What could prevent Egypt from successfully conserve all it lands?
+    - What are the troubles that faces Egypt in its way to acheive SDG 15?
+
+- intent: challenges_clean_water_Egypt
+  examples: |
+    - What are the main challenges related to clean water and sanitation in Egypt?
+    - What are the primary obstacles to achieving clean water and sanitation in Egypt?
+    - What prevent Egypt from having clean water and sanitation around the country?
+    - What are the situation of clean water and sanitation in Egypt?
+    - What are the environmental threats that can prevent delivering clean water to every place in Egypt?
+   
+
+- intent: egypt_places_sanitation_problems
+  examples: |
+    - Which areas in Egypt are particularly affected by clean water and sanitation problems?
+    - In which regions of Egypt is the issue of clean water and sanitation 
+    - What parts of Egypt are most impacted by the issue of clean water and sanitation?
+    - Can you tell name of places that doesn't access clean water and sanitation?
+    - Which cities in Egypt are most vulnerable to the challenges of clean water and sanitation?
+
+
+- intent: government_efforts_address_sanitation
+  examples: |
+    - What is the government doing to address clean water problem?
+    - How is the Egyptian government working to address the challenges related to clean water and sanitation?
+    - What actions has the government taken to improve access to clean water and sanitation in Egypt?
+    - What has our government done about the claen water issue in Egypt?
+  
+
+- intent: organizations_care_clean_water
+  examples: |
+    - What civil organizations are active in clean water and sanitation field, and what are they doing to help?
+    - Which civil society organizations are involved in addressing the challenges of clean water and sanitation in Egypt, and what are their activities?
+    - Can you show me some of organizations that care to deliver clean water to those in need in Egypt?
+    - What are the Egyptian civil organizations that wirks in accessing clean water and sanitation to Upper Egypt?
+    
+- intent: egypt_situation_solar_power
+  examples: |
+    - What is Egypt situation from generating power from the sun?
+    - Does Egypt making good progress in generating solar power
+    - Do we have solar power generated in Egypt?
+    - Is Egypt suitable for generating solar power?
+    
+
+
+
+
+- intent: threats_renewable_energy_egypt
+  examples: |
+    - What are the threats that face renewable energy in Egypt?
+    - What are the challenges facing the development of renewable energy in Egypt?
+    - can you tell me the obstacles that faces renewable enrgy progress in Egypt?
+    - What are the risks associated with investing in renewable energy in Egypt?
+    - What can stop the operation of generating renewable energy in Egypt?
+
+- intent: organizations_renewable_energy_egypt
+  examples: |
+    - Are there any civil organizations that take actions in the field of clean energy in Egypt?
+    - What civil society organizations are active in promoting clean energy in Egypt?
+    - Can you show me some of the organizations that specialized in renewable energy in Egypt?
+    - I want the names of some organizations cares about clean energy in Egypt?
+    - Can you recommend me some civil organizatons that encourage using renewable energy in Egypt?
+    - Do you know any egyptian organizatons encourage using renewable enrgy?
+
+- intent: egypt_handling_electronic_waste
+  examples: |
+    - How is e-waste handled in Egypt? 
+    - How does Egypt deal with electronic waste?
+    - What is Egypt situation from e-waste?
+    - How does Egypt handle the issue of e-waste?
+
+
+- intent: steps_process_electronic_waste
+  examples: |
+    - What is the process for managing e-waste in Egypt?
+    - Tell me the steps of e-waste handling?
+    - descripe to be the process of dealing with e-waste.
+    - Can you tell me in detail the operaion of handling e-waste?
+    - how exactly do we manage dealing with electronic waste?
+    
+
+- intent: how_to_dispose_electronic_waste
+  examples: |
+    - What are the right means to dispose of e-waste?
+    - How should electronic waste be properly disposed of?
+    - What are the appropriate methods of disposing of e-waste?
+    - What should I do to get rid of e-waste without polluting the enviornment?
+    - How can individuals dispose of e-waste responsibly?
+    - How should we act with e-waste?
+
+- intent: wrong_disposal_electronic_waste
+  examples: |
+    - What will happen if i get rid of e-waste in wrong way?
+    - What are the threats that could affect the environment from improper disposal of e-waste?
+    - How does improper disposal of e-waste impact the environment?
+    - What are the risks associated with improper disposal of e-waste?
+    - What are the consequences of wrong disposal of electronic waste?
+    - what do you expect to be the result if I throw e-waste ?
+
+
+- intent: harmful_daily_habits_for_environment
+  examples: |
+    - What are some of the harmful habits that people engage in that negatively impact the environment?
+    - I am concerned about the environment and the harmful habits we do in our daily lives. Can you tell me more about it?
+    - How do daily habits impact the environment?
+    - What are actions that we do daily and affect the environment badly?
+    - Can you tell me examples of human actions daily that hurt the environment?
+
+- intent: alternatives_daily_harmful_habits
+  examples: |
+    - What are the alternatives to our daily habits that harm the environmnet?
+    - What are some sustainable alternatives to harmful daily habits?
+    - How can we replace harmful daily habits with more sustainable alternatives?
+    - Can you guide me to better actions I can do to protect the envrionment?
+
+- intent: name_water_bodies_egypt
+  examples: |
+    - Can you tell me about the water bodies in Egypt?
+    - Is Egypt rich with water bodies?
+    - can you tell me the names of water bodies in Egypt?
+    - What are the major water bodies in Egypt?
+    - Tell me examples of rivers,seas and lakes in Egypt?
+
+
+- intent: creatures_water_bodies_egypt
+  examples: |
+    - What are some of the famous creatures that live in these water bodies?
+    - What are some of the notable aquatic species found in the water bodies of Egypt?
+    - What are some of the famous marine animals found in Egypt's water bodies?
+    - Can you name some of the iconic wildlife that inhabits the water bodies of Egypt?
+   
+
+- intent: most_polluted_water_body_egypt
+  examples: |
+    - Which water body in Egypt is most affected by pollution?
+    - What is the water body in Egypt that is most impacted by pollution?
+    - Can you tell me the name of the most water body in Egypt with pollution percentage?
+    - Which water body in Egypt is facing the most significant pollution challenges?
+    - What are the most marine place in Egypt with violations to environmnet?
+
+- intent: benefits_of_forests_to_environment
+  examples: |
+    - What are the benefits of forests to the environment?
+    - How do forests contribute to environmental conservation?
+    - What are the advantages of forests for the environment?
+    - What is the importance of forests for the environment?
+    - Why is forests said to be useful to the environment?
+
+
+- intent: threats_faced_by_forests
+  examples: |
+    - what are the threats the forests face?
+    - What are the challenges and risks that forests are currently facing?
+    - How are forests being threatened and what are the risks?
+    - What are the major risks to the health and sustainability of forests?
+   
+
+- intent: forests_national_day_egypt
+  examples: |
+    - Can you tell me about Forests National Day in Egypt ?
+    - What is the significance of Forests National Day in Egypt?
+    - What is the purpose of celebrating Forests National Day in Egypt?
+    - What do you know about forests national day in Egypt
+    - Give me a little brief about Egyptian national forests day?
+
+- intent: causes_traffic_congestion
+  examples: |
+    - What are the causes of traffic congestion in Egypt?
+    - What factors contribute to traffic congestion in Egypt?
+    - what are the main reasons of traffic congestion?
+    - What do you think the reason behind traffic congestion in Egypt?
+  
+
+
+
+- intent: traffic_congestion_impacts_egypt
+  examples: |
+    - What are the impacts of traffic congestion on environment Egypt?
+    - How does traffic congestion affect the environment in Egypt?
+    - What are the environmental consequences of traffic congestion in Egypt?
+    - What are the results of traffic congestion on the environment?
+    - How does traffic congestion in Egypt contribute to environmental degradation?
+
+- intent: most_cities_traffic_congestion_egypt
+  examples: |
+    - What are the cities with most traffic congestion in Egypt?
+    - Which cities in Egypt have the highest traffic congestion levels?
+    - Which urban areas in Egypt are most affected by traffic congestion?
+    - What are the cities in Egypt that experience the most severe traffic congestion?
+    - Can you name me the most crowded cities with traffic congestion in Egypt?
+
+
+- intent: address_traffic_congestion_issue
+  examples: |
+    - What can be done to address traffic congestion issue?
+    - What measures can be taken to tackle traffic congestion in Egypt?
+    - How can we act against traffic congestion issue?
+    - How can we address the problem of traffic congestion in Egypt?
+    - What steps can be taken to mitigate traffic congestion in Egypt?
+
+- intent: human_actions_cause_lung_diseases
+  examples: |
+    - What are some human actions that harm the environment and cause lung diseases?
+    - How can our actions reason for increasing diseases like lung diseases?
+    - how me some actions that can lead to lung and heart diseases.
+
+
+- intent: our_role_fight_lung_diseases
+  examples: |
+    - What should be our role in fighting lung diseases?
+    - What can we do to reduce the problems causing lung diseases
+    - What actions can people take to reduce problems leading to lung diseases?
+ 
+
+
+- intent: egypt_main_source_clean_water
+  examples: |
+    - What is egypt main source for clean water?
+    - Where does the drinking water comes from in Egypt?
+    - Egypt relies mainly on which source for obtaining clean water?
+    - What are the main source we depend on for drinking water in Egypt?
+    - What is the primary water source in Egypt that provides clean drinking water?
+
+- intent: is_egypt_share_river_is_enough
+  examples: |
+    - does egypt share of nile river water satisfy every person need or not?
+    - What do you think of Egypt share of the Nile River? is it enough for the citizens?
+    - Is Egypt's portion of Nile River water enough to meet everyone's needs?
+    - Do you think that egypt's share of Nile River water is enough to fullfill our needs of drinking water?
+    - I think that we have a fullfil of drinking water in Egypt. what do you think?
+    - How do you see Egypt's situation from drinking water from the nile river is it fullfilling?
+
+- intent: what_is_zaafarana_field
+  examples: |
+    - What do you know about zaafarana field?
+    - Can you tell me what is zaafarana field?
+    - What does they generate in zaafarana field?
+    - have you heard about field for energy in Egypt called zaafarana?
+    - where is zaafarana wind field?
+   
+
+
+- intent: what_is_dabaa_field
+  examples: |
+    - What do fields like El Dabaa generate?
+    - What is produced by areas such as El Dabaa?
+    - can you tell me more about el Dabaa field?
+    - What does they generate inEl Dabaa field?
+    - where is El Dabaa field?
+    - What do you know about el Dabaa?
+
+- intent: egypt_ranking_renewable_energy
+  examples: |
+    - What is Egypt position in generating renewable energy?
+    - How does Egypt rank in terms of producing renewable energy?
+    - What is Egypt's standing in the generation of renewable energy?
+    - What is Egypt's situation regarding renewable energy among countries?
+    - What is the status of Egypt's renewable energy production?
+    - Does Egypt considered as one of the pioneers in renewable energy in the world?
+    - What is Egypt progress in renewable energy?
+
+- intent: problems_face_Egypt_renewable_energy
+  examples: |
+    - What could be the obstacles that face renewable energy in Egypt?
+    - Can you tell me some of problems that could slow down Egypt's progress in renewable energy sector?
+    - What are the challenges that may hinder the growth of renewable energy in Egypt?
+    - What factors could lead to stop the growth of renewable energy in Egypt?
+
+- intent: air_pollution_effects_on_health_egypt
+  examples: |
+    - How does air pollution affect human health in Egypt?
+    - What are the impacts of air pollution on the egyptians health?
+    - How does air pollution in Egypt affect the health of its population?
+    - What are the effects of air pollution on the health of Egypt's population?
+    - Can you tell me the results of air pollution in Egypt on our health?
+
+- intent: statistics_air_pollution_egypt
+  examples: |
+    - Can you provide some statistics on air pollution in Egypt?
+    - How bad the air pollution has affected Egypt?
+    - Can you show me how far the air pollution percentage is high in Egypt?
+    - Can you give me some data on air pollution in Egypt?
+    - How severe is the air pollution situation in Egypt?
+
+
+- intent: increasing_fuel_production_affects_environment
+  examples: |
+    - How does the increasing production of fossil fuels affect the environment ?
+    - What is the relation between increasing using of fossil fuel and the environment?
+    - What is the impact of the rising production of fossil fuels on the environment?
+    - What do you think will happen to our environment if the fossil fuel production continue to increase
+    - Does the growing production of fossil fuels have environmental consequences?
+
+- intent: statistics_fossil_fuel_production
+  examples: |
+    - Can you provide statistics about the production of fossil fuels around the world in recent years?
+    - What are the recent global statistics on the production of fossil fuels?
+    - Can you give me some data on the production of fossil fuels worldwide in recent years?
+    - What are the numbers regarding the production of fossil fuels around the world in the past few years?
+    - What is the current state of fossil fuel production around the world?
+    - Can you show me a brief of the world's situation from fossil fuel peoduction?
+    - How has the production of fossil fuels evolved globally in recent years?
+
+- intent: impact_ships_water_pollution_egypt
+  examples: |
+    - What is the impact of pollution caused by big ships and yachts on the oceans, rivers, and seas in Egypt?
+    - How does pollution from large ships and yachts affect Egypt's waterways, oceans, and seas?
+    - What is the impact of pollution caused by big ships and yachts on the marine environment in Egypt?
+    - What are the consequences of pollution caused by big ships and yachts on Egypt's marine environment?
+    - How does the pollution caused by big ships and yachts impact Egypt's water bodies?
+
+
+
+- intent: water_pollution_egypt_affect_human_health
+  examples: |
+    - And what are the water pollution effects on the human health in Egypt?
+    - How does water pollution in Egypt impact human health?
+    - What do you think will happen to us because the water pollution of egypt's waterways?
+    - What are the health consequences of water pollution in Egypt?
+    - What is the impact of water pollution on human health in Egypt?
+    - How can citizens take action to mitigate water pollution in Egypt?
+
+- intent: people_role_water_pollution_egypt
+  examples: |
+    - What can people do to address water pollution issue in egypt?
+    - What actions can individuals take to address the issue of water pollution in Egypt?
+    - How can people contribute to solving the problem of water pollution in Egypt?
+    - What do you advise people to do if we want to reduce water pollution?
+    - What can be done to combat water pollution in Egypt?
+
+
+- intent: egyptian_governemnt_role_water_pollution_egypt
+  examples: |
+    - What can the egyptian government do to address water pollution issue in egypt?
+    - What steps can the Egyptian government take to address the issue of water pollution in Egypt?
+    - What is the egytian government duty towards the water pollution issue
+    - What measures can the Egyptian government take to tackle the issue of water pollution in Egypt?
+    - What actions should the Egyptian government take to combat water pollution in Egypt?
+
+- intent: Toshka_economic_environmental_impacts
+  examples: |
+    - Can you explain more about the Toshka project and its environmental and economic impacts?
+    - Can you tell me everything you know about Toshka project?
+    - How this toshka project will affect environmentally?
+    - How does the Toshka project affect the environment and economy, and what is its purpose?
+    - Can you give me alittle brief of Toshka project?
+
+
+- intent: relation_tsunami_global_warming
+  examples: |
+    - Can you tell me about the relation between global warming and tsunamis?
+    - How are global warming and tsunamis related?
+    - What is the connection between global warming and tsunamis?
+    - Do you agree that glaobal warming can cause tsunamis?
+    - Can you describe how global warming impacts the occurrence and severity of tsunamis?
+
+- intent: coastal_cities_tsunami_threats
+  examples: |
+    - Will coastal cities in Egypt like Port Said and Alexandria might be at risk in the future?
+    - Is there a possibility that coastal cities in Egypt, such as Port Said and Alexandria, will face risks in the future?
+    - Are the Egyptian coatal cities is vunurable to any future tsunamis?
+    - What are the chances of coastal cities in Egypt, such as Port Said and Alexandria, being at risk in the future?
+    - What are the possible consequences of future risks for coastal cities in Egypt, because of global warming?
+
+- intent: statistics_covid_effects_environment
+  examples: |
+    - Do you have any statistics on the effects of COVID-19 on the environment?
+    - Are there any available statistics on how COVID-19 has impacted the environment?
+    - Can you provide any data on the environmental effects of the COVID-19 pandemic?
+    - How can you prove to me that pandemic period wasn't that bad for the environmnet?
+    - Has any research been conducted on the environmental impacts of COVID-19?
+    - How has the COVID-19 pandemic affected the environment, and what is the scale of these impacts?
+
+- intent: pandemic_helped_climate_change
+  examples: |
+    - Has the lockdown period been helpful in the case of climate change ?
+    - Did the lockdowns have a positive impact on climate change?
+    - Do you think that the pandemic period was healing for clinmate change issue?
+    - How did the lockdowns affect climate change?
+    - Why people say the COVID_19 was useful to address climate change?
+
+- intent: Egypt_desalination_plants_places
+  examples: |
+    - Does Egypt have desalination plants?
+    - Are there any desalination plants in Egypt?
+    - Can you tell some of the famous desalination plants in Egypt?
+    - What do you know about dsalination plants in Egypt?
+   
+
+- intent: how_desalination_work
+  examples: |
+    - How does desalination work?
+    - Can you explain the process of desalination?
+    - How does the process of desalination produce freshwater?
+    - What is the method behind desalination, and how does it work?
+    - How is freshwater produced from seawater through desalination?
+    - Can you describe how the process of desalination produces freshwater from seawater?
+
+
+
+
+- intent: Egypt_progress_clean_water_percentage
+  examples: |
+    - what is Egypt progress in terms of delivering clean water around the country?
+    - How successful has Egypt been in providing clean water to its citizens across the country?
+    - Can you provide an overview of Egypt's progress in delivering clean water to its citizens nationwide?
+    - Can you provide by numbers how successful is Egypt in clean water access?
+    - Can you describe the efforts made by Egypt to ensure the provision of clean water nationwide?
+
+- intent: sustainable_transportation_egypt
+  examples: |
+    - What sustainable transportation options are available in Egypt?
+    - Can you describe the sustainable transportation options that are currently available in Egypt?
+    - What are the sustainable transportation options that exist in Egypt?
+    - What are the sustainable transport means that we have in Egypt?
+    - Can you tell me some types of sustainable vehicles are there in Egypt?
+
+- intent: how_sustainable_transport_charged
+  examples: |
+    - How are these sustainable transportation options charged?
+    - How people charge the sustainable vehicles in Egypt?
+    - How sustainable transport means get charging?
+   
+
+- intent: countries_most_depend_fossil_fuel
+  examples: |
+    - Which countries still depend mostly on fossil fuels ?
+    - What are some countries that rely heavily on fossil fuels?
+    - Can you name me some of countries that use fossil fuels heavily?
+    - Which nations have a significant dependence on fossil fuels?
+    - What are the most countries in the world consuming fossil fuels?
+
+
+
+- intent: types_coral_reefs_egypt
+  examples: |
+    - What are the types of coral reefs found in Egypt?
+    - Can you provide information on the types of coral reefs present in Egypt?
+    - Can you tell me more about kind of coral reefs that is in Egypt?
+    - What is known about the coral reefs in Egypt and their different types?
+    - Which types of coral reefs can be found in Egypt?
+
+- intent: threats_coal_reefs_face_egypt
+  examples: |
+    - What are the threats that coral reefs in Egypt face?
+    - What are some of the challenges that the coral reefs in Egypt are up against?
+    - How coral reefs in Egypt can be in danger?
+    - What kind of trouble that coral reefs could face in Egypt?
+    - Can you describe the threats facing the coral reefs in Egypt?
+    - What are the factors that endanger the survival of the coral reefs in Egypt?
+
+
+
+
+- intent: statistics_deforestation_rates
+  examples: |
+    - Can you give me some statistics about deforestation rates in recent years?
+    - What are the recent deforestation rate statistics that you can provide?
+    - What data is available on deforestation rates in recent years?
+    - What are the situation of deforestation in the recent years
+    - How has deforestation changed in recent years?
+
+- intent: impact_vehicle_exhaust_environment
+  examples: |
+    - can you tell me the impact of vehicle exhaust on the environment?
+    - Can you provide information on the effects of vehicle exhaust on the environment?
+    - How does vehicle exhaust affect the environment in Egypt?
+    - What is the level of vehicle exhaust pollution in Egypt?
+    
+
+
+
+
+- intent: cairo_most_air_polluted_city_ranking
+  examples: |
+    - Can you give me statistcs about cairo's situation from air pollution?
+    - How far have the air pollution gone in Egypt?
+    - Can you tell me how bad is the situation of air pollution in Cairo?
+    - What is the most city in the world that has air pollution?
+    - WHat is Cairo ranking between cities in air pollution issue?
+
+- intent: diseases_names_in_africa
+  examples: |
+    - What are the most common diseases in Africa?
+    - How does the environment impact the health of people in Africa?
+    - What are some of the diseases that are commonly linked to environmental threats in Africa?
+    - How do environmental threats contribute to the prevalence of diseases in Africa?
+    - Can you tell me some of diseases names that is widespread in Africa?
+
+- intent: reasons_of_malaria_in_africa
+  examples: |
+    - Can you tell me the reason of spreading malaria in Africa?
+    - Why does African countries have diseases like malaria and belharsia?
+    - Can you tell me the reason behind the dangerous diseases in Africa?
+    - What is the mai reasons behind the increase of life-threating diseases in Egypt?
+    - What causes diseases like malaria to happen in Africa in the first place?
+   
+
+
+- intent: global_efforts_help_africa
+  examples: |
+    - What is being done globally to address these challenges?
+    - What global efforts exist to tackle environmental threats and their impact on health in Africa?
+    - How are countries and organizations working together globally to combat environmental threats and their impact on health in Africa?
+    - what are the global and civil organizations doing to help African countries to face diseases?
+    - What progress has been made globally in addressing environmental threats and their impact on health in Africa?
+    - Can you tell me names of organizations that is doing effort to help solve the health problems in Africa?
+
+
+
+- intent: Statistics_death_cases_africa
+  examples: |
+    - Can you provide statistics on the rates of disease in Africa caused by environmental factors?
+    - Can you give me brief of how damaging is the environmental problems to the health of african people?
+    - How have the people of africa affected by the environmnetal problems there?
+    - What is the extent of deaths caused by environmental health problems in Africa?
+    - Can you tell me the number of deaths in Africa due to environmrntal effects?
+
+- intent: most_countries_lack_of_water
+  examples: |
+    - What are the most countries in the world that suffer from water scarcity?
+    - What are the most countries in the world that has lack of water sources?
+    - Which countries have limited water resources and are facing water scarcity?
+    - Can you tell me about some of the countries that is known to have limited water sources?
+    - What are some examples of countries that are struggling with water shortages?
+    
+
+
+- intent: how_country_face_lack_of_water
+  examples: |
+    - What are countries doing to face lack of water problem?
+    - What actions are being taken to address water scarcity in affected countries?
+    - What could be done to face the water scarcity in some countries?
+    - How are countries and organizations working together to tackle water scarcity?
+
+
+
+- intent: org_help_countries_lack_of_water
+  examples: |
+    - What are organizations that can help them to get their needs of water?
+    - Which organizations can assist countries in accessing water resources?
+    - What are some of the organizations that provide assistance to african countries in need of water?
+    - Can you give me some of the organization names that provide help to Africa get some clean water?
+    
+
+- intent: Egypt_self_sufficient_of_water
+  examples: |
+    - Can egypt be called as Self-sufficiency of water?
+    - Is Egypt considered to be self-sufficient in terms of water resources?
+    - Can Egypt be described as having self-sufficiency in terms of water supply?
+    - Do you think Egypt is a country with lack of water sources?
+    - How reliant is Egypt on external sources of water, and can it be considered self-sufficient in this regard?
+    - Can you describe Egypt's situation towards the need of water sources?
+
+
+- intent: most_self_sufficient_countries_water_sources
+  examples: |
+    - What are the most self-sufficient countries when it comes to water?
+    - Which countries are considered to be highly self-sufficient in terms of water resources?
+    - What are some examples of countries that have achieved high levels of self-sufficiency in water resources?
+    - How have some countries achieved high levels of self-sufficiency in water resources?
+    - Can you give me some name of countries that may never have water sources problem?
+
+- intent: what_is_chernobyl_disatser
+  examples: |
+    - Can you tell me about the Chernobyl disaster?
+    - What happened during the Chernobyl disaster?
+    - Could you provide information about the Chernobyl nuclear accident?
+    - What is the chernobyl accident that people is talking about?
+   
+
+- intent: chernobyl_affects_environment
+  examples: |
+    - What were the effects of the Chernobyl disaster on the environment?
+    - How did the Chernobyl disaster impact the natural environment?
+    - What was the environmental impact of the Chernobyl nuclear accident?
+    - Can you tell me the consequences of chernobyl accident on the environment?
+    - How did the Chernobyl nuclear disaster affect the surrounding environment?
+
+
+
+- intent: chernobyl_help_not_repeat_mistake
+  examples: |
+    - How was chernobyl accident a wake for nuclear field safety?
+    - How has the Chernobyl disaster helped other nuclear fields to avoid repeating the same mistake?
+    - In what ways has the Chernobyl disaster influenced nuclear safety practices?
+    - What lessons have been learned from the Chernobyl disaster to improve nuclear safety?
+    - How has the Chernobyl disaster influenced the development of nuclear safety practices?
+    - How can we say the Chernobyl accident was useful in some way?
+
+- intent: what_is_industrial_revolution
+  examples: |
+    - What was the Industrial Revolution and what impact did it have on society?
+    - Could you provide information about the historical period known as the Industrial Revolution?
+    - Can you tell me about the Industrial Revolution?
+    - When was the Industrial Revolution ?
+    
+
+
+- intent: industrial_revolution_effects_on_environment
+  examples: |
+    - What are the effects the Industrial Revolution done to the environment?
+    - How did the Industrial Revolution impact the natural environment?
+    - What were some of the environmental consequences of the Industrial Revolution?
+    - How has the Industrial Revolution impacted the environment?
+    - Why people consider industrial revolution very harmful to the environment?
+
+- intent: cause_earth_temprature_increasing
+  examples: |
+    - Can you tell me more about the cause of increasing of the earth temperature and heat?
+    - What are the factors contributing to the rise in global temperatures and heat?
+    - What are some of the main causes of the increase in global temperatures and heat levels?
+    - What is the reason behind the increasing in the earth temprature?
+    - How has human activity contributed to the increase in global temperatures and heat levels?
+
+
+
+- intent: temp_increase_affects_coastal_areas
+  examples: |
+    - How does this temperature increase affect coastal areas and the north and south pole of the earth?
+    - What are the impacts of rising temperatures on coastal areas and the polar regions of the earth?
+    - How are coastal areas and the polar regions of the earth affected by the increase in global temperatures?
+    - What are the consequences of rising temperatures for coastal areas and the north and south pole of the earth?
+  
+
+
+- intent: statistics_earth_temprature_increase
+  examples: |
+    - Do you have any statistics about the increase in temperature in recent years?
+    - How much have the temprature of earth increased?
+    - How far the the temprature of earth has changed?
+
+
+- intent: names_natural_reserves_egypt
+  examples: |
+    - Can you tell me about some of the famous natural reserves in Egypt?
+    - What are some of the well-known natural reserves located in Egypt?
+    - Could you provide information about some of the natural reserves that are famous in Egypt?
+    - What are some of the notable natural reserves found in Egypt?
+   
+
+- intent: rare_creatures_natural_reserves
+  examples: |
+    - What are the rare creatures that can be found in these natural reserves?
+    - Which rare and unique species can be found within the natural reserves of Egypt?
+    - What rare and endangered animals can be found in the natural reserves of Egypt?
+    - Which unique and rare plant and animal species can be found in Egypt's natural reserves?
+  
+
+
+- intent: threats_face_rare_creatures_egypt
+  examples: |
+    - What are the threats that these rare creatures face?
+    - What are the challenges and risks faced by the rare and unique species found within Egypt's natural reserves?
+    - How are the rare and endangered species within Egypt's natural reserves being impacted by human activity and other factors?
+    - What are the main threats to the survival of the rare and unique species found within Egypt's natural reserves?
+ 
+
+- intent: egyptian_gov_org_saving_creatures
+  examples: |
+    - What is the egyptian government and organizations doing to save these rare creatures?
+    - What measures are being taken by the Egyptian government and organizations to protect the rare and unique species found within the natural reserves?
+    - How is the Egyptian government and various organizations working to preserve the rare and endangered species within the natural reserves?
+    - What is being done by the government to protect species in natural reserves?
+    
+
+- intent: how_to_address_temprature_increasing
+  examples: |
+    - How can we help to stop the increase of temperature?
+    - What actions can individuals take to help prevent further increases in global temperature?
+    - Can you tell me what can I do to address the increasing earth's temprature issue?
+    - How can we as a society work to prevent further increases in global temperature?
+
+
+
+- intent: precutions_before_going_in_sun
+  examples: |
+    - Tell me the most important precautions we should take to protect ourselves from the sun?
+    - What are the essential measures we should take to protect ourselves from the harmful effects of the sun?
+    - What should we do before going out in a very sunny day?
+    - How do we act if we're going out in a very hot day?
+    
+
+- intent: pollution_affect_river_nile
+  examples: |
+    - What is the pollution that is happening in the River Nile in Egypt?
+    - What is the nature of the pollution that is affecting the River Nile in Egypt?
+    - What are the sources of pollution that are impacting the River Nile in Egypt?
+    - How is pollution affecting the River Nile in Egypt, and what are the main sources of this pollution?
+    
+
+- intent: factories_pollute_river_nile
+  examples: |
+    - What exactly have Egyptian factories and ships done to contribute to the pollution?
+    - How have Egyptian factories and ships played a role in contributing to the pollution of the River Nile?
+    - What are the actions that factories make to pollute the river nile?
+    - How can the factories be harmful to the Nile River?
+
+
+
+- intent: what_is_zafarana_farm
+  examples: |
+    - can you tell me in detail about the Zafarana wind farm?
+    - What is Zafarana farm?
+    - Where is zafarana farm? and when did it began?
+ 
+
+- intent: economic_environmental_benefits_zafaranaa
+  examples: |
+    - What are the benefits of the Zafarana wind farm environmentally and economically?
+    - In what ways does the Zafarana wind farm contribute to environmental and economic benefits, and how has it impacted the energy sector in Egypt?
+    - How has the Zafarana wind farm impacted the environment and economy, and what are the potential long-term benefits?
+    - How is Zafaranaa is useful for the environment?
+    
+
+- intent: zafaranaa_replace_fossil_fuel
+  examples: |
+    - Can the energy coming from zafaran wind farm replace the usage of fossil fuels completely?
+    - Can zafarana farm take fossil fuel place in energy for good?
+    - Can the Zafarana wind farm be enough to erase the use of fossil fuels in Egypt?
+    - To what extent can the Zafarana wind farm replace the use of fossil fuels in Egypt's energy sector?
+   
+
+
+
+- intent: meat_consumption_harmful
+  examples: |
+    - Is meat consumption harmful to the environment?
+    - What is the environmental impact of meat consumption, and how does it affect the planet?
+    - How does meat consumption contribute to environmental degradation, and what are the consequences?
+    - Why people think that is eating meat is bad for the enviornment?
+   
+
+- intent: cut_eating_meat
+  examples: |
+    - Is cut eating meat is the solution?
+    - Should we stop eating meat for ever to help the enivronment?
+    - must we turn to vegan to stop eating meat and affecting the environment?
+   
+
+
+- intent: why_ozone_hole_growing
+  examples: |
+    - Why is the ozone hole increasing over time?
+    - How has the ozone hole changed over time, and what factors have contributed to its increase?
+    - What are the causes of the expanding ozone hole, and how has it impacted the environment?
+    - Why is ozone hole getting bigger and bigger by time?
+ 
+
+- intent: prevent_ozone_hole_growing
+  examples: |
+    - What can we do to prevent the ozone hole from growing?
+    - How can we reduce the size and severity of the ozone hole?
+    - What are the most effective measures for preventing the growth of the ozone hole, and how can they be implemented on a global scale?
+    - What role do technology and innovation play in preventing the growth of the ozone hole, and what are some promising solutions?
+ 
+
+- intent: advice_coral_reefs_sharm
+  examples: |
+    - I am in intersted in coral reefs, can you suggest me a place where I can see them?
+    - Where are some of the best places to observe coral reefs, and what makes them unique?
+    - What are some recommended destinations for coral reef enthusiasts?
+    - Which place do you recommend to see rare coral reefs?
+    
+
+
+- intent: why_sharm_exactly_coral_reefs
+  examples: |
+    - why sharm el-sheikh exactly is the most suitable to observe coral reefs?
+    - What makes Sharm el-Sheikh a popular destination for watching coral reefs, and what are some of its unique features?
+    - What are the reasons why tourists choose Sharm el-Sheikh as their holiday destination, and what are some of the activities they can enjoy?
+    - Why sharm-elsheikh is the best city to go if you want to see coral reefs?
+    - Why is Sharm -elsheikh a great destenation for tourism?
+ 
+
+- intent: what_is_ras_mohammed
+  examples: |
+    - Can you tell me about Ras Mohammed Reserve in Egypt?
+    - What is the Ras Mohammed Reserve in Egypt, and what makes it unique?
+    - I haven't heard a lot about ras mohammed can you tell me more about it?
+   
+- intent: creatures_names_ras_mohammed
+  examples: |
+    - What kind of creatures can be found in the ras mohammed reserve?
+    - What are some of the marine creatures that can be found in the Ras Mohammed Reserve, and what makes them unique?
+    - What is the marine life like in the Ras Mohammed Reserve, and what are some of the unique species that can be found there?
+    - Can you tell me some of the famous species in ras mohammed?
+  
+
+
+- intent: creatures_may_extinct_ras_mohammed
+  examples: |
+    - What are the most rare creatures that may face extinction in Ras Mohammed Reserve?
+    - What are some of the endangered species that inhabit the Ras Mohammed Reserve?
+    - Which rare creatures in the Ras Mohammed Reserve are at risk of extinction?
+    - can you tell me the species that are endangered in ras mohammed natural reserve?
+ 
+
+- intent: egy_gov_protect_ras_mohammed
+  examples: |
+    - What is the Egyptian government doing to protect ras mohammed reserve and its creatures?
+    - How is the Egyptian government involved in protecting the Ras Mohammed Reserve and its wildlife?
+    - What measures has the Egyptian government taken to preserve the Ras Mohammed Reserve and its wildlife, and how effective have these measures been?
+    - How does the Egyptian government support conservation efforts in the Ras Mohammed Reserve?
+
+- intent: heard_shark_accident
+  examples: |
+    - Have you heard the news about the shark who killed someone in Egypt?
+    - Can you tell me about the news regarding killer shark in Egypt?
+    - What happened in Hurghada betwen shark and tourists?
+
+- intent: why_shark_near_shores
+  examples: |
+    - What are the reasons behind sharks going near the shores?
+    - Aren't sharks supposed to be in the deep water? why they come near the beach?
+    - Why was the shark that killed the tourist in this area?
+    - Could you provide information on why sharks may be found near the shore?
+    - Why do sharks come close to shore?
+    - What is the relation between climate change and sharks presence near the shores?
+
+- intent: hunting_sharks_harmful
+  examples: |
+    - what are the harmful effects of killing sharks?
+    - What are the negative impacts of killing sharks?
+    - How does killing sharks impact ecosystems?
+    - Is the right thing to do is to kill sharks and remove thir danger?
+    - Do you think we should kill sharks?
+    - What are the consequences of hunting sharks?
+  
+
+- intent: egy_gov_protect_ras_mohammed
+  examples: |
+    - What is the Egyptian government doing to protect ras mohammed reserve and its creatures?
+    - How is the Egyptian government involved in protecting the Ras Mohammed Reserve and its wildlife?
+    - What measures has the Egyptian government taken to preserve the Ras Mohammed Reserve and its wildlife, and how effective have these measures been?
+    - How does the Egyptian government support conservation efforts in the Ras Mohammed Reserve?
+
+- intent: egy_gov_protect_ras_mohammed
+  examples: |
+    - What is the Egyptian government doing to protect ras mohammed reserve and its creatures?
+    - How is the Egyptian government involved in protecting the Ras Mohammed Reserve and its wildlife?
+    - What measures has the Egyptian government taken to preserve the Ras Mohammed Reserve and its wildlife, and how effective have these measures been?
+    - How does the Egyptian government support conservation efforts in the Ras Mohammed Reserve?
+
+
+- intent: wrong_disposal_metal_waste
+  examples: |
+    - How does improper disposal of metal waste negatively impact the environment?
+    - What are the impacts of improper disposal of metal waste?
+    - can you tell me the consequences of throwing metal waste in the wrong way?
+    - How does incorrect disposal of metal waste affect the environment?
+    - I'm throwing my metal waste in a wrong way. what are the expected results of this action?
+    - my neighboor get rid of his metal waste in wrong way. what will happen next?
+    - Why it's wrong to get rid of metal waste by throwing them immediately?
+    - What will happen if we threw metal waste without recycling them?
+    - What are the consequences of incorrectly disposing of metal waste?
+    - In what ways can improper disposal of metal waste be harmful?
+
+
+- intent: metal_waste_mixing_materials
+  examples: |
+    - What will happen if we mixed metal waste with another materials in garbage?
+    - How does mixing metal waste with other materials without sorting impact the environment?
+    - Why is mixing metal waste with other materials is harmdul to the environment?
+    - I'm thinking of putting metal waste with another materials together in trash bin. What's your opinion?
+    - Why should we always seperate metal from other materials in trash?
+    - Give some reasons of sorting metal waste based on their type.
+    - What are the consequences of not sorting metal waste from other materials before disposal?
+    - In what ways can mixing metal waste with other materials without sorting be harmful?
+
+- intent: How_to_sort_metal
+  examples: |
+    - How can we separate metal waste from other materials?
+    - What methods can be used to separate metal waste from other materials?
+    - How can we sort metal waste from other materials?
+    - What techniques exist for separating metal waste from other materials?
+    - Can you tell me about some of the techniques of metal waste sorting?
+    - What do you advise me how to sort metal from other materials?
+
+- intent: How_to_recycle_metal_waste
+  examples: |
+    - can you tell me the steps of recycling metal?
+    - What is the process of recycling metal?
+    - How do you recycle metal?
+    - Can you explain the steps involved in metal recycling?
+    - tell me how the process of recycling metal going?
+    - Can you tell me in detail how to recycle metal?
+    - I want to start recycling my metal waste. Can you show me how?
+    - Can you show me the process of metal recycling step by step?
+  
