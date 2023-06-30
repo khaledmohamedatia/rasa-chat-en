@@ -13,4 +13,4 @@ RUN pip3 install rasa
 
 COPY . /app
 
-CMD . ./venv/bin/activate && rasa run --model ./models/20230627-163442-maroon-bright.tar.gz --enable-api --cors "*"
+CMD . ./venv/bin/activate && rasa run --model ./models/20230627-163442-maroon-bright.tar.gz --port 8080 --enable-api --cors "*"
