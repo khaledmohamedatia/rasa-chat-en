@@ -2,13 +2,13 @@ FROM ubuntu
 
 WORKDIR /app
 
+COPY . .
+
 RUN apt-get update
 RUN apt-get install -y python3-pip
 RUN apt-get install -y python3.10-venv
 RUN python3 -m venv ./venv
 RUN . ./venv/bin/activate
 RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
 
 CMD . ./venv/bin/activate && rasa run --model ./models/20230627-163442-maroon-bright.tar.gz --enable-api --cors "*"
